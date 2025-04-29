@@ -22,7 +22,7 @@ def set_meta_tags():
     meta_html = f"""
     <html>
       <head>
-        <meta property="og:image" content="https://media.istockphoto.com/id/1459313027/photo/choose-the-correct-answer-on-the-exam-questionnaire-with-checkboxes-filling-survey-form-online.jpg?s=2048x2048&w=is&k=20&c=rTT1j3i4A0lsx2xbXeieKcX8R9iljLi1XYjhKqNC7Ps=">
+        <meta property="og:image" content="https://www.shutterstock.com/image-photo/businesswomen-tick-mark-assessment-questionnaire-600nw-2477971423.jpg">
         <meta property="og:title" content="Python MCQ Quiz App">
         <meta property="og:description" content="Test your knowledge with our interactive Python quiz!">
       </head>
