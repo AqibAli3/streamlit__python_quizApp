@@ -2372,10 +2372,10 @@
     {
         "question": "Which operator is used for string replication in Python?",
         "options": [
-            "^",
-            "*",
-            "+",
-            "%"
+            "^ (Caret)",
+            "* (Asterisk)",
+            "+ (Plus",
+            "% (Modulo)"
         ],
         "answer": "*"
     },
