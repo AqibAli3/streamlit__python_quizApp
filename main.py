@@ -3,6 +3,7 @@ import json
 import random
 import base64
 import time
+import streamlit.components.v1 as components
 
 # Total time for the quiz (25 minutes = 1500 seconds)
 TOTAL_TIME = 1500
@@ -10,13 +11,29 @@ TOTAL_TIME = 1500
 # Set page configuration (must be at the very top)
 st.set_page_config(
     page_title="Python MCQ Quiz App",  # Browser tab title
-    page_icon="📝",                    # Favicon (emoji or image file)
+    page_icon="📝",                    # Favicon (can be an emoji)
     layout="wide",                     # Wide layout for better display
     initial_sidebar_state="collapsed"  # Collapse sidebar by default
 )
 
 # ----------------------------------
-# Function to set the background image using imag.png
+# Inject meta tags to set preview data (title image, title, and description)
+def set_meta_tags():
+    meta_html = f"""
+    <html>
+      <head>
+        <meta property="og:image" content="https://media.istockphoto.com/id/1459313027/photo/choose-the-correct-answer-on-the-exam-questionnaire-with-checkboxes-filling-survey-form-online.jpg?s=2048x2048&w=is&k=20&c=rTT1j3i4A0lsx2xbXeieKcX8R9iljLi1XYjhKqNC7Ps=">
+        <meta property="og:title" content="Python MCQ Quiz App">
+        <meta property="og:description" content="Test your knowledge with our interactive Python quiz!">
+      </head>
+      <body></body>
+    </html>
+    """
+    # Use an invisible HTML component to inject meta tags.
+    components.html(meta_html, height=0, width=0)
+
+# ----------------------------------
+# Function to set the background image using imag.png.
 def set_background(image_file):
     try:
         with open(image_file, "rb") as img:
@@ -36,7 +53,7 @@ def set_background(image_file):
 
 # ----------------------------------
 # Function to set custom CSS with standard sizes for fonts and spacing,
-# center-aligning all content including the main container.
+# and to center-align all content in the view.
 def set_custom_css():
     css = """
     <style>
@@ -51,17 +68,14 @@ def set_custom_css():
         color: #333;
         text-align: center; /* Center all text by default */
     }
-    
     /* Headings */
     h1 { font-size: 2rem; }
     h2 { font-size: 1.75rem; }
     h3 { font-size: 1.5rem; }
-    
-    /* Standard text for elements */
+    /* Standard elements */
     .stMarkdown, .stText, .stTextInput, .stButton, .stNumberInput {
         font-size: 1rem;
     }
-    
     /* Prominent question text styling */
     .question-text {
         font-size: 1.25rem;
@@ -73,28 +87,24 @@ def set_custom_css():
         border-radius: 0.3125rem;
         margin: 0.625rem 0;
     }
-    
     /* Button styling */
     .stButton > button {
         font-size: 1rem;
         padding: 0.5rem 1rem;
     }
-    
     /* Input fields styling */
     .stTextInput > div > input,
     .stNumberInput > div > input {
         font-size: 1rem;
         padding: 0.5rem;
     }
-    
     /* Center radio button groups */
     div[role="radiogroup"] {
          display: flex;
          flex-direction: column;
          align-items: center;
     }
-    
-    /* Center all items in the main container */
+    /* Center the main container */
     div.block-container {
          margin-left: auto;
          margin-right: auto;
@@ -124,7 +134,6 @@ def render_progress_circle(percentage):
         color = "#FFD700"  # Yellow/gold
     else:
         color = "#008000"  # Green
-    # Increase the SVG size by ~10% from ~144px to ~158px.
     html = f"""
     <div style="display: flex; justify-content: center; align-items: center; margin: 1.25rem 0;">
       <svg width="158" height="158" viewBox="0 0 36 36" class="circular-chart">
@@ -166,6 +175,9 @@ def display_timer():
             st.error("Time's up! The quiz will now end automatically.")
             st.session_state["current_index"] = len(st.session_state.get("questions", []))
             st.experimental_rerun()
+
+# Call our meta tag injection once.
+set_meta_tags()
 # ----------------------------------
 # Welcome screen – collects name and roll number.
 def welcome():
@@ -192,7 +204,7 @@ def welcome():
                     st.session_state["name"] = name
                     st.session_state["roll"] = int(roll_input.strip())
                     st.session_state["quiz_started"] = True
-                    # Record the quiz start time
+                    # Record quiz start time.
                     st.session_state["quiz_start_time"] = time.time()
                     questions = load_questions()
                     if questions:
@@ -212,11 +224,14 @@ def quiz():
     if current_index < len(questions):
         question = questions[current_index]
         st.subheader(f"Question {current_index+1} of {len(questions)}")
-        st.markdown(f"<div class='question-text'>{question['question']}</div>", unsafe_allow_html=True)
+        st.markdown(
+            f"<div class='question-text'>{question['question']}</div>", 
+            unsafe_allow_html=True
+        )
         
         submitted_key = f"submitted_{current_index}"
         if submitted_key not in st.session_state:
-            # Prepend a placeholder option so that a valid answer is never pre-selected.
+            # Use a placeholder so that no valid option is pre-selected.
             answer = st.radio(
                 "Select your answer:",
                 options=["Select an option"] + question["options"],
@@ -236,7 +251,7 @@ def quiz():
                 st.success("Correct Answer!")
             else:
                 st.error(f"Wrong Answer! Correct Answer is: **{question['answer']}**")
-            # Show "Check Result" for last question or "Next Question" for others.
+            # For the last question, show "Check Result"; otherwise "Next Question".
             if current_index == len(questions) - 1:
                 if st.button("Check Result", key="check_result"):
                     st.session_state["current_index"] = current_index + 1
