@@ -8916,8 +8916,7 @@
             "repr()"
         ],
         "answer": "type()"
-    }
-
+    },
     {
         "question": "Which symbol is used to assign a value to a variable in Python?",
         "options": [
