@@ -2252,10 +2252,10 @@
     {
         "question": "Which operator in Python has right-to-left associativity?",
         "options": [
-            "+",
-            "-",
-            "*",
-            "**"
+            "+ (Plus)",
+            "- (Minus) ",
+            "* (Asterisk)",
+            "** (Exponentiation)"
         ],
         "answer": "**"
     },
