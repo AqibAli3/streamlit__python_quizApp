@@ -35,63 +35,70 @@ def set_background(image_file):
         st.error(f"Error setting background: {e}")
 
 # ----------------------------------
-# Function to set custom CSS with standard sizes for fonts and spacing.
-# Also adds CSS to center-align radio button groups.
+# Function to set custom CSS with standard sizes for fonts and spacing,
+# center-aligning all content including the main container.
 def set_custom_css():
     css = """
     <style>
-    /* Set a standard base font size */
+    /* Base font settings */
     html {
         font-size: 16px;
     }
-    
     body {
         font-family: Arial, sans-serif;
-        font-size: 1rem; /* 16px */
+        font-size: 1rem;
         line-height: 1.5;
         color: #333;
+        text-align: center; /* Center all text by default */
     }
     
     /* Headings */
-    h1 { font-size: 2rem; } /* 32px */
-    h2 { font-size: 1.75rem; } /* 28px */
-    h3 { font-size: 1.5rem; } /* 24px */
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.5rem; }
     
-    /* Standard text */
+    /* Standard text for elements */
     .stMarkdown, .stText, .stTextInput, .stButton, .stNumberInput {
         font-size: 1rem;
     }
     
-    /* Prominent question text */
+    /* Prominent question text styling */
     .question-text {
-        font-size: 1.25rem;  /* about 20px */
+        font-size: 1.25rem;
         font-weight: bold;
         color: #ffffff;
         text-shadow: 1px 1px 2px #000;
-        padding: 0.625rem; /* 10px */
+        padding: 0.625rem;
         background-color: rgba(0, 0, 0, 0.6);
-        border-radius: 0.3125rem; /* 5px */
-        margin: 0.625rem 0; /* 10px 0 */
+        border-radius: 0.3125rem;
+        margin: 0.625rem 0;
     }
     
-    /* Buttons */
+    /* Button styling */
     .stButton > button {
         font-size: 1rem;
         padding: 0.5rem 1rem;
     }
     
-    /* Input fields */
+    /* Input fields styling */
     .stTextInput > div > input,
     .stNumberInput > div > input {
         font-size: 1rem;
         padding: 0.5rem;
     }
     
-    /* Center align radio button options */
+    /* Center radio button groups */
     div[role="radiogroup"] {
          display: flex;
          flex-direction: column;
          align-items: center;
+    }
+    
+    /* Center all items in the main container */
+    div.block-container {
+         margin-left: auto;
+         margin-right: auto;
+         text-align: center;
     }
     </style>
     """
@@ -117,7 +124,7 @@ def render_progress_circle(percentage):
         color = "#FFD700"  # Yellow/gold
     else:
         color = "#008000"  # Green
-    # Increase the SVG size by about 10% (from ~144px to ~158px)
+    # Increase the SVG size by ~10% from ~144px to ~158px.
     html = f"""
     <div style="display: flex; justify-content: center; align-items: center; margin: 1.25rem 0;">
       <svg width="158" height="158" viewBox="0 0 36 36" class="circular-chart">
@@ -151,7 +158,7 @@ def display_timer():
         mins = int(remaining // 60)
         secs = int(remaining % 60)
         st.markdown(
-            f"<div style='text-align: right; font-size: 1rem; color: #333;'>"
+            f"<div style='text-align: center; font-size: 1rem; color: #333;'>"
             f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
             unsafe_allow_html=True
         )
@@ -185,7 +192,7 @@ def welcome():
                     st.session_state["name"] = name
                     st.session_state["roll"] = int(roll_input.strip())
                     st.session_state["quiz_started"] = True
-                    # Record the quiz start time.
+                    # Record the quiz start time
                     st.session_state["quiz_start_time"] = time.time()
                     questions = load_questions()
                     if questions:
@@ -205,15 +212,11 @@ def quiz():
     if current_index < len(questions):
         question = questions[current_index]
         st.subheader(f"Question {current_index+1} of {len(questions)}")
-        st.markdown(
-            f"<div class='question-text'>{question['question']}</div>", 
-            unsafe_allow_html=True
-        )
+        st.markdown(f"<div class='question-text'>{question['question']}</div>", unsafe_allow_html=True)
         
         submitted_key = f"submitted_{current_index}"
         if submitted_key not in st.session_state:
-            # Prepend a dummy placeholder option so no valid option is pre-selected.
-            # The first option "Select an option" acts as a placeholder.
+            # Prepend a placeholder option so that a valid answer is never pre-selected.
             answer = st.radio(
                 "Select your answer:",
                 options=["Select an option"] + question["options"],
@@ -233,8 +236,7 @@ def quiz():
                 st.success("Correct Answer!")
             else:
                 st.error(f"Wrong Answer! Correct Answer is: **{question['answer']}**")
-            
-            # For the last question, show "Check Result"; otherwise "Next Question".
+            # Show "Check Result" for last question or "Next Question" for others.
             if current_index == len(questions) - 1:
                 if st.button("Check Result", key="check_result"):
                     st.session_state["current_index"] = current_index + 1
