@@ -7,6 +7,14 @@ import time
 # Total time for the quiz (25 minutes = 1500 seconds)
 TOTAL_TIME = 1500
 
+# Set page configuration (must be at the top)
+st.set_page_config(
+    page_title="Python MCQ Quiz App",  # Browser tab title
+    page_icon="📝",                    # Favicon (emoji or image file)
+    layout="wide",                     # Wide layout for better display
+    initial_sidebar_state="collapsed"  # Collapsed sidebar by default
+)
+
 # ----------------------------------
 # Function to set the background image using imag.png
 def set_background(image_file):
@@ -27,7 +35,7 @@ def set_background(image_file):
         st.error(f"Error setting background: {e}")
 
 # ----------------------------------
-# Function to set custom CSS with standard sizes for fonts and spacing.
+# Function to set custom CSS with standard sizes for fonts and spacing
 def set_custom_css():
     css = """
     <style>
@@ -35,25 +43,21 @@ def set_custom_css():
     html {
         font-size: 16px;
     }
-    
     body {
         font-family: Arial, sans-serif;
         font-size: 1rem; /* 16px */
         line-height: 1.5;
         color: #333;
     }
-    
-    /* Style for headings */
+    /* Headings */
     h1 { font-size: 2rem; } /* 32px */
     h2 { font-size: 1.75rem; } /* 28px */
     h3 { font-size: 1.5rem; } /* 24px */
-    
-    /* Standard text for Markdown and other elements */
+    /* Standard text */
     .stMarkdown, .stText, .stTextInput, .stButton, .stNumberInput {
         font-size: 1rem;
     }
-    
-    /* Make question text prominent */
+    /* Prominent question text */
     .question-text {
         font-size: 1.25rem;  /* about 20px */
         font-weight: bold;
@@ -64,13 +68,11 @@ def set_custom_css():
         border-radius: 0.3125rem; /* 5px */
         margin: 0.625rem 0; /* 10px 0 */
     }
-    
-    /* Style for buttons */
+    /* Buttons */
     .stButton > button {
         font-size: 1rem;
         padding: 0.5rem 1rem;
     }
-    
     /* Input fields */
     .stTextInput > div > input,
     .stNumberInput > div > input {
@@ -82,7 +84,7 @@ def set_custom_css():
     st.markdown(css, unsafe_allow_html=True)
 
 # ----------------------------------
-# Function to load questions from questions.json file.
+# Function to load questions from questions.json file
 def load_questions():
     try:
         with open("questions.json", "r", encoding="utf-8") as f:
@@ -93,7 +95,7 @@ def load_questions():
         return []
 
 # ----------------------------------
-# Function to render a percentage circle using SVG.
+# Function to render a percentage circle using SVG
 def render_progress_circle(percentage):
     if percentage <= 35:
         color = "#ff0000"  # Red
@@ -101,23 +103,23 @@ def render_progress_circle(percentage):
         color = "#FFD700"  # Yellow/gold
     else:
         color = "#008000"  # Green
-    # Increase the SVG size by 10% from 144px to roughly 158px.
+    # Increase the SVG size by ~10% from ~144px to ~158px
     html = f"""
     <div style="display: flex; justify-content: center; align-items: center; margin: 1.25rem 0;">
       <svg width="158" height="158" viewBox="0 0 36 36" class="circular-chart">
         <path class="circle-bg" 
-            d="M18 2.0845
-               a 15.9155 15.9155 0 0 1 0 31.831
-               a 15.9155 15.9155 0 0 1 0 -31.831"
-            style="fill:none;stroke:#eee;stroke-width:3;"></path>
+              d="M18 2.0845
+                 a 15.9155 15.9155 0 0 1 0 31.831
+                 a 15.9155 15.9155 0 0 1 0 -31.831"
+              style="fill:none;stroke:#eee;stroke-width:3;"></path>
         <path class="circle"
-            d="M18 2.0845
-               a 15.9155 15.9155 0 0 1 0 31.831
-               a 15.9155 15.9155 0 0 1 0 -31.831"
-            style="fill:none;stroke:{color};stroke-width:3;
-                   stroke-dasharray: {percentage}, 100;
-                   stroke-dashoffset: 0;
-                   transition: stroke-dasharray 0.6s ease;"></path>
+              d="M18 2.0845
+                 a 15.9155 15.9155 0 0 1 0 31.831
+                 a 15.9155 15.9155 0 0 1 0 -31.831"
+              style="fill:none;stroke:{color};stroke-width:3;
+                     stroke-dasharray: {percentage}, 100;
+                     stroke-dashoffset: 0;
+                     transition: stroke-dasharray 0.6s ease;"></path>
         <text x="18" y="20.35" style="fill:#666; font-size:0.4375rem; text-anchor:middle;">{percentage}%</text>
       </svg>
     </div>
@@ -125,7 +127,7 @@ def render_progress_circle(percentage):
     return html
 
 # ----------------------------------
-# Function to display the timer on every page once the quiz starts.
+# Function to display the timer on every page once the quiz starts
 def display_timer():
     if "quiz_start_time" in st.session_state:
         elapsed = time.time() - st.session_state["quiz_start_time"]
@@ -134,25 +136,26 @@ def display_timer():
             remaining = 0
         mins = int(remaining // 60)
         secs = int(remaining % 60)
-        st.markdown(f"<div style='text-align: right; font-size: 1rem; color: #333;'><strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>", unsafe_allow_html=True)
+        st.markdown(
+            f"<div style='text-align: right; font-size: 1rem; color: #333;'>"
+            f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
+            unsafe_allow_html=True
+        )
         if remaining <= 0:
             st.error("Time's up! The quiz will now end automatically.")
             st.session_state["current_index"] = len(st.session_state.get("questions", []))
             st.experimental_rerun()
-
 # ----------------------------------
-# Welcome screen – collects name and roll number.
+# Welcome screen – collects name and roll number
 def welcome():
     with st.container():
         st.title("Python MCQ Quiz App")
         st.header("Welcome!")
         st.write("Please enter your details to start the quiz.")
-        
         with st.form(key="welcome_form"):
             name = st.text_input("Enter your name:")
             roll_input = st.text_input("Enter your roll number:")
             submitted = st.form_submit_button("Submit Details")
-            
             if submitted:
                 if not name.strip():
                     st.error("Name cannot be empty.")
@@ -168,7 +171,7 @@ def welcome():
                     st.session_state["name"] = name
                     st.session_state["roll"] = int(roll_input.strip())
                     st.session_state["quiz_started"] = True
-                    # Set the start time for the quiz.
+                    # Record the quiz start time
                     st.session_state["quiz_start_time"] = time.time()
                     questions = load_questions()
                     if questions:
@@ -179,18 +182,11 @@ def welcome():
                     st.session_state["score"] = 0
 
 # ----------------------------------
-# Quiz screen – displays one question at a time.
+# Quiz screen – displays one question at a time
 def quiz():
-    # Display the timer at the top of the page.
     display_timer()
-    
     questions = st.session_state.get("questions", [])
     current_index = st.session_state.get("current_index", 0)
-    
-    # SKIP BUTTON for testing; remove if not needed.
-    # if st.button("Skip Quiz", key="skip_quiz"):
-    #      st.session_state["current_index"] = len(questions)
-         
     if current_index < len(questions):
         question = questions[current_index]
         st.subheader(f"Question {current_index+1} of {len(questions)}")
@@ -198,12 +194,20 @@ def quiz():
         
         submitted_key = f"submitted_{current_index}"
         if submitted_key not in st.session_state:
-            # Directly display the answer options.
-            answer = st.radio("Select your answer:", question["options"], key=f"q{current_index}")
+            # Prepend an empty default option and ensure no option is pre-selected
+            answer = st.radio(
+                "Select your answer:",
+                options=[""] + question["options"],  # Add an empty string as the default option
+                index=0,  # Set the first index (empty) as default
+                key=f"q{current_index}"
+            )
             if st.button("Submit Answer", key=f"submit_{current_index}"):
-                st.session_state[submitted_key] = answer
-                if answer == question["answer"]:
-                    st.session_state["score"] += 1
+                if answer == "":
+                    st.error("Please select an option before submitting.")
+                else:
+                    st.session_state[submitted_key] = answer
+                    if answer == question["answer"]:
+                        st.session_state["score"] += 1
         else:
             answer = st.session_state[submitted_key]
             st.write(f"Your Answer: **{answer}**")
@@ -211,7 +215,7 @@ def quiz():
                 st.success("Correct Answer!")
             else:
                 st.error(f"Wrong Answer! Correct Answer is: **{question['answer']}**")
-            # For the last question, show "Check Result"; otherwise "Next Question".
+            # Move to next question or check result on the last question
             if current_index == len(questions) - 1:
                 if st.button("Check Result", key="check_result"):
                     st.session_state["current_index"] = current_index + 1
@@ -222,11 +226,9 @@ def quiz():
         result()
 
 # ----------------------------------
-# Result screen – displays final score, percentage, and a progress circle.
+# Result screen – displays final score, percentage, and a progress circle
 def result():
-    # Display the timer on the result page as well.
     display_timer()
-    
     st.title("Quiz Completed!")
     st.write(f"Name: {st.session_state.get('name', 'N/A')}")
     st.write(f"Roll Number: {st.session_state.get('roll', 'N/A')}")
@@ -254,7 +256,7 @@ def result():
                 del st.session_state[key]
 
 # ----------------------------------
-# Main function – decides which screen (welcome, quiz, or result) to display.
+# Main function – decides which screen (welcome, quiz, or result) to display
 def main():
     set_background("imag.png")
     set_custom_css()
