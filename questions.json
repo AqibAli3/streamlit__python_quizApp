@@ -8027,8 +8027,6 @@
         ],
         "answer": "Method overriding"
     },
-
-
     {
         "question": "Which of the following is an invalid Python variable name because it starts with a digit?",
         "options": [
@@ -8919,8 +8917,7 @@
         ],
         "answer": "type()"
     }
-]
-[
+
     {
         "question": "Which symbol is used to assign a value to a variable in Python?",
         "options": [
