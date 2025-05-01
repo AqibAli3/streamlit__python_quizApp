@@ -1,4 +1,4 @@
-import streamlit as st
+doimport streamlit as st
 import json
 import random
 import base64
@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from streamlit_autorefresh import st_autorefresh
 
 # Total time for the quiz (25 minutes = 1500 seconds)
-TOTAL_TIME = 1500
+TOTAL_TIME = 500
 
 # Set page configuration (must be at the very top)
 st.set_page_config(
