@@ -157,13 +157,9 @@ def render_progress_circle(percentage):
     """
     return html
 
-# ----------------------------------
+# -----------------------------
 # Function to display the timer on every page once the quiz starts.
 
-
-# Initialize session state for the quiz timer
-if "time_up" not in st.session_state:
-    st.session_state.time_up = False 
 
 def display_timer(duration=60):
     start_time = time.time()
