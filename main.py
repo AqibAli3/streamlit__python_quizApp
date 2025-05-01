@@ -159,32 +159,52 @@ def render_progress_circle(percentage):
 
 # ----------------------------------
 # Function to display the timer on every page once the quiz starts.
-def display_timer():
-    if "quiz_start_time" not in st.session_state:
-        st.session_state["quiz_start_time"] = time.time()
-    
-    elapsed = time.time() - st.session_state["quiz_start_time"]
-    remaining = TOTAL_TIME - elapsed
-    if remaining < 0:
-        remaining = 0
-    mins = int(remaining // 60)
-    secs = int(remaining % 60)
 
-    # Auto-refresh every second (1000 milliseconds)
-    st_autorefresh(interval=1000, key="timer_refresh")
 
-    # Displaying the updated timer
-    st.markdown(
-        f"<div style='text-align: center; font-size: 2rem; color: red; background-color: gray ; padding: 10px; border-radius: 8px;'>"
-        f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
-        unsafe_allow_html=True
-    )
+# Initialize session state for the quiz timer
+if "time_up" not in st.session_state:
+    st.session_state.time_up = False
 
-    if remaining <= 0:
-        st.error("Time's up! The quiz will now end automatically.")
-        st.session_state["current_index"] = len(st.session_state.get("questions", []))
-        st.experimental_rerun()
+# Create a placeholder for the timer display
+timer_placeholder = st.empty()
 
+def display_timer(duration=60):
+    start_time = time.time()
+    while True:
+        elapsed = time.time() - start_time
+        if elapsed >= duration:
+            st.session_state.time_up = True
+            break
+        # Format the elapsed time as mm:ss
+        minutes, seconds = divmod(int(elapsed), 60)
+        timer_text = f"{minutes:02d}:{seconds:02d}"
+        # Update the timer display with custom style
+        timer_placeholder.markdown(
+            f"""
+            <div style="
+                font-size:60px; 
+                color:red; 
+                background-color:white;
+                text-align:center;
+                padding:20px;
+                border-radius:5px;">
+                {timer_text}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        time.sleep(1)
+
+# Run the timer; this will block until time is up
+display_timer(duration=60)
+
+# After the timer expires, check the state and update the UI accordingly
+if st.session_state.time_up:
+    st.write("Time is up! Finishing the quiz now.")
+    # Here you can gracefully transition to final quiz logic,
+    # such as displaying the user's score or a message.
+else:
+    st.write("Quiz is ongoing...")
 
 # Call our meta tag injection once.
 set_meta_tags()
