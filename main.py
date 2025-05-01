@@ -4,6 +4,7 @@ import random
 import base64
 import time
 import streamlit.components.v1 as components
+from streamlit_autorefresh import st_autorefresh
 
 # Total time for the quiz (25 minutes = 1500 seconds)
 TOTAL_TIME = 1500
@@ -159,22 +160,31 @@ def render_progress_circle(percentage):
 # ----------------------------------
 # Function to display the timer on every page once the quiz starts.
 def display_timer():
-    if "quiz_start_time" in st.session_state:
-        elapsed = time.time() - st.session_state["quiz_start_time"]
-        remaining = TOTAL_TIME - elapsed
-        if remaining < 0:
-            remaining = 0
-        mins = int(remaining // 60)
-        secs = int(remaining % 60)
-        st.markdown(
-            f"<div style='text-align: center; font-size: 1rem; color: #333;'>"
-            f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
-            unsafe_allow_html=True
-        )
-        if remaining <= 0:
-            st.error("Time's up! The quiz will now end automatically.")
-            st.session_state["current_index"] = len(st.session_state.get("questions", []))
-            st.experimental_rerun()
+    if "quiz_start_time" not in st.session_state:
+        st.session_state["quiz_start_time"] = time.time()
+    
+    elapsed = time.time() - st.session_state["quiz_start_time"]
+    remaining = TOTAL_TIME - elapsed
+    if remaining < 0:
+        remaining = 0
+    mins = int(remaining // 60)
+    secs = int(remaining % 60)
+
+    # Auto-refresh every second (1000 milliseconds)
+    st_autorefresh(interval=1000, key="timer_refresh")
+
+    # Displaying the updated timer
+    st.markdown(
+        f"<div style='text-align: center; font-size: 2rem; color: red; background-color: gray ; padding: 10px; border-radius: 8px;'>"
+        f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
+        unsafe_allow_html=True
+    )
+
+    if remaining <= 0:
+        st.error("Time's up! The quiz will now end automatically.")
+        st.session_state["current_index"] = len(st.session_state.get("questions", []))
+        st.experimental_rerun()
+
 
 # Call our meta tag injection once.
 set_meta_tags()
@@ -215,7 +225,7 @@ def welcome():
                     st.session_state["score"] = 0
 
 # ----------------------------------
-# Quiz screen – displays one question at a time.
+# Quiz> screen – displays one question at a time.
 def quiz():
     display_timer()
     questions = st.session_state.get("questions", [])
