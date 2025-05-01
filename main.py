@@ -160,32 +160,40 @@ def render_progress_circle(percentage):
 # -----------------------------
 # Function to display the timer on every page once the quiz starts.
 
+def display_timer(duration=None):
+    # Use the provided duration, or fall back on TOTAL_TIME
+    if duration is None:
+        duration = TOTAL_TIME
 
-def display_timer():
-    # Ensure autorefresh is only called once per page
+    # Initialize the quiz start time if not set
+    if "quiz_start_time" not in st.session_state:
+        st.session_state["quiz_start_time"] = time.time()
+
+    # Call st_autorefresh once per page load
     if "timer_refresh_called" not in st.session_state:
         st_autorefresh(interval=1000, key="timer_refresh")
         st.session_state["timer_refresh_called"] = True
 
-    # Calculate remaining time
+    # Calculate the elapsed and remaining time
     elapsed = time.time() - st.session_state["quiz_start_time"]
-    remaining = TOTAL_TIME - elapsed
+    remaining = duration - elapsed
     if remaining < 0:
         remaining = 0
     mins = int(remaining // 60)
     secs = int(remaining % 60)
-    
-    # Display large timer with red text on white background
+
+    # Display the timer: large font, red text on white background
     st.markdown(
         f"<div style='text-align: center; font-size: 2rem; color: red; background-color: white; padding: 10px; border-radius: 8px;'>"
         f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
         unsafe_allow_html=True
     )
-    
+
+    # If time is up, display an error and rerun the app
     if remaining <= 0:
         st.error("Time's up! The quiz will now end automatically.")
         st.session_state["current_index"] = len(st.session_state.get("questions", []))
-        st.experimental_rerun()
+        st.rerun()  # Use st.rerun() instead of st.experimental_rerun()
 
 # Call our meta tag injection once.
 set_meta_tags()
