@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from streamlit_autorefresh import st_autorefresh
 
 # Total time for the quiz (25 minutes = 1500 seconds)
-TOTAL_TIME = 100
+TOTAL_TIME = 1500
 
 # Set page configuration (must be at the very top)
 st.set_page_config(
@@ -175,7 +175,7 @@ def display_timer():
             f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
             unsafe_allow_html=True
         )
-        if remaining <= 0:
+         if remaining <= 0:
             st.error("Time's up! The quiz will now end automatically.")
             st.session_state["current_index"] = len(st.session_state.get("questions", []))
             st.experimental_rerun()
