@@ -168,6 +168,8 @@ def display_timer():
             remaining = 0
         mins = int(remaining // 60)
         secs = int(remaining % 60)
+         # Auto-refresh every second (1000 milliseconds)
+    st_autorefresh(interval=1000, key="timer_refresh")
         st.markdown(
             f"<div style='text-align: center; font-size: 2rem; color: red; background-color: white; padding: 10px; border-radius: 8px;'>"
             f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
