@@ -164,7 +164,7 @@ def display_timer():
     if "quiz_start_time" in st.session_state:
         elapsed = time.time() - st.session_state["quiz_start_time"]
         remaining = TOTAL_TIME - elapsed
-        if remaining < 0:
+     if remaining < 0:
             remaining = 0
         mins = int(remaining // 60)
         secs = int(remaining % 60)
