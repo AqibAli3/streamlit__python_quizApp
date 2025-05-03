@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from streamlit_autorefresh import st_autorefresh
 
 # Total time for the quiz (25 minutes = 1500 seconds)
-TOTAL_TIME = 1200
+TOTAL_TIME = 100
 
 # Set page configuration (must be at the very top)
 st.set_page_config(
@@ -89,6 +89,20 @@ def set_custom_css():
         text-align: center;
     }
 
+    /* Styling for questions */
+    .question-text {
+        font-size: 1.5rem; /* Increase font size for questions */
+        font-weight: bold;
+        margin-bottom: 1rem;
+        color: var(--text-color);
+    }
+
+    /* Styling for options */
+    .stRadio > div {
+        font-size: 1.2rem; /* Increase font size for options */
+        margin-bottom: 1rem;
+    }
+
     /* Input fields styling */
     .stTextInput > div > input,
     .stNumberInput > div > input {
@@ -135,6 +149,14 @@ def set_custom_css():
             font-size: 0.9rem;
         }
 
+        .question-text {
+            font-size: 1.3rem; /* Adjust question size for smaller screens */
+        }
+
+        .stRadio > div {
+            font-size: 1.1rem; /* Adjust option size for smaller screens */
+        }
+
         .stTextInput > div > input,
         .stNumberInput > div > input {
             font-size: 0.9rem;
@@ -149,6 +171,14 @@ def set_custom_css():
     @media (max-width: 480px) {
         body {
             font-size: 0.8rem;
+        }
+
+        .question-text {
+            font-size: 1.2rem; /* Adjust question size for very small screens */
+        }
+
+        .stRadio > div {
+            font-size: 1rem; /* Adjust option size for very small screens */
         }
 
         .stTextInput > div > input,
@@ -357,10 +387,23 @@ def show_result():
     st.write(f"Your Score: **{score} / {total_questions}**")
     percentage = (score / total_questions) * 100 if total_questions > 0 else 0
     st.markdown(render_progress_circle(percentage), unsafe_allow_html=True)
+
     if percentage >= 60:
         st.success("Congratulations! You passed the quiz.")
+        if st.button("Upgrade Percentage"):
+            st.info("Keep practicing to improve your score!")
     else:
-        st.error("Better luck next time!")
+        if percentage >= 35:
+            st.warning("Average performance! Try again to improve.")
+        else:
+            st.error("Better luck next time! Try again to improve.")
+        
+        if st.button("Try Again"):
+            # Reset session state to start the quiz from the beginning
+            for key in ["quiz_started", "name", "roll", "questions", "current_index", "score", "quiz_start_time", "quiz_over"]:
+                if key in st.session_state:
+                    del st.session_state[key]
+            st.experimental_rerun()  # Restart the app to show the welcome screen
 
 # ----------------------------------
 # Main function – decides which screen (welcome, quiz, or result) to display.
