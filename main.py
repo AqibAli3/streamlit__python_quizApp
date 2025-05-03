@@ -58,58 +58,67 @@ def set_background(image_file):
 def set_custom_css():
     css = """
     <style>
-    /* Base font settings */
-    html {
-        font-size: 16px;
+    /* Define CSS variables for light and dark themes */
+    :root {
+        --background-color: #ffffff;
+        --text-color: #000000;
+        --input-background: #f0f0f0;
+        --input-text-color: #000000;
+        --button-background: #007bff;
+        --button-text-color: #ffffff;
     }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --background-color: #121212;
+            --text-color: #ffffff;
+            --input-background: #333333;
+            --input-text-color: #ffffff;
+            --button-background: #1a73e8;
+            --button-text-color: #ffffff;
+        }
+    }
+
+    /* Apply the theme variables */
     body {
+        background-color: var(--background-color);
+        color: var(--text-color);
         font-family: Arial, sans-serif;
         font-size: 1rem;
         line-height: 1.5;
-        color: #333;
-        text-align: center; /* Center all text by default */
+        text-align: center;
     }
-    /* Headings */
-    h1 { font-size: 2rem; }
-    h2 { font-size: 1.75rem; }
-    h3 { font-size: 1.5rem; }
-    /* Standard elements */
-    .stMarkdown, .stText, .stTextInput, .stButton, .stNumberInput {
-        font-size: 1rem;
-    }
-    /* Prominent question text styling */
-    .question-text {
-        font-size: 1.25rem;
-        font-weight: bold;
-        color: #ffffff;
-        text-shadow: 1px 1px 2px #000;
-        padding: 0.625rem;
-        background-color: rgba(0, 0, 0, 0.6);
-        border-radius: 0.3125rem;
-        margin: 0.625rem 0;
-    }
-    /* Button styling */
-    .stButton > button {
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
-    }
+
     /* Input fields styling */
     .stTextInput > div > input,
     .stNumberInput > div > input {
-        font-size: 1rem;
+        background-color: var(--input-background);
+        color: var(--input-text-color);
+        border: 1px solid #ccc;
         padding: 0.5rem;
+        border-radius: 4px;
     }
-    /* Center radio button groups */
-    div[role="radiogroup"] {
-         display: flex;
-         flex-direction: column;
-         align-items: center;
+
+    /* Button styling */
+    .stButton > button {
+        background-color: var(--button-background);
+        color: var(--button-text-color);
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
     }
+
+    .stButton > button:hover {
+        opacity: 0.9;
+    }
+
     /* Center the main container */
     div.block-container {
-         margin-left: auto;
-         margin-right: auto;
-         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
     </style>
     """
