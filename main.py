@@ -97,6 +97,9 @@ def set_custom_css():
         border: 1px solid #ccc;
         padding: 0.5rem;
         border-radius: 4px;
+        width: 100%; /* Make inputs responsive */
+        max-width: 400px; /* Limit the width on larger screens */
+        margin: 0 auto; /* Center inputs */
     }
 
     /* Button styling */
@@ -108,6 +111,9 @@ def set_custom_css():
         border: none;
         border-radius: 4px;
         cursor: pointer;
+        width: 100%; /* Make buttons responsive */
+        max-width: 200px; /* Limit the width on larger screens */
+        margin: 1rem auto; /* Center buttons */
     }
 
     .stButton > button:hover {
@@ -119,6 +125,41 @@ def set_custom_css():
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        padding: 1rem;
+        max-width: 800px; /* Limit the width of the main container */
+    }
+
+    /* Responsive adjustments for smaller screens */
+    @media (max-width: 768px) {
+        body {
+            font-size: 0.9rem;
+        }
+
+        .stTextInput > div > input,
+        .stNumberInput > div > input {
+            font-size: 0.9rem;
+        }
+
+        .stButton > button {
+            font-size: 0.9rem;
+            padding: 0.4rem 0.8rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        body {
+            font-size: 0.8rem;
+        }
+
+        .stTextInput > div > input,
+        .stNumberInput > div > input {
+            font-size: 0.8rem;
+        }
+
+        .stButton > button {
+            font-size: 0.8rem;
+            padding: 0.3rem 0.6rem;
+        }
     }
     </style>
     """
