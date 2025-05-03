@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from streamlit_autorefresh import st_autorefresh
 
 # Total time for the quiz (25 minutes = 1500 seconds)
-TOTAL_TIME = 1500
+TOTAL_TIME = 1200
 
 # Set page configuration (must be at the very top)
 st.set_page_config(
@@ -23,7 +23,7 @@ def set_meta_tags():
     meta_html = f"""
     <html>
       <head>
-        <meta property="og:image" content="https://www.shutterstock.com/image-photo/businesswomen-tick-mark-assessment-questionnaire-600nw-2477971423.jpg">
+        <meta property="og:image" content="https://media.istockphoto.com/id/1459313027/photo/choose-the-correct-answer-on-the-exam-questionnaire-with-checkboxes-filling-survey-form-online.jpg?s=2048x2048&w=is&k=20&c=rTT1j3i4A0lsx2xbXeieKcX8R9iljLi1XYjhKqNC7Ps=">
         <meta property="og:title" content="Python MCQ Quiz App">
         <meta property="og:description" content="Test your knowledge with our interactive Python quiz!">
       </head>
@@ -157,28 +157,34 @@ def render_progress_circle(percentage):
     """
     return html
 
-# -----------------------------
+# ----------------------------------
 # Function to display the timer on every page once the quiz starts.
-
 def display_timer():
-    if "quiz_start_time" in st.session_state:
-        elapsed = time.time() - st.session_state["quiz_start_time"]
-        remaining = TOTAL_TIME - elapsed
-     if remaining < 0:
-            remaining = 0
-        mins = int(remaining // 60)
-        secs = int(remaining % 60)
-         # Auto-refresh every second (1000 milliseconds)
+    if "quiz_start_time" not in st.session_state:
+        st.session_state["quiz_start_time"] = time.time()
+    
+    elapsed = time.time() - st.session_state["quiz_start_time"]
+    remaining = TOTAL_TIME - elapsed
+    if remaining < 0:
+        remaining = 0
+    mins = int(remaining // 60)
+    secs = int(remaining % 60)
+
+    # Auto-refresh every second (1000 milliseconds)
     st_autorefresh(interval=1000, key="timer_refresh")
+
+    # Displaying the updated timer
     st.markdown(
-            f"<div style='text-align: center; font-size: 2rem; color: red; background-color: white; padding: 10px; border-radius: 8px;'>"
-            f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
-            unsafe_allow_html=True
-        )
-         if remaining <= 0:
-            st.error("Time's up! The quiz will now end automatically.")
-            st.session_state["current_index"] = len(st.session_state.get("questions", []))
-            st.experimental_rerun()
+        f"<div style='text-align: center; font-size: 2rem; color: red; background-color: white; padding: 10px; border-radius: 8px;'>"
+        f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
+        unsafe_allow_html=True
+    )
+
+    if remaining <= 0:
+        st.error("Time's up! Showing your result...")
+        st.session_state["current_index"] = len(st.session_state.get("questions", []))
+        result()  # Call the result function directly
+
 # Call our meta tag injection once.
 set_meta_tags()
 # ----------------------------------
@@ -218,7 +224,7 @@ def welcome():
                     st.session_state["score"] = 0
 
 # ----------------------------------
-# Quiz> screen – displays one question at a time.
+# Quiz screen – displays one question at a time.
 def quiz():
     display_timer()
     questions = st.session_state.get("questions", [])
@@ -262,37 +268,49 @@ def quiz():
                 if st.button("Next Question", key=f"next_{current_index}"):
                     st.session_state["current_index"] = current_index + 1
     else:
-        result()
+        show_result()
 
 # ----------------------------------
-# Result screen – displays final score, percentage, and a progress circle.
-def result():
-    display_timer()
-    st.title("Quiz Completed!")
-    st.write(f"Name: {st.session_state.get('name', 'N/A')}")
-    st.write(f"Roll Number: {st.session_state.get('roll', 'N/A')}")
+def display_timer():
+    if "quiz_start_time" not in st.session_state:
+        st.session_state["quiz_start_time"] = time.time()
     
+    elapsed = time.time() - st.session_state["quiz_start_time"]
+    remaining = TOTAL_TIME - elapsed
+    if remaining < 0:
+        remaining = 0
+    mins = int(remaining // 60)
+    secs = int(remaining % 60)
+
+    # Auto-refresh every second (1000 milliseconds)
+    st_autorefresh(interval=1000, key="timer_refresh")
+
+    # Displaying the updated timer
+    st.markdown(
+        f"<div style='text-align: center; font-size: 2rem; color: red; background-color: white; padding: 10px; border-radius: 8px;'>"
+        f"<strong>Time Remaining: {mins:02d}:{secs:02d}</strong></div>",
+        unsafe_allow_html=True
+    )
+
+    if remaining <= 0:
+        st.error("Time's up! Showing your result...")
+        st.session_state["quiz_over"] = True  # Set a session state variable to indicate quiz is over
+        st.session_state["current_index"] = len(st.session_state.get("questions", []))
+       
+
+# ----------------------------------
+# Function to display the quiz result.
+def show_result():
+    st.title("Quiz Result")
     score = st.session_state.get("score", 0)
-    total = len(st.session_state.get("questions", []))
-    percentage = int((score / total) * 100) if total > 0 else 0
-    
-    st.write(f"Your score: {score} out of {total}")
-    st.write(f"Percentage: {percentage}%")
-    
-    circle_html = render_progress_circle(percentage)
-    st.markdown(circle_html, unsafe_allow_html=True)
-    
-    if percentage <= 35:
-        st.error("Result: Poor, try again!")
-    elif percentage <= 60:
-        st.warning("Result: Average performance!")
+    total_questions = len(st.session_state.get("questions", []))
+    st.write(f"Your Score: **{score} / {total_questions}**")
+    percentage = (score / total_questions) * 100 if total_questions > 0 else 0
+    st.markdown(render_progress_circle(percentage), unsafe_allow_html=True)
+    if percentage >= 60:
+        st.success("Congratulations! You passed the quiz.")
     else:
-        st.success("Result: Well done!")
-    
-    if st.button("Try Again"):
-        for key in ["quiz_started", "name", "roll", "questions", "current_index", "score", "quiz_start_time"]:
-            if key in st.session_state:
-                del st.session_state[key]
+        st.error("Better luck next time!")
 
 # ----------------------------------
 # Main function – decides which screen (welcome, quiz, or result) to display.
