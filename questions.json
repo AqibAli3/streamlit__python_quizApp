@@ -11609,6 +11609,4324 @@
   "options": ["A. True", "B. False", "C. None", "D. Error"],
   "answer": "A"
 },
-    
+
+    {
+  "question": "What is the output of the expression 'python'.endswith('n')?",
+  "options": ["A. True", "B. False", "C. Error", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which function is used to concatenate a string to another string?",
+  "options": ["A. concat()", "B. append()", "C. join()", "D. + operator"],
+  "answer": "D"
+},
+{
+  "question": "What is the result of '123'.isdigit()?",
+  "options": ["A. True", "B. False", "C. Error", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of 'hello'.strip('l')?",
+  "options": ["A. 'heo'", "B. 'hello'", "C. 'hel'", "D. 'hell'"],
+  "answer": "A"
+},
+{
+  "question": "Which method is used to check if a string contains any whitespace?",
+  "options": ["A. isspace()", "B. iswhitespace()", "C. whitespace()", "D. checkspace()"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of 'abcd'.join(['1', '2', '3'])?",
+  "options": ["A. '1abcd2abcd3'", "B. 'abcd123'", "C. 'abcd1abcd2abcd3'", "D. '123'"],
+  "answer": "A"
+},
+{
+  "question": "How do you convert a string to a floating point number?",
+  "options": ["A. float()", "B. int()", "C. str()", "D. decimal()"],
+  "answer": "A"
+},
+{
+  "question": "What will be the result of 'abc' * 2?",
+  "options": ["A. 'abcabc'", "B. 'abc 2'", "C. 'abcabcabc'", "D. 'abc'"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods returns a new string with all characters in uppercase?",
+  "options": ["A. capitalize()", "B. upper()", "C. uppercase()", "D. upperstring()"],
+  "answer": "B"
+},
+{
+  "question": "Which of these functions can convert a float into a string?",
+  "options": ["A. str()", "B. float()", "C. to_string()", "D. string()"],
+  "answer": "A"
+},
+{
+  "question": "What will be the result of '123'.replace('1', '4')?",
+  "options": ["A. '423'", "B. '124'", "C. '143'", "D. '4234'"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of the expression 'hello'.count('l')?",
+  "options": ["A. 2", "B. 1", "C. 3", "D. 4"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct syntax to remove the trailing whitespace from a string?",
+  "options": ["A. strip()", "B. rstrip()", "C. lstrip()", "D. trim()"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following is used to check if all characters in a string are digits?",
+  "options": ["A. isdigit()", "B. isnumber()", "C. isdecimal()", "D. isnumeric()"],
+  "answer": "A"
+},
+{
+  "question": "What will be the result of the expression 'hello' + 5?",
+  "options": ["A. 'hello5'", "B. 'hello' + 5", "C. 'hello5.0'", "D. Error"],
+  "answer": "D"
+},
+{
+  "question": "What is the output of 'python'.index('p')?",
+  "options": ["A. 0", "B. 1", "C. 2", "D. -1"],
+  "answer": "A"
+},
+{
+  "question": "What will 'abcdef'.split('c') return?",
+  "options": ["A. ['ab', 'def']", "B. ['abc', 'def']", "C. ['ab', 'cdef']", "D. ['a', 'bcdef']"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of the expression 'hello'.replace('l', '')?",
+  "options": ["A. 'heo'", "B. 'hello'", "C. 'hl'", "D. 'hell'"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods is used to convert a string into a list?",
+  "options": ["A. list()", "B. split()", "C. join()", "D. slice()"],
+  "answer": "B"
+},
+{
+  "question": "What does the method 'str.islower()' check for a string?",
+  "options": ["A. If all characters are in lowercase", "B. If the string contains any lowercase letters", "C. If the string is lowercase", "D. If the string contains lowercase letters only"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following functions can convert a string to an integer?",
+  "options": ["A. int()", "B. float()", "C. string()", "D. convert()"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of the expression '1234'.zfill(6)?",
+  "options": ["A. '001234'", "B. '123400'", "C. '01234'", "D. '1234'"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of 'hello'.upper().lower()?",
+  "options": ["A. 'hello'", "B. 'HELLO'", "C. 'HeLlO'", "D. 'hELLO'"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods is used to convert a string to a list of characters?",
+  "options": ["A. list()", "B. split()", "C. join()", "D. slice()"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of 'hello'.find('l')?",
+  "options": ["A. 2", "B. 3", "C. 4", "D. -1"],
+  "answer": "A"
+},
+{
+  "question": "What does the expression 'hello'.rfind('l') return?",
+  "options": ["A. 3", "B. 4", "C. 2", "D. -1"],
+  "answer": "B"
+},
+{
+  "question": "Which function can be used to remove all occurrences of a character from a string?",
+  "options": ["A. replace()", "B. remove()", "C. strip()", "D. delete()"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of 'abc'.center(6, '-')?",
+  "options": ["A. '--abc--'", "B. '-abc--'", "C. 'abc----'", "D. 'abc-'"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following will return True if a string contains a digit?",
+  "options": ["A. 'hello123'.isdigit()", "B. 'hello123'.isalpha()", "C. 'hello123'.isalnum()", "D. 'hello123'.isnumeric()"],
+  "answer": "C"
+},
+{
+  "question": "What is the result of '123'.rjust(5, '0')?",
+  "options": ["A. '00123'", "B. '12300'", "C. '0123'", "D. '12300'"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of '10'.zfill(3)?",
+  "options": ["A. '010'", "B. '100'", "C. '0010'", "D. '00010'"],
+  "answer": "A"
+},
+{
+  "question": "Which function is used to remove whitespace from both ends of a string?",
+  "options": ["A. strip()", "B. rstrip()", "C. lstrip()", "D. trim()"],
+  "answer": "A"
+},
+{
+  "question": "What does the expression 'hello'.translate({ord('h'): ord('j')}) do?",
+  "options": ["A. 'jello'", "B. 'hello'", "C. 'jellp'", "D. 'hjljo'"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of '123'.isnumeric()?",
+  "options": ["A. True", "B. False", "C. None", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following functions returns True if all characters in the string are alphanumeric?",
+  "options": ["A. isalnum()", "B. isalpha()", "C. isdigit()", "D. isnumeric()"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct syntax to check if a string contains only numeric characters?",
+  "options": ["A. '1234'.isnumeric()", "B. '1234'.isalpha()", "C. '1234'.isdigit()", "D. '1234'.isnum()"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of 'hello'.casefold()?",
+  "options": ["A. 'hello'", "B. 'HELLO'", "C. 'Hello'", "D. 'hello'"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of '    hello    '.strip()?",
+  "options": ["A. 'hello'", "B. ' hello '", "C. 'hello    '", "D. 'hello     '"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of 'python'.replace('o', 'a', 1)?",
+  "options": ["A. 'pythan'", "B. 'pythn'", "C. 'pytahan'", "D. 'python'"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following will return the count of characters in the string?",
+  "options": ["A. len()", "B. count()", "C. size()", "D. index()"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of '100' + '200'?",
+  "options": ["A. '100200'", "B. 300", "C. '100' + 200", "D. '300'"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods is used to convert a string into a tuple?",
+  "options": ["A. tuple()", "B. list()", "C. str()", "D. split()"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the expression 'hello'.find('z')?",
+  "options": ["A. -1", "B. 0", "C. 1", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct syntax for an if statement in Python?",
+  "options": ["A. if condition: ", "B. if (condition) {", "C. if {condition}:", "D. if condition then:"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code? 'if 5 > 3: print('Yes') else: print('No')'",
+  "options": ["A. Yes", "B. No", "C. Error", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following keywords is used to end an if-else block in Python?",
+  "options": ["A. end", "B. endif", "C. else", "D. None"],
+  "answer": "D"
+},
+{
+  "question": "What will be printed when the following code is executed: for i in range(3): print(i)",
+  "options": ["A. 0 1 2", "B. 1 2 3", "C. 0 1", "D. 1 2 3 4"],
+  "answer": "A"
+},
+{
+  "question": "How many times will the following loop run? 'for i in range(1, 6): print(i)'",
+  "options": ["A. 4", "B. 5", "C. 6", "D. 3"],
+  "answer": "B"
+},
+{
+  "question": "Which statement will break the current loop and resume execution after the loop?",
+  "options": ["A. break", "B. continue", "C. exit", "D. pass"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code? 'i = 0; while i < 3: print(i); i += 1'",
+  "options": ["A. 0 1 2", "B. 1 2 3", "C. 0 1", "D. 1 2"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following loops is guaranteed to run at least once?",
+  "options": ["A. for loop", "B. while loop", "C. do-while loop", "D. None of the above"],
+  "answer": "C"
+},
+{
+  "question": "What is the result of the following code: 'if 10 > 5: print('True') elif 5 > 10: print('False')'",
+  "options": ["A. True", "B. False", "C. Error", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following statements is used to skip the current iteration of a loop?",
+  "options": ["A. pass", "B. break", "C. continue", "D. return"],
+  "answer": "C"
+},
+{
+  "question": "What will be the output of the following code? 'for i in range(0, 5, 2): print(i)'",
+  "options": ["A. 0 2 4", "B. 1 3 5", "C. 0 1 2 3 4", "D. 1 3"],
+  "answer": "A"
+},
+{
+  "question": "What does the continue statement do inside a loop?",
+  "options": ["A. It ends the loop", "B. It skips the rest of the current iteration and moves to the next iteration", "C. It returns the loop value", "D. None of the above"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following statements can be used to test multiple conditions in an if statement?",
+  "options": ["A. if condition1 and condition2", "B. if condition1 or condition2", "C. if condition1 else condition2", "D. Both A and B"],
+  "answer": "D"
+},
+{
+  "question": "What will be the output of the following code? 'for i in range(10, 1, -2): print(i)'",
+  "options": ["A. 10 8 6 4 2", "B. 1 3 5 7 9", "C. 10 8 6 4 2 0", "D. 10 8 6"],
+  "answer": "A"
+},
+{
+  "question": "Which keyword is used to define a function in Python?",
+  "options": ["A. def", "B. func", "C. function", "D. define"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code: 'for i in range(3): print(i); if i == 1: break'?",
+  "options": ["A. 0 1", "B. 0 1 2", "C. 0 1 2 3", "D. 0 1 2 3 4"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code? 'i = 0; while i < 2: print(i); i += 1'",
+  "options": ["A. 0 1", "B. 1 2", "C. 0 1 2", "D. 1 2 3"],
+  "answer": "A"
+},
+{
+  "question": "What is the default step value for the range function?",
+  "options": ["A. 1", "B. 2", "C. 0", "D. -1"],
+  "answer": "A"
+},
+{
+  "question": "What will be printed by the following code? 'if 10 < 20: print('Yes') elif 10 > 5: print('No')'",
+  "options": ["A. Yes", "B. No", "C. Error", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "How would you write a while loop that never stops?",
+  "options": ["A. while True:", "B. while False:", "C. while 1:", "D. both A and C"],
+  "answer": "D"
+},
+{
+  "question": "What is the correct way to check if a number is even in a while loop?",
+  "options": ["A. if i % 2 == 0", "B. if i // 2 == 0", "C. if i / 2 == 0", "D. if i == 2"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods is used to break out of a loop?",
+  "options": ["A. exit", "B. break", "C. continue", "D. pass"],
+  "answer": "B"
+},
+{
+  "question": "What is the output of the following code? 'i = 5; while i > 0: print(i); i -= 1'",
+  "options": ["A. 5 4 3 2 1", "B. 1 2 3 4 5", "C. 5 4 3", "D. 1 2 3"],
+  "answer": "A"
+},
+{
+  "question": "Which keyword is used to start a function definition in Python?",
+  "options": ["A. func", "B. define", "C. def", "D. function"],
+  "answer": "C"
+},
+{
+  "question": "What will be the output of the following code? 'for i in range(5, 0, -1): print(i)'",
+  "options": ["A. 5 4 3 2 1", "B. 5 4 3 2", "C. 0 1 2 3 4", "D. 1 2 3 4 5"],
+  "answer": "A"
+},
+{
+  "question": "What will be the output of the following code? 'x = 10; if x > 5: print('Greater'); else: print('Smaller')'",
+  "options": ["A. Greater", "B. Smaller", "C. Error", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct syntax to continue the next iteration in a loop?",
+  "options": ["A. continue", "B. break", "C. pass", "D. stop"],
+  "answer": "A"
+},
+{
+  "question": "What does the following code do? 'for i in range(5): if i == 3: continue; print(i)'",
+  "options": ["A. Prints 0, 1, 2, 3, 4", "B. Prints 0, 1, 2, 4", "C. Prints 1, 2, 3, 4", "D. None of the above"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following operators checks for equality in Python?",
+  "options": ["A. =", "B. =", "C. ==", "D. not equal"],
+  "answer": "C"
+},
+{
+  "question": "What is the output of the following code? 'i = 0; while i < 5: i += 1; print(i)'",
+  "options": ["A. 0 1 2 3 4 5", "B. 0 1 2 3 4", "C. 1 2 3 4 5", "D. None"],
+  "answer": "C"
+},
+{
+  "question": "Which loop can be used to iterate over each item in a list?",
+  "options": ["A. for loop", "B. while loop", "C. both A and B", "D. None of the above"],
+  "answer": "A"
+},
+{
+  "question": "What is the correct way to handle an exception in Python?",
+  "options": ["A. catch exception", "B. try-except block", "C. raise exception", "D. error handling"],
+  "answer": "B"
+},
+{
+  "question": "What is the result of 'for i in range(1, 11, 3): print(i)'?",
+  "options": ["A. 1 4 7 10", "B. 1 2 3 4 5", "C. 1 4 7", "D. 1 3 6 9"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following will cause a SyntaxError?",
+  "options": ["A. 'if 10 > 5:', 'print('True')'", "B. 'while 1 == 1: break'", "C. 'if 10 > 5 print('True')'", "D. None of the above"],
+  "answer": "C"
+},
+{
+  "question": "What will be the result of 'i = 0; while i < 5: print(i); i += 1'?",
+  "options": ["A. 0 1 2 3 4", "B. 1 2 3 4 5", "C. 0 1 2", "D. None of the above"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following loops are used for a fixed number of iterations?",
+  "options": ["A. for loop", "B. while loop", "C. both A and B", "D. None of the above"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of 'for i in range(0, 5, 2): print(i)'?",
+  "options": ["A. 0 2 4", "B. 0 1 2 3 4", "C. 1 2 3", "D. 2 4"],
+  "answer": "A"
+},
+{
+  "question": "What will be printed when the following code is executed? 'for i in range(1, 6): if i == 3: break; print(i)'",
+  "options": ["A. 1 2", "B. 1 2 3", "C. 1 2 3 4", "D. 1 2 3 4 5"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is not a valid loop structure in Python?",
+  "options": ["A. for", "B. while", "C. until", "D. for-else"],
+  "answer": "C"
+},
+{
+  "question": "Which statement is used to exit the current function and return a value?",
+  "options": ["A. break", "B. continue", "C. return", "D. pass"],
+  "answer": "C"
+},
+{
+  "question": "What is the correct syntax to check if a number is divisible by 3 in a while loop?",
+  "options": ["A. if num % 3 == 0", "B. if num // 3 == 0", "C. if num == 3", "D. if num / 3 == 0"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of the following code? 'for i in range(0, 5, 3): print(i)'",
+  "options": ["A. 0 3", "B. 1 2", "C. 0 3 5", "D. 0 1 2"],
+  "answer": "A"
+},
+{
+  "question": "Which loop is best suited for iterating through a known number of items in Python?",
+  "options": ["A. while loop", "B. for loop", "C. repeat loop", "D. None of the above"],
+  "answer": "B"
+},
+{
+  "question": "What is the correct way to use the range function to generate numbers from 1 to 5?",
+  "options": ["A. range(1, 5)", "B. range(1, 6)", "C. range(0, 5)", "D. range(1, 5, 2)"],
+  "answer": "B"
+},
+{
+  "question": "What will the following code print? 'for i in range(5, 10): print(i)'",
+  "options": ["A. 5 6 7 8 9", "B. 5 6 7 8", "C. 6 7 8 9", "D. 1 2 3 4 5 6 7 8 9"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of this code? 'i = 10; if i == 10: print('Match')'",
+  "options": ["A. Match", "B. Error", "C. None", "D. 10"],
+  "answer": "A"
+},
+{
+  "question": "How do you skip the current iteration of a loop without terminating the loop?",
+  "options": ["A. pass", "B. break", "C. continue", "D. exit"],
+  "answer": "C"
+},
+{
+  "question": "Which of the following statements causes the loop to exit immediately?",
+  "options": ["A. continue", "B. break", "C. return", "D. pass"],
+  "answer": "B"
+},
+{
+  "question": "What will the following code print? 'x = 5; while x < 10: print(x); x += 1'",
+  "options": ["A. 5 6 7 8 9", "B. 6 7 8 9 10", "C. 5 6 7 8", "D. 10"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct syntax for an if-elif-else chain?",
+  "options": ["A. if condition1: elif condition2: else:", "B. if condition1 elif condition2 else:", "C. if condition1 else elif condition2:", "D. None of the above"],
+  "answer": "A"
+},
+{
+  "question": "What will be the output of this code? 'i = 2; while i < 5: i += 1; print(i)'",
+  "options": ["A. 2 3 4", "B. 3 4 5", "C. 2 3 4 5", "D. 3 4"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following constructs is used for error handling in Python?",
+  "options": ["A. catch", "B. raise", "C. try-except", "D. fail"],
+  "answer": "C"
+},
+{
+  "question": "Which of the following loops is executed at least once?",
+  "options": ["A. for", "B. while", "C. do-while", "D. repeat-until"],
+  "answer": "C"
+},
+{
+  "question": "Which of the following is not a valid loop condition in Python?",
+  "options": ["A. i == 5", "B. i < 10", "C. i > 10", "D. None of the above"],
+  "answer": "D"
+},
+{
+  "question": "What will be the output of this code? 'i = 10; if i < 5: print('Small') else: print('Large')'",
+  "options": ["A. Small", "B. Large", "C. Error", "D. None"],
+  "answer": "B"
+},
+{
+  "question": "What will the following code output? 'for i in range(3): if i == 2: break; print(i)'",
+  "options": ["A. 0 1", "B. 0 1 2", "C. 1 2", "D. None of the above"],
+  "answer": "A"
+},
+{
+  "question": "Which statement is used to return control from a function to the calling code?",
+  "options": ["A. return", "B. exit", "C. break", "D. continue"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of this code? 'for i in range(0, 5, 4): print(i)'",
+  "options": ["A. 0 4", "B. 0 1", "C. 0 2", "D. 1 4"],
+  "answer": "A"
+},
+{
+  "question": "What will be printed by the following code? 'for i in range(2, 5): if i == 3: continue; print(i)'",
+  "options": ["A. 2 3 4", "B. 2 4", "C. 3 4", "D. 3 5"],
+  "answer": "B"
+},
+{
+  "question": "What is the output of the following code? 'x = 3; if x == 3: print('Three') elif x == 2: print('Two') else: print('None')'",
+  "options": ["A. Three", "B. Two", "C. None", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "What will the following code print? 'i = 0; while i < 3: print(i); i += 1'",
+  "options": ["A. 0 1 2", "B. 0 1 2 3", "C. 1 2 3", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following options correctly defines the syntax for using an 'else' block after a loop?",
+  "options": ["A. else: do_something", "B. for x in y: else", "C. while x: else", "D. all of the above"],
+  "answer": "D"
+},
+{
+  "question": "Which of the following loops allows you to iterate through a sequence of elements like a list or tuple?",
+  "options": ["A. while loop", "B. for loop", "C. until loop", "D. do-while loop"],
+  "answer": "B"
+},
+{
+  "question": "What will be the output of this code? 'i = 0; while i < 3: print(i); i += 1'",
+  "options": ["A. 0 1 2", "B. 1 2 3", "C. 0 1 2 3", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct syntax for checking if an element is in a list?",
+  "options": ["A. if element in list:", "B. if list in element:", "C. if element in list[]:", "D. if in list(element):"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code? 'for i in range(1, 6): if i == 3: break; print(i)'",
+  "options": ["A. 1 2 3", "B. 1 2", "C. 1 2 3 4", "D. 1 2 3 4 5"],
+  "answer": "B"
+},
+{
+  "question": "What does the 'continue' statement do in a loop?",
+  "options": ["A. Exits the loop", "B. Skips the current iteration", "C. Restarts the loop from the beginning", "D. Terminates the function"],
+  "answer": "B"
+},
+{
+  "question": "What is the output of this code? 'i = 0; for i in range(3): print(i)'",
+  "options": ["A. 0 1 2", "B. 1 2 3", "C. 0 1 2 3", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct way to define a function that accepts parameters in Python?",
+  "options": ["A. function name(parameter):", "B. def function(parameter):", "C. def function_name(parameter)", "D. None of the above"],
+  "answer": "B"
+},
+{
+  "question": "What will be the result of the following code? 'for i in range(10): if i % 2 == 0: continue; print(i)'",
+  "options": ["A. 1 3 5 7 9", "B. 0 2 4 6 8", "C. 1 3 5 7", "D. 1 3 5 7 9 10"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of 'for i in range(0, 10, 5): print(i)'?",
+  "options": ["A. 0 5", "B. 0 1 2 3 4", "C. 5 10", "D. 1 2 3 4 5"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code? 'i = 0; while i < 5: if i == 3: break; print(i); i += 1'",
+  "options": ["A. 0 1 2 3", "B. 0 1 2", "C. 1 2 3", "D. None of the above"],
+  "answer": "B"
+},
+{
+  "question": "What is the output of 'i = 3; while i < 6: print(i); i += 1'?",
+  "options": ["A. 3 4 5 6", "B. 3 4 5", "C. 3 4", "D. 1 2 3 4"],
+  "answer": "B"
+},
+{
+  "question": "Which statement is used to stop the current iteration and move to the next iteration in a loop?",
+  "options": ["A. break", "B. continue", "C. pass", "D. stop"],
+  "answer": "B"
+},
+{
+  "question": "What is the output of this code? 'x = 10; if x == 5: print('Five'); elif x == 10: print('Ten'); else: print('None')'",
+  "options": ["A. Five", "B. Ten", "C. None", "D. Error"],
+  "answer": "B"
+},
+{
+  "question": "What is the purpose of the 'pass' statement in Python?",
+  "options": ["A. To terminate a loop", "B. To continue the loop", "C. To create an empty block", "D. To raise an exception"],
+  "answer": "C"
+},
+{
+  "question": "What is the output of this code? 'for i in range(2, 8, 2): print(i)'",
+  "options": ["A. 2 4 6", "B. 2 4 6 8", "C. 2 3 4 5 6", "D. 1 2 3 4 5 6 7"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following will terminate a while loop in Python?",
+  "options": ["A. break", "B. continue", "C. pass", "D. None of the above"],
+  "answer": "A"
+},
+{
+  "question": "What will be printed when the following code is executed? 'for i in range(3, 6): if i == 4: continue; print(i)'",
+  "options": ["A. 3 4 5", "B. 3 5", "C. 4 5", "D. 3 4"],
+  "answer": "B"
+},
+{
+  "question": "What is the output of 'x = 10; if x != 5: print('Not Five') else: print('Five')'?",
+  "options": ["A. Five", "B. Not Five", "C. Error", "D. None"],
+  "answer": "B"
+},
+{
+  "question": "What is the result of 'while 1 == 1: print('Looping')'?",
+  "options": ["A. Infinite loop", "B. Error", "C. Loop stops after 1 iteration", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following can be used to loop over a string in Python?",
+  "options": ["A. for loop", "B. while loop", "C. both A and B", "D. None of the above"],
+  "answer": "C"
+},
+{
+  "question": "Which of the following is an ordered collection of elements in Python?",
+  "options": ["A. Set", "B. List", "C. Dictionary", "D. Tuple"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following data types is immutable in Python?",
+  "options": ["A. List", "B. Set", "C. Dictionary", "D. Tuple"],
+  "answer": "D"
+},
+{
+  "question": "How do you create an empty list in Python?",
+  "options": ["A. []", "B. list()", "C. {}","D. Both A and B"],
+  "answer": "D"
+},
+{
+  "question": "Which of the following methods can be used to add an item to the end of a list?",
+  "options": ["A. append()", "B. extend()", "C. insert()", "D. remove()"],
+  "answer": "A"
+},
+{
+  "question": "How do you remove the last item from a list in Python?",
+  "options": ["A. pop()", "B. remove()", "C. delete()", "D. discard()"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods is used to remove an item from a specific index in a list?",
+  "options": ["A. remove()", "B. pop()", "C. delete()", "D. discard()"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following is the correct way to access the first element of a list named 'my_list'?",
+  "options": ["A. my_list[0]", "B. my_list(0)", "C. my_list{0}", "D. my_list[1]"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of this code? 'my_list = [1, 2, 3]; my_list[1] = 10; print(my_list)'",
+  "options": ["A. [1, 10, 3]", "B. [10, 2, 3]", "C. [1, 2, 3, 10]", "D. [1, 10]"],
+  "answer": "A"
+},
+{
+  "question": "What will the following code output? 'my_tuple = (1, 2, 3); my_tuple[1] = 5'",
+  "options": ["A. (1, 5, 3)", "B. (1, 2, 3, 5)", "C. Error", "D. (1, 2, 5)"],
+  "answer": "C"
+},
+{
+  "question": "Which of the following functions is used to get the length of a list in Python?",
+  "options": ["A. len()", "B. length()", "C. size()", "D. count()"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following operations is used to concatenate two lists in Python?",
+  "options": ["A. append()", "B. +", "C. extend()", "D. insert()"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following is the correct way to create a dictionary in Python?",
+  "options": ["A. {key1: value1, key2: value2}", "B. {key1 => value1, key2 => value2}", "C. (key1: value1, key2: value2)", "D. [key1: value1, key2: value2]"],
+  "answer": "A"
+},
+{
+  "question": "How do you access the value associated with 'key1' in the dictionary 'my_dict = {'key1': 100, 'key2': 200}'?",
+  "options": ["A. my_dict['key1']", "B. my_dict.key1", "C. my_dict{key1}", "D. my_dict.get('key1')"],
+  "answer": "A"
+},
+{
+  "question": "How can you add a new key-value pair to a dictionary?",
+  "options": ["A. my_dict.add('key', value)", "B. my_dict['key'] = value", "C. my_dict.add('key' => value)", "D. Both A and B"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following methods can be used to get all the keys from a dictionary?",
+  "options": ["A. keys()", "B. values()", "C. items()", "D. get()"],
+  "answer": "A"
+},
+{
+  "question": "What does the 'pop()' method do in a list?",
+  "options": ["A. Removes an item from a list and returns it", "B. Removes the first item from the list", "C. Adds an item to the end of the list", "D. Replaces an item in the list"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods removes an item by its value from a list?",
+  "options": ["A. remove()", "B. pop()", "C. discard()", "D. del()"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following will return True if the key 'age' exists in the dictionary?",
+  "options": ["A. 'age' in my_dict", "B. my_dict['age']", "C. my_dict.contains('age')", "D. my_dict.exists('age')"],
+  "answer": "A"
+},
+{
+  "question": "What will the following code output? 'my_list = [1, 2, 3]; my_list.insert(1, 10); print(my_list)'",
+  "options": ["A. [1, 10, 2, 3]", "B. [10, 1, 2, 3]", "C. [1, 2, 3, 10]", "D. [1, 2, 10, 3]"],
+  "answer": "A"
+},
+{
+  "question": "How do you sort a list in Python?",
+  "options": ["A. my_list.sort()", "B. sort(my_list)", "C. list.sort()", "D. Both A and B"],
+  "answer": "A"
+},   
+{
+  "question": "Which of the following is the correct way to check if a key exists in a dictionary?",
+  "options": ["A. key in my_dict", "B. my_dict.contains(key)", "C. my_dict.key() == True", "D. my_dict.exists(key)"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code? 'my_dict = {'a': 1, 'b': 2}; print(my_dict.get('a'))'",
+  "options": ["A. 1", "B. 'a'", "C. 2", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "Which method would you use to remove all elements from a list?",
+  "options": ["A. clear()", "B. remove()", "C. delete()", "D. discard()"],
+  "answer": "A"
+},
+{
+  "question": "What does the 'extend()' method do to a list?",
+  "options": ["A. Adds elements of another list to the current list", "B. Removes elements from the list", "C. Sorts the list", "D. None of the above"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code? 'my_dict = {'a': 1, 'b': 2}; my_dict.pop('a'); print(my_dict)'",
+  "options": ["A. {'b': 2}", "B. {'a': 1, 'b': 2}", "C. {'b': 1}", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "What type of data structure is a set in Python?",
+  "options": ["A. Ordered", "B. Unordered", "C. Mutable", "D. Immutable"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following can you not store in a set?",
+  "options": ["A. Integer", "B. String", "C. List", "D. Float"],
+  "answer": "C"
+},
+{
+  "question": "How do you access the second item in a tuple named 'my_tuple'?",
+  "options": ["A. my_tuple[2]", "B. my_tuple(1)", "C. my_tuple[1]", "D. my_tuple(2)"],
+  "answer": "C"
+},
+{
+  "question": "What will happen if you try to change an item in a tuple?",
+  "options": ["A. Error", "B. Item will be replaced", "C. The tuple will shrink", "D. The tuple will expand"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods can be used to join two lists?",
+  "options": ["A. append()", "B. +", "C. insert()", "D. extend()"],
+  "answer": "B"
+},
+{
+  "question": "How can you create a tuple with one element?",
+  "options": ["A. (1)", "B. (1,)", "C. (1, 2)", "D. tuple(1)"],
+  "answer": "B"
+},
+{
+  "question": "What is the output of this code? 'my_dict = {'a': 1, 'b': 2}; my_dict.update({'a': 3}); print(my_dict)'",
+  "options": ["A. {'a': 3, 'b': 2}", "B. {'a': 1, 'b': 2}", "C. {'a': 3, 'b': 1}", "D. {'b': 2}"],
+  "answer": "A"
+},
+{
+  "question": "Which method is used to get the value associated with a specific key in a dictionary, or a default value if the key doesn't exist?",
+  "options": ["A. get()", "B. fetch()", "C. find()", "D. search()"],
+  "answer": "A"
+},
+{
+  "question": "How do you reverse the order of items in a list?",
+  "options": ["A. reverse()", "B. reverse_list()", "C. list.reverse()", "D. None of the above"],
+  "answer": "A"
+},
+{
+  "question": "What does the 'del' keyword do when used with a list?",
+  "options": ["A. Deletes the entire list", "B. Deletes a specific item from the list", "C. Deletes a key-value pair from a dictionary", "D. Deletes an element from a tuple"],
+  "answer": "B"
+},
+{
+  "question": "What type of data structure is a dictionary in Python?",
+  "options": ["A. Ordered and Mutable", "B. Unordered and Mutable", "C. Ordered and Immutable", "D. Unordered and Immutable"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following methods is used to get all values in a dictionary?",
+  "options": ["A. values()", "B. keys()", "C. items()", "D. get()"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code? 'my_list = [5, 6, 7]; print(len(my_list))'",
+  "options": ["A. 3", "B. 6", "C. 5", "D. 7"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct syntax to access a key 'age' from a dictionary 'person = {'age': 25}'?",
+  "options": ["A. person['age']", "B. person.age", "C. person{age}", "D. person.get('age')"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is an incorrect operation on a tuple?",
+  "options": ["A. Accessing an element", "B. Slicing the tuple", "C. Adding an item", "D. Iterating over the tuple"],
+  "answer": "C"
+},
+{
+  "question": "What does the 'clear()' method do to a dictionary?",
+  "options": ["A. Removes all key-value pairs from the dictionary", "B. Clears the value of a single key", "C. Deletes the dictionary", "D. Removes the last added item"],
+  "answer": "A"
+},
+{
+  "question": "How do you find the index of an element in a list?",
+  "options": ["A. find()", "B. index()", "C. locate()", "D. search()"],
+  "answer": "B"
+},
+{
+  "question": "What is the output of this code? 'my_tuple = (1, 2, 3); print(my_tuple[2])'",
+  "options": ["A. 3", "B. 2", "C. 1", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "What happens when you try to modify a set?",
+  "options": ["A. You can add or remove elements", "B. The set becomes mutable", "C. You get an error", "D. The set becomes ordered"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods is used to get all the key-value pairs from a dictionary?",
+  "options": ["A. items()", "B. keys()", "C. values()", "D. get()"],
+  "answer": "A"
+},
+{
+  "question": "What does the 'union()' method do in sets?",
+  "options": ["A. Returns a set with all elements from both sets", "B. Returns the intersection of two sets", "C. Removes duplicate elements", "D. Adds an element to the set"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct syntax to create a tuple with multiple items?",
+  "options": ["A. ()", "B. [1, 2, 3]", "C. (1, 2, 3)", "D. {1, 2, 3}"],
+  "answer": "C"
+},
+{
+  "question": "How do you create a set in Python?",
+  "options": ["A. set()", "B. []", "C. ()", "D. {}"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is an immutable data type in Python?",
+  "options": ["A. List", "B. Set", "C. Tuple", "D. Dictionary"],
+  "answer": "C"
+},
+{
+  "question": "What will the following code output? 'my_set = {1, 2, 3}; my_set.add(4); print(my_set)'",
+  "options": ["A. {1, 2, 3, 4}", "B. {4, 1, 2, 3}", "C. Error", "D. {1, 2, 3}"],
+  "answer": "A"
+},
+{
+  "question": "How do you remove an item from a set?",
+  "options": ["A. discard()", "B. remove()", "C. pop()", "D. All of the above"],
+  "answer": "D"
+},
+{
+  "question": "What is the output of the following code? 'my_list = [10, 20, 30]; print(my_list[::-1])'",
+  "options": ["A. [10, 20, 30]", "B. [30, 20, 10]", "C. Error", "D. [20, 30, 10]"],
+  "answer": "B"
+},
+{
+  "question": "How can you access the last item in a list?",
+  "options": ["A. list[-1]", "B. list[-0]", "C. list[0]", "D. list[len(list)]"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods is used to remove a specific element from a set?",
+  "options": ["A. discard()", "B. remove()", "C. pop()", "D. All of the above"],
+  "answer": "D"
+},
+{
+  "question": "Which of the following will result in an error?",
+  "options": ["A. tuple[0] = 5", "B. list[0] = 5", "C. set[0] = 5", "D. dictionary['key'] = 5"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct way to update an existing key in a dictionary?",
+  "options": ["A. my_dict['key'] = new_value", "B. my_dict.update('key', new_value)", "C. my_dict.add('key', new_value)", "D. my_dict.update({'key': new_value})"],
+  "answer": "A"
+},
+{
+  "question": "How can you get the intersection of two sets in Python?",
+  "options": ["A. set1.union(set2)", "B. set1 & set2", "C. set1 | set2", "D. set1.difference(set2)"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following is the correct syntax for defining a dictionary with multiple key-value pairs?",
+  "options": ["A. my_dict = {1: 'a', 2: 'b'}", "B. my_dict = (1: 'a', 2: 'b')", "C. my_dict = {'1'='a', '2'='b'}", "D. my_dict = {'1': a, '2': b}"],
+  "answer": "A"
+},
+{
+  "question": "What does the 'popitem()' method do in a dictionary?",
+  "options": ["A. Removes a random key-value pair", "B. Removes the last key-value pair", "C. Adds a new key-value pair", "D. Retrieves a key-value pair"],
+  "answer": "A"
+},
+{
+  "question": "How can you get all the elements of a list in Python?",
+  "options": ["A. list()", "B. list.all()", "C. list[:]","D. None of the above"],
+  "answer": "C"
+},
+{
+  "question": "What is the output of this code? 'my_list = [1, 2, 3]; my_list.append([4, 5]); print(my_list)'",
+  "options": ["A. [1, 2, 3, 4, 5]", "B. [1, 2, 3, [4, 5]]", "C. [1, 2, 3, (4, 5)]", "D. Error"],
+  "answer": "B"
+},
+{
+  "question": "What is the result of this operation? 'len((1, 2, 3, 4))'",
+  "options": ["A. 3", "B. 4", "C. 5", "D. Error"],
+  "answer": "B"
+},
+{
+  "question": "Which method returns the number of times a value appears in a list?",
+  "options": ["A. index()", "B. count()", "C. find()", "D. search()"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following best describes a dictionary?",
+  "options": ["A. Unordered key-value pairs", "B. Ordered key-value pairs", "C. List of keys", "D. Set of values"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of 'my_list = [1, 2]; my_list *= 2; print(my_list)'?",
+  "options": ["A. [1, 2, 1, 2]", "B. [1, 2]", "C. [1, 1, 2, 2]", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "Which data structure maintains the order of insertion?",
+  "options": ["A. Dictionary (Python 3.7+)", "B. Set", "C. Tuple", "D. Frozen set"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following will raise an error when applied to a dictionary?",
+  "options": ["A. my_dict[0]", "B. my_dict['key']", "C. my_dict.get('key')", "D. my_dict['missing']"],
+  "answer": "D"
+},
+{
+  "question": "What is the output of this code? 'my_tuple = ('a',); print(type(my_tuple))'",
+  "options": ["A. <class 'str'>", "B. <class 'tuple'>", "C. <class 'list'>", "D. <class 'set'>"],
+  "answer": "B"
+},
+{
+  "question": "What method would you use to get a list of dictionary keys?",
+  "options": ["A. keys()", "B. get_keys()", "C. all_keys()", "D. fetch_keys()"],
+  "answer": "A"
+},
+{
+  "question": "What will this code do? 'my_dict = dict(a=1, b=2); print(my_dict)'",
+  "options": ["A. {'a': 1, 'b': 2}", "B. {a: 1, b: 2}", "C. {'dict': 'a=1, b=2'}", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "What is the correct way to copy a list?",
+  "options": ["A. list.copy()", "B. list = original_list", "C. list.clone()", "D. list.duplicate()"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of 'list('abc')'?",
+  "options": ["A. ['abc']", "B. ['a', 'b', 'c']", "C. ['a b c']", "D. ('a', 'b', 'c')"],
+  "answer": "B"
+},
+{
+  "question": "How do you remove the last item from a list?",
+  "options": ["A. pop()", "B. remove()", "C. delete()", "D. clear()"],
+  "answer": "A"
+},
+{
+  "question": "Which operator is used to join two lists?",
+  "options": ["A. +", "B. &", "C. *", "D. %"],
+  "answer": "A"
+},
+{
+  "question": "How do you convert a list into a tuple?",
+  "options": ["A. tuple(list_name)", "B. list.to_tuple()", "C. convert(list)", "D. tuple.list()"],
+  "answer": "A"
+},
+{
+  "question": "Which data structure is faster for membership testing?",
+  "options": ["A. Set", "B. List", "C. Tuple", "D. Dictionary"],
+  "answer": "A"
+},
+{
+  "question": "What does the following code do? 'list1 = [1, 2]; list2 = list1; list1[0] = 99; print(list2)'",
+  "options": ["A. [99, 2]", "B. [1, 2]", "C. [2, 1]", "D. [99]"],
+  "answer": "A"
+},
+{
+  "question": "Which function is used to create a list from a range of numbers?",
+  "options": ["A. list(range(n))", "B. range.list(n)", "C. make_list(n)", "D. list.create(n)"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following operations is not valid for a tuple?",
+  "options": ["A. Indexing", "B. Slicing", "C. Modification", "D. Iteration"],
+  "answer": "C"
+},
+{
+  "question": "Which collection is best suited to store unique items?",
+  "options": ["A. Set", "B. List", "C. Tuple", "D. Dictionary"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of 'set([1, 2, 2, 3])'?",
+  "options": ["A. {1, 2, 3}", "B. {1, 2, 2, 3}", "C. [1, 2, 3]", "D. (1, 2, 3)"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is used to access all items in a dictionary?",
+  "options": ["A. items()", "B. keys()", "C. values()", "D. elements()"],
+  "answer": "A"
+},
+{
+  "question": "Which method removes a specific key-value pair from a dictionary?",
+  "options": ["A. pop()", "B. delete()", "C. remove()", "D. discard()"],
+  "answer": "A"
+},
+{
+  "question": "What happens if you use 'del my_list[2]' on a list with less than 3 items?",
+  "options": ["A. IndexError", "B. Deletes the last item", "C. Removes the second item", "D. Nothing happens"],
+  "answer": "A"
+},
+{
+  "question": "Which structure allows duplicate keys?",
+  "options": ["A. Dictionary", "B. List", "C. Set", "D. None of the above"],
+  "answer": "D"
+},
+{
+  "question": "Which of the following is a correct way to create a set in Python?",
+  "options": ["A. set1 = {1, 2, 3}", "B. set1 = (1, 2, 3)", "C. set1 = [1, 2, 3]", "D. set1 = <1, 2, 3>"],
+  "answer": "A"
+},
+{
+  "question": "Which of these is a characteristic of a set?",
+  "options": ["A. Ordered and allows duplicates", "B. Unordered and allows duplicates", "C. Ordered and no duplicates", "D. Unordered and no duplicates"],
+  "answer": "D"
+},
+{
+  "question": "What will be the output of 'set([1, 2, 2, 3])'?",
+  "options": ["A. {1, 2, 3}", "B. {1, 2, 2, 3}", "C. [1, 2, 3]", "D. (1, 2, 3)"],
+  "answer": "A"
+},
+{
+  "question": "How do you add an item to a set?",
+  "options": ["A. add()", "B. append()", "C. insert()", "D. extend()"],
+  "answer": "A"
+},
+{
+  "question": "What will happen if you add a duplicate element to a set?",
+  "options": ["A. Error", "B. It will be added", "C. It will replace the existing element", "D. It will be ignored"],
+  "answer": "D"
+},
+{
+  "question": "Which method removes an element from a set without raising an error if it does not exist?",
+  "options": ["A. remove()", "B. discard()", "C. pop()", "D. delete()"],
+  "answer": "B"
+},
+{
+  "question": "What is the result of the following? 'a = {1, 2, 3}; a.pop()'",
+  "options": ["A. Removes a random element", "B. Removes last element", "C. Removes first element", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "Which method combines two sets and removes duplicates?",
+  "options": ["A. union()", "B. merge()", "C. combine()", "D. intersect()"],
+  "answer": "A"
+},
+{
+  "question": "Which operator can be used to find the intersection of two sets?",
+  "options": ["A. &", "B. |", "C. ^", "D. -"],
+  "answer": "A"
+},
+{
+  "question": "What does the '^' operator do on sets?",
+  "options": ["A. Intersection", "B. Union", "C. Symmetric difference", "D. Difference"],
+  "answer": "C"
+},
+{
+  "question": "Which set method checks if all elements of one set exist in another?",
+  "options": ["A. issubset()", "B. subset()", "C. contains()", "D. ismember()"],
+  "answer": "A"
+},
+{
+  "question": "Which method returns elements common to both sets?",
+  "options": ["A. intersect()", "B. intersection()", "C. common()", "D. overlap()"],
+  "answer": "B"
+},
+{
+  "question": "Which method removes all items from a set?",
+  "options": ["A. delete()", "B. clear()", "C. remove_all()", "D. empty()"],
+  "answer": "B"
+},
+{
+  "question": "How is a frozenset different from a regular set?",
+  "options": ["A. It's mutable", "B. It allows duplicates", "C. It's immutable", "D. It's ordered"],
+  "answer": "C"
+},
+{
+  "question": "Which of these is a valid frozenset declaration?",
+  "options": ["A. frozenset([1, 2, 3])", "B. {1, 2, 3}", "C. frozenset{1, 2, 3}", "D. freeze([1, 2, 3])"],
+  "answer": "A"
+},
+{
+  "question": "Can you add items to a frozenset?",
+  "options": ["A. Yes, using add()", "B. Yes, using append()", "C. No", "D. Only using update()"],
+  "answer": "C"
+},
+{
+  "question": "Which operation is valid on frozensets?",
+  "options": ["A. Union", "B. Add", "C. Remove", "D. Discard"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of 'len(set([1,2,2,3,4]))'?",
+  "options": ["A. 5", "B. 4", "C. 3", "D. Error"],
+  "answer": "B"
+},
+{
+  "question": "Which keyword is used to check if an element exists in a set?",
+  "options": ["A. inside", "B. has", "C. in", "D. contains"],
+  "answer": "C"
+},
+{
+  "question": "What happens if you try to access a set element by index like set1[0]?",
+  "options": ["A. Returns the first element", "B. Error", "C. Returns any element", "D. None"],
+  "answer": "B"
+},
+{
+  "question": "Sets in Python are implemented using which data structure?",
+  "options": ["A. List", "B. Hash table", "C. Tree", "D. Queue"],
+  "answer": "B"
+},
+{
+  "question": "What will be the result of: 'set1 = {1, 2}; set2 = {2, 3}; print(set1 & set2)'?",
+  "options": ["A. {1, 2, 3}", "B. {2}", "C. {1}", "D. {1, 3}"],
+  "answer": "B"
+},
+{
+  "question": "Which method returns a new set with elements in either the set or the other but not both?",
+  "options": ["A. symmetric_difference()", "B. difference()", "C. union()", "D. intersection()"],
+  "answer": "A"
+},
+{
+  "question": "What does 'set1.difference(set2)' return?",
+  "options": ["A. Common elements", "B. All elements", "C. Elements in set1 not in set2", "D. Error"],
+  "answer": "C"
+},
+{
+  "question": "How do you clone a set?",
+  "options": ["A. copy()", "B. clone()", "C. duplicate()", "D. = operator"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of 'set([1,2,3]) == set([3,2,1])'?",
+  "options": ["A. True", "B. False", "C. Error", "D. None"],
+  "answer": "A"
+},
+{
+  "question": "Which method is used to check if a set is a superset of another?",
+  "options": ["A. issuperset()", "B. issubset()", "C. super()", "D. includes()"],
+  "answer": "A"
+},
+{
+  "question": "Which operator performs set difference?",
+  "options": ["A. -", "B. &", "C. |", "D. ^"],
+  "answer": "A"
+},
+{
+  "question": "Which function converts a list to a set?",
+  "options": ["A. list()", "B. tuple()", "C. set()", "D. dict()"],
+  "answer": "C"
+},
+{
+  "question": "Which method is used to update a set with multiple values?",
+  "options": ["A. append()", "B. add()", "C. update()", "D. insert()"],
+  "answer": "C"
+},
+{
+  "question": "What does 'a = set(); a.add(5)' do?",
+  "options": ["A. Adds 5 to the set", "B. Replaces all elements with 5", "C. Errors", "D. Does nothing"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following will raise an error?",
+  "options": ["A. {1, 2, 3}.remove(4)", "B. {1, 2, 3}.discard(4)", "C. {1, 2, 3}.clear()", "D. set([1, 2, 3])"],
+  "answer": "A"
+},
+{
+  "question": "Which is an immutable version of a set?",
+  "options": ["A. frozen()", "B. lockedset", "C. frozenlist", "D. frozenset"],
+  "answer": "D"
+},
+{
+  "question": "Which of these types can be elements in a set?",
+  "options": ["A. List", "B. Dictionary", "C. Tuple", "D. Set"],
+  "answer": "C"
+},
+{
+  "question": "What is the result of: 'len(set('banana'))'?",
+  "options": ["A. 3", "B. 5", "C. 6", "D. 1"],
+  "answer": "A"
+},
+{
+  "question": "Can you store a set inside another set?",
+  "options": ["A. Yes", "B. No", "C. Only if it's frozen", "D. Only if it's a list"],
+  "answer": "C"
+},
+{
+  "question": "Which method would you use to find items only in the first set?",
+  "options": ["A. set1 - set2", "B. set1 + set2", "C. set1 & set2", "D. set1 | set2"],
+  "answer": "A"
+},
+{
+  "question": "How would you create an empty set?",
+  "options": ["A. {}", "B. []", "C. set()", "D. empty()"],
+  "answer": "C"
+},
+{
+  "question": "What is the output of: 'bool(set())'?",
+  "options": ["A. True", "B. False", "C. None", "D. Error"],
+  "answer": "B"
+},
+{
+  "question": "Which expression returns a new set without modifying the original?",
+  "options": ["A. set1.difference(set2)", "B. set1.difference_update(set2)", "C. set1 -= set2", "D. set1.clear()"],
+  "answer": "A"
+},
+{
+  "question": "What happens when you use clear() on a set?",
+  "options": ["A. Deletes one element", "B. Makes it empty", "C. Resets to default", "D. Removes duplicates"],
+  "answer": "B"
+},
+{
+  "question": "Which operator is used for union of sets?",
+  "options": ["A. &", "B. ^", "C. |", "D. -"],
+  "answer": "C"
+},
+{
+  "question": "Which statement is false about sets?",
+  "options": ["A. Sets are unordered", "B. Sets allow duplicates", "C. Sets are mutable", "D. Sets are iterable"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following is not a method on sets?",
+  "options": ["A. add()", "B. update()", "C. union()", "D. append()"],
+  "answer": "D"
+},
+{
+  "question": "What is returned by: 'set('hello')'?",
+  "options": ["A. {'h', 'e', 'l', 'l', 'o'}", "B. ['h', 'e', 'l', 'o']", "C. {'h', 'e', 'l', 'o'}", "D. ['hello']"],
+  "answer": "C"
+},
+{
+  "question": "What happens if you try to modify a frozenset?",
+  "options": ["A. It's updated", "B. It creates a copy", "C. Raises an error", "D. Nothing happens"],
+  "answer": "C"
+},
+{
+  "question": "Which of these can be used as a dictionary key?",
+  "options": ["A. set", "B. frozenset", "C. list", "D. dict"],
+  "answer": "B"
+},
+{
+  "question": "Which function finds all unique characters in a string?",
+  "options": ["A. set()", "B. list()", "C. dict()", "D. str()"],
+  "answer": "A"
+},
+{
+  "question": "Can frozensets be used in set operations like union or intersection?",
+  "options": ["A. No", "B. Only union", "C. Only intersection", "D. Yes"],
+  "answer": "D"
+},
+{
+  "question": "What is the return type of set('abc')?",
+  "options": ["A. list", "B. str", "C. set", "D. dict"],
+  "answer": "C"
+},
+{
+  "question": "What will be the result of: 'set1 = {1, 2}; set2 = {3, 4}; set1.update(set2); print(set1)'?",
+  "options": ["A. {1, 2}", "B. {3, 4}", "C. {1, 2, 3, 4}", "D. Error"],
+  "answer": "C"
+},
+{
+  "question": "Which operation returns elements only in set2 but not in set1?",
+  "options": ["A. set1 - set2", "B. set2 - set1", "C. set1 & set2", "D. set1 | set2"],
+  "answer": "B"
+},
+{
+  "question": "What is the result of this code? 'a = set(); print(len(a))'",
+  "options": ["A. 0", "B. 1", "C. None", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of: 'set([1, 2, 2, 3, 4, 4])'?",
+  "options": ["A. {1, 2, 3, 4}", "B. [1, 2, 3, 4]", "C. {1, 2, 2, 3, 4, 4}", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "Which method returns a shallow copy of a set?",
+  "options": ["A. clone()", "B. copy()", "C. duplicate()", "D. set()"],
+  "answer": "B"
+},
+{
+  "question": "Can you use the '+' operator with sets?",
+  "options": ["A. Yes", "B. No", "C. Only with numbers", "D. Only with frozensets"],
+  "answer": "B"
+},
+{
+  "question": "Which of the following results in a KeyError?",
+  "options": ["A. set.remove(non_existing)", "B. set.discard(non_existing)", "C. set.clear()", "D. set.copy()"],
+  "answer": "A"
+},
+{
+  "question": "How to find the number of elements in a set?",
+  "options": ["A. count()", "B. size()", "C. len()", "D. total()"],
+  "answer": "C"
+},
+{
+  "question": "What is the data type of: 'type(set())'?",
+  "options": ["A. dict", "B. list", "C. set", "D. frozenset"],
+  "answer": "C"
+},
+{
+  "question": "How do you find elements in either of two sets but not both?",
+  "options": ["A. set1 ^ set2", "B. set1 & set2", "C. set1 | set2", "D. set1 - set2"],
+  "answer": "A"
+},
+{
+  "question": "Is set() mutable?",
+  "options": ["A. Yes", "B. No", "C. Only once", "D. Only if declared global"],
+  "answer": "A"
+},
+{
+  "question": "Which is faster for membership testing?",
+  "options": ["A. list", "B. set", "C. tuple", "D. dict"],
+  "answer": "B"
+},
+{
+  "question": "Which operation removes all common elements from the set?",
+  "options": ["A. difference_update()", "B. intersection_update()", "C. clear()", "D. remove()"],
+  "answer": "B"
+},
+{
+  "question": "Which data structure doesn't allow mutable elements?",
+  "options": ["A. list", "B. set", "C. frozenset", "D. dict"],
+  "answer": "C"
+},
+{
+  "question": "What is the default return of pop() if set is empty?",
+  "options": ["A. 0", "B. None", "C. Error", "D. []"],
+  "answer": "C"
+},
+{
+  "question": "What is the output of: 'print(type(frozenset([1,2])))'?",
+  "options": ["A. <class 'set'>", "B. <class 'frozenset'>", "C. <class 'dict'>", "D. <class 'list'>"],
+  "answer": "B"
+},
+{
+  "question": "What will be the output of 'frozenset('abc') | frozenset('cd')'?",
+  "options": ["A. {'a', 'b', 'c', 'd'}", "B. {'c'}", "C. {'a', 'b', 'd'}", "D. {'a', 'b', 'c'}"],
+  "answer": "A"
+},
+{
+  "question": "What does 'frozenset('abc') & frozenset('bd')' return?",
+  "options": ["A. {'b'}", "B. {'a'}", "C. {'c'}", "D. {'d'}"],
+  "answer": "A"
+},
+{
+  "question": "Can sets be nested directly?",
+  "options": ["A. Yes", "B. No", "C. Only empty sets", "D. Only with the add() method"],
+  "answer": "B"
+},
+{
+  "question": "Which expression checks if two sets are disjoint?",
+  "options": ["A. set1 | set2", "B. set1 & set2 == set()", "C. set1 == set2", "D. set1 in set2"],
+  "answer": "B"
+},
+{
+  "question": "What does 'set1.symmetric_difference(set2)' return?",
+  "options": ["A. All elements in both sets", "B. Only common elements", "C. Elements in either but not both", "D. Error"],
+  "answer": "C"
+},
+{
+  "question": "What type of object is returned by 'set(range(3))'?",
+  "options": ["A. list", "B. tuple", "C. set", "D. dict"],
+  "answer": "C"
+},
+{
+  "question": "Which is a valid way to initialize a set with values 1, 2, and 3?",
+  "options": ["A. set(1,2,3)", "B. {1:2, 2:3}", "C. {1, 2, 3}", "D. set[1, 2, 3]"],
+  "answer": "C"
+},
+{
+  "question": "How can you check if set1 is a subset of set2?",
+  "options": ["A. set1 in set2", "B. set1.issubset(set2)", "C. set2.subset(set1)", "D. set1 <= set2"],
+  "answer": "B"
+},
+{
+  "question": "What is returned by: 'type({})'?",
+  "options": ["A. set", "B. list", "C. dict", "D. tuple"],
+  "answer": "C"
+},
+{
+  "question": "What is the result of 'len(frozenset('hello'))'?",
+  "options": ["A. 4", "B. 5", "C. 1", "D. 6"],
+  "answer": "A"
+},
+{
+  "question": "Which is true about sets in Python?",
+  "options": ["A. Sets are indexed", "B. Sets allow duplicates", "C. Sets are mutable", "D. Sets are ordered"],
+  "answer": "C"
+},
+{
+  "question": "What does 'frozenset([1, 2]) | {2, 3}' return?",
+  "options": ["A. {1, 2, 3}", "B. frozenset({1, 2, 3})", "C. Error", "D. {2}"],
+  "answer": "A"
+},
+{
+  "question": "Which method removes a random element from a set?",
+  "options": ["A. remove()", "B. discard()", "C. pop()", "D. del()"],
+  "answer": "C"
+},
+{
+  "question": "Which of these can you not use with sets?",
+  "options": ["A. len()", "B. add()", "C. append()", "D. update()"],
+  "answer": "C"
+},
+{
+  "question": "What is the output of: 'print(2 in {1, 2, 3})'?",
+  "options": ["A. True", "B. False", "C. None", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "How many elements are in 'set([1, 1, 2, 3])'?",
+  "options": ["A. 3", "B. 4", "C. 2", "D. 1"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of: 'set('aabbcc')'?",
+  "options": ["A. {'a', 'b', 'c'}", "B. {'aa', 'bb', 'cc'}", "C. {'aabbcc'}", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "Which method is used to find the intersection of two sets?",
+  "options": ["A. &", "B. union()", "C. intersection()", "D. difference()"],
+  "answer": "C"
+},
+{
+  "question": "Which operator checks if one set is subset of another?",
+  "options": ["A. <", "B. >", "C. !=", "D. =="],
+  "answer": "A"
+},
+{
+  "question": "What will 'set1 |= set2' do?",
+  "options": ["A. Assigns set2 to set1", "B. Updates set1 with union of set2", "C. Deletes set2", "D. Clears set1"],
+  "answer": "B"
+},
+{
+  "question": "Which method does not modify the original set?",
+  "options": ["A. union()", "B. update()", "C. difference_update()", "D. discard()"],
+  "answer": "A"
+},
+{
+  "question": "Which method will not raise an error if item not found?",
+  "options": ["A. remove()", "B. discard()", "C. pop()", "D. index()"],
+  "answer": "B"
+},
+{
+  "question": "What will 'set1 & set2' return?",
+  "options": ["A. Union", "B. Symmetric difference", "C. Common elements", "D. Error"],
+  "answer": "C"
+},
+{
+  "question": "Which is true about frozenset?",
+  "options": ["A. Mutable", "B. Hashable", "C. Ordered", "D. Supports append()"],
+  "answer": "B"
+},
+{
+  "question": "Which statement is true?",
+  "options": ["A. set is immutable", "B. frozenset allows add()", "C. set is iterable", "D. frozenset is mutable"],
+  "answer": "C"
+},
+{
+  "question": "Which of the following can be added to a set?",
+  "options": ["A. list", "B. dict", "C. frozenset", "D. set"],
+  "answer": "C"
+},
+{
+  "question": "Which method combines multiple sets without duplicates?",
+  "options": ["A. union()", "B. extend()", "C. add()", "D. concat()"],
+  "answer": "A"
+},
+{
+  "question": "What is the result of: 'set((1,2,3,2,1))'?",
+  "options": ["A. {1,2,3}", "B. [1,2,3]", "C. (1,2,3)", "D. Error"],
+  "answer": "A"
+},
+{
+  "question": "What does 'set1 ^= set2' do?",
+  "options": ["A. Nothing", "B. Updates with common elements", "C. Updates with symmetric difference", "D. Error"],
+  "answer": "C"
+},
+{
+  "question": "How do you remove all elements from a set?",
+  "options": ["A. remove()", "B. discard()", "C. clear()", "D. delete()"],
+  "answer": "C"
+},
+{
+  "question": "What is returned by: 'type(frozenset())'?",
+  "options": ["A. <class 'set'>", "B. <class 'frozenset'>", "C. <class 'dict'>", "D. <class 'tuple'>"],
+  "answer": "B"
+},
+{
+  "question": "What is the result of: 'frozenset([1, 2]) & set([2, 3])'?",
+  "options": ["A. {2}", "B. frozenset({2})", "C. [2]", "D. Error"],
+  "answer": "B"
+},
+{
+  "question": "Which operation is not supported by frozensets?",
+  "options": ["A. union()", "B. intersection()", "C. add()", "D. difference()"],
+  "answer": "C"
+},
+{
+  "question": "Which Python type is unordered and immutable?",
+  "options": ["A. list", "B. frozenset", "C. dict", "D. tuple"],
+  "answer": "B"
+},
+{ "question": "Which keyword is used to define a function in Python?", "options": ["A. define", "B. function", "C. def", "D. func"], "answer": "C" }, { "question": "What is the purpose of the 'return' statement in a function?", "options": ["A. Print output", "B. Exit the program", "C. Send back a value", "D. Stop the interpreter"], "answer": "C" }, { "question": "How do you import a module in Python?", "options": ["A. include module", "B. import module", "C. load module", "D. attach module"], "answer": "B" }, { "question": "What is the output of: def add(x, y): return x + y; print(add(2, 3))?", "options": ["A. 23", "B. 5", "C. x + y", "D. Error"], "answer": "B" }, { "question": "Which file type is typically used for creating modules in Python?", "options": ["A. .txt", "B. .csv", "C. .py", "D. .mod"], "answer": "C" }, { "question": "What is a Python module?", "options": ["A. A class", "B. A file containing Python code", "C. A Python package", "D. A Python variable"], "answer": "B" }, { "question": "Which built-in function gives a list of attributes of an object/module?", "options": ["A. type()", "B. help()", "C. dir()", "D. attr()"], "answer": "C" }, { "question": "Which keyword allows importing specific items from a module?", "options": ["A. import", "B. from", "C. using", "D. module"], "answer": "B" }, { "question": "How can you give an alias to a module?", "options": ["A. module.alias()", "B. import module as alias", "C. alias module", "D. module = alias"], "answer": "B" }, { "question": "What does the 'math' module provide?", "options": ["A. File handling", "B. OS-level functions", "C. Mathematical functions", "D. Web operations"], "answer": "C" }, { "question": "What is the output of: def greet(): print('Hello'); greet()?", "options": ["A. Nothing", "B. Hello", "C. greet", "D. Error"], "answer": "B" }, { "question": "How can a function receive default values?", "options": ["A. By using return", "B. By using default keyword", "C. By assigning in parameter list", "D. By using const"], "answer": "C" }, { "question": "What does the statement 'if name == "main"' check?", "options": ["A. Module import", "B. Variable name", "C. Main program execution", "D. File name"], "answer": "C" }, { "question": "Which is a valid way to import the 'math' module?", "options": ["A. load math", "B. import math", "C. require math", "D. attach math"], "answer": "B" }, { "question": "What is the output of: def foo(x): return x2; print(foo(4))?", "options": ["A. 4", "B. 8", "C. x2", "D. Error"], "answer": "B" }, { "question": "Which function gets user input from the console?", "options": ["A. input()", "B. scan()", "C. get()", "D. enter()"], "answer": "A" }, { "question": "Which symbol is used to comment in Python?", "options": ["A. //", "B. /* */", "C. #", "D. <!-- -->"], "answer": "C" }, { "question": "Can a Python function return multiple values?", "options": ["A. No", "B. Only integers", "C. Yes, using tuple", "D. Yes, using return only one value"], "answer": "C" }, { "question": "What is a function parameter?", "options": ["A. Output from a function", "B. Argument passed to a function", "C. Code block", "D. Function result"], "answer": "B" }, { "question": "How do you define a function with no parameters?", "options": ["A. def func[]", "B. def func()", "C. define func()", "D. function func()"], "answer": "B" }, { "question": "What will 'import math; print(math.sqrt(16))' output?", "options": ["A. 8", "B. 256", "C. 4.0", "D. Error"], "answer": "C" }, { "question": "Which module helps to interact with the operating system?", "options": ["A. math", "B. os", "C. time", "D. sys"], "answer": "B" }, { "question": "What does 'import random' do?", "options": ["A. Creates randomness", "B. Imports system settings", "C. Creates GUI", "D. Handles text"], "answer": "A" }, { "question": "How do you install a third-party Python module?", "options": ["A. python install", "B. pip install", "C. setup install", "D. module install"], "answer": "B" }, { "question": "What is a return type of a function that does not return anything?", "options": ["A. 0", "B. void", "C. None", "D. False"], "answer": "C" },
+{
+  "question": "What does the 'random' module in Python help with?",
+  "options": ["A. File handling", "B. Math operations", "C. Generating random values", "D. Date formatting"],
+  "answer": "C"
+}
+{
+  "question": "Which of the following defines a function named 'greet' that prints 'Hi'?",
+  "options": ["A. def greet: print('Hi')", "B. def greet() print('Hi')", "C. def greet(): print('Hi')", "D. greet() = print('Hi')"],
+  "answer": "C"
+}
+{
+  "question": "What is the correct way to import only the sqrt function from the math module?",
+  "options": ["A. from math import sqrt", "B. import math.sqrt", "C. import sqrt from math", "D. math import sqrt"],
+  "answer": "A"
+}
+{
+  "question": "How do you prevent a function from returning a value?",
+  "options": ["A. Use break", "B. Use continue", "C. Do not use return", "D. Use return 0"],
+  "answer": "C"
+}
+{
+  "question": "What is a function that calls itself called?",
+  "options": ["A. Static", "B. Lambda", "C. Recursive", "D. Self-calling"],
+  "answer": "C"
+}
+{
+  "question": "Which function can be used to get the current working directory?",
+  "options": ["A. os.get()", "B. os.getcwd()", "C. path.cwd()", "D. os.directory()"],
+  "answer": "B"
+}
+{
+  "question": "What is the use of 'import os'?",
+  "options": ["A. Math functions", "B. File reading", "C. Operating system interface", "D. GUI programming"],
+  "answer": "C"
+}
+{
+  "question": "What is the correct way to define a function with one parameter 'x'?",
+  "options": ["A. def x(func):", "B. def func[x]:", "C. def func(x):", "D. function(x):"],
+  "answer": "C"
+}
+{
+  "question": "Which Python module is used for date and time operations?",
+  "options": ["A. datetime", "B. math", "C. os", "D. timeos"],
+  "answer": "A"
+}
+{
+  "question": "What is a docstring in a Python function?",
+  "options": ["A. Variable name", "B. A comment outside function", "C. A string to document the function", "D. None of these"],
+  "answer": "C"
+}
+{
+  "question": "What will 'type(math)' return after 'import math'?",
+  "options": ["A. module", "B. str", "C. function", "D. int"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to pause program execution for some time?",
+  "options": ["A. pause()", "B. sleep()", "C. delay()", "D. wait()"],
+  "answer": "B"
+}
+{
+  "question": "What is the result of 'math.pow(2, 3)'?",
+  "options": ["A. 6", "B. 9", "C. 8.0", "D. 7"],
+  "answer": "C"
+}
+{
+  "question": "Which of the following is a built-in Python function?",
+  "options": ["A. return()", "B. def()", "C. print()", "D. write()"],
+  "answer": "C"
+}
+{
+  "question": "What is the syntax for a function with default value of y=5?",
+  "options": ["A. def func(y=5):", "B. func def y=5:", "C. def func(y: 5)", "D. function func(y=5):"],
+  "answer": "A"
+}
+{
+  "question": "How many arguments can a function have?",
+  "options": ["A. 0", "B. 1", "C. 2", "D. Any number"],
+  "answer": "D"
+}
+{
+  "question": "Which keyword is used to define an anonymous function in Python?",
+  "options": ["A. def", "B. return", "C. lambda", "D. function"],
+  "answer": "C"
+}
+{
+  "question": "How to print the value of Pi from math module?",
+  "options": ["A. print(math.pi)", "B. print(pi)", "C. print(math.PI)", "D. print(Pi)"],
+  "answer": "A"
+}
+{
+  "question": "Which statement is used to stop a loop inside a function?",
+  "options": ["A. continue", "B. exit", "C. stop", "D. break"],
+  "answer": "D"
+}
+{
+  "question": "What is the use of 'pass' in a function body?",
+  "options": ["A. Skip error", "B. Do nothing", "C. Exit function", "D. Return result"],
+  "answer": "B"
+}
+{
+  "question": "What is a Python package?",
+  "options": ["A. A single script", "B. A collection of modules", "C. A function", "D. A data file"],
+  "answer": "B"
+}
+{
+  "question": "What is the result of: def calc(a=2, b=3): return a + b; print(calc())?",
+  "options": ["A. 5", "B. a + b", "C. Error", "D. 23"],
+  "answer": "A"
+}
+{
+  "question": "What will 'round(3.1415, 2)' return?",
+  "options": ["A. 3.14", "B. 3.1", "C. 3.142", "D. 3.0"],
+  "answer": "A"
+}
+{
+  "question": "Which keyword makes a variable global inside a function?",
+  "options": ["A. static", "B. var", "C. global", "D. globalize"],
+  "answer": "C"
+}
+{
+  "question": "Which function displays documentation for a module?",
+  "options": ["A. doc()", "B. help()", "C. info()", "D. details()"],
+  "answer": "B"
+    },
+    {
+  "question": "What is the correct syntax to return a value from a function?",
+  "options": ["A. return x", "B. return: x", "C. x return", "D. give x"],
+  "answer": "A"
+}
+{
+  "question": "Which module is used to interact with the operating system?",
+  "options": ["A. math", "B. sys", "C. os", "D. random"],
+  "answer": "C"
+}
+{
+  "question": "Which Python module is used to generate random numbers?",
+  "options": ["A. math", "B. os", "C. random", "D. datetime"],
+  "answer": "C"
+}
+{
+  "question": "What will the function 'len()' return?",
+  "options": ["A. The memory address", "B. The last item", "C. The number of items", "D. The data type"],
+  "answer": "C"
+}
+{
+  "question": "What does the following code print? def foo(): return 2 + 3; print(foo())",
+  "options": ["A. foo()", "B. 5", "C. 2 + 3", "D. None"],
+  "answer": "B"
+}
+{
+  "question": "What will happen if a function does not have a return statement?",
+  "options": ["A. It will return 0", "B. It will return None", "C. It will throw an error", "D. It will return False"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following can be passed to a function?",
+  "options": ["A. Variables", "B. Lists", "C. Strings", "D. All of the above"],
+  "answer": "D"
+}
+{
+  "question": "What is the output of: def say(name): return f'Hello {name}'; print(say('Ali'))",
+  "options": ["A. Hello Ali", "B. Ali", "C. say(Ali)", "D. f'Hello Ali'"],
+  "answer": "A"
+}
+{
+  "question": "What will print(type(os)) return after 'import os'?",
+  "options": ["A. <class 'os'>", "B. <class 'module'>", "C. <module>", "D. <os>"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following is NOT a valid function name?",
+  "options": ["A. calculate", "B. sum1", "C. _total", "D. 1result"],
+  "answer": "D"
+}
+{
+  "question": "What happens when a function is called with more arguments than defined?",
+  "options": ["A. Extra arguments are ignored", "B. Returns 0", "C. Raises TypeError", "D. Executes partially"],
+  "answer": "C"
+}
+{
+  "question": "What is the purpose of *args in a function?",
+  "options": ["A. Handle any number of keyword arguments", "B. Handle any number of positional arguments", "C. Return multiple values", "D. Define default arguments"],
+  "answer": "B"
+}
+{
+  "question": "Which syntax correctly uses **kwargs?",
+  "options": ["A. def func(**kwargs):", "B. def func(kwargs**):", "C. def func(*kwargs):", "D. def func(**):"],
+  "answer": "A"
+}
+{
+  "question": "Which of these is NOT part of a module?",
+  "options": ["A. Functions", "B. Classes", "C. Loops", "D. Files"],
+  "answer": "D"
+}
+{
+  "question": "How do you call a function named 'display'?",
+  "options": ["A. call display()", "B. run display", "C. display()", "D. start display()"],
+  "answer": "C"
+}
+{
+  "question": "What does a return statement do?",
+  "options": ["A. Outputs a print message", "B. Sends back a value from function", "C. Exits Python", "D. Continues loop"],
+  "answer": "B"
+}
+{
+  "question": "What does this return: max(5, 10, 3)?",
+  "options": ["A. 5", "B. 10", "C. 3", "D. Error"],
+  "answer": "B"
+}
+{
+  "question": "Which function can be used to import a module dynamically?",
+  "options": ["A. import()", "B. __import__()", "C. dynamic_import()", "D. load_module()"],
+  "answer": "B"
+}
+{
+  "question": "Which operator is used to define a lambda function?",
+  "options": ["A. =>", "B. :", "C. ->", "D. lambda"],
+  "answer": "D"
+}
+{
+  "question": "What will 'abs(-7)' return?",
+  "options": ["A. -7", "B. 0", "C. 7", "D. Error"],
+  "answer": "C"
+}
+{
+  "question": "How do you import all functions from a module?",
+  "options": ["A. import module.all", "B. from module import all", "C. import * from module", "D. from module import *"],
+  "answer": "D"
+}
+{
+  "question": "Which is a correct lambda function to add 5 to a number?",
+  "options": ["A. lambda x: x + 5", "B. lambda x = x + 5", "C. lambda x(x + 5)", "D. def lambda x: x + 5"],
+  "answer": "A"
+}
+{
+  "question": "Which function returns the smallest number?",
+  "options": ["A. min()", "B. low()", "C. small()", "D. sort()"],
+  "answer": "A"
+}
+{
+  "question": "What will print(len(\"hello\")) return?",
+  "options": ["A. 5", "B. 6", "C. hello", "D. len"],
+  "answer": "A"
+}
+{
+  "question": "Which module helps in working with system-specific parameters?",
+  "options": ["A. os", "B. sys", "C. platform", "D. subprocess"],
+  "answer": "B"
+},
+{
+  "question": "Which module is used for generating time delays in seconds?",
+  "options": ["A. datetime", "B. time", "C. os", "D. delay"],
+  "answer": "B"
+}
+{
+  "question": "How do you define a function with no parameters?",
+  "options": ["A. def func():", "B. def func[]:", "C. func def():", "D. function():"],
+  "answer": "A"
+}
+{
+  "question": "Which is the correct way to create a module in Python?",
+  "options": ["A. Create a class", "B. Create a package", "C. Create a .py file", "D. Create a folder"],
+  "answer": "C"
+}
+{
+  "question": "Which function returns a list of attributes and methods of an object?",
+  "options": ["A. type()", "B. list()", "C. dir()", "D. help()"],
+  "answer": "C"
+}
+{
+  "question": "What is the output of: sum([1, 2, 3])?",
+  "options": ["A. 6", "B. [1, 2, 3]", "C. Error", "D. 123"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of this code: def f(x): return x * 2; print(f(3))?",
+  "options": ["A. 3", "B. 6", "C. x * 2", "D. Error"],
+  "answer": "B"
+}
+{
+  "question": "What does 'math.floor(3.7)' return?",
+  "options": ["A. 3", "B. 4", "C. 3.7", "D. Error"],
+  "answer": "A"
+}
+{
+  "question": "Which of these functions will convert a string to an integer?",
+  "options": ["A. str()", "B. float()", "C. int()", "D. bool()"],
+  "answer": "C"
+}
+{
+  "question": "Which Python statement is used to skip a function’s code temporarily?",
+  "options": ["A. stop", "B. continue", "C. pass", "D. return"],
+  "answer": "C"
+}
+{
+  "question": "How do you import the math module?",
+  "options": ["A. import math", "B. include math", "C. using math", "D. load math"],
+  "answer": "A"
+}
+{
+  "question": "What does the keyword def do in Python?",
+  "options": ["A. It returns a value", "B. It imports a module", "C. It defines a function", "D. It ends the function"],
+  "answer": "C"
+}
+{
+  "question": "Which method from the random module returns a float between 0 and 1?",
+  "options": ["A. random()", "B. randint()", "C. choice()", "D. uniform(0, 1)"],
+  "answer": "A"
+}
+{
+  "question": "How do you import a module with an alias?",
+  "options": ["A. import module = alias", "B. module as alias", "C. import module as alias", "D. alias import module"],
+  "answer": "C"
+}
+{
+  "question": "What is the output of 'round(4.5)'?",
+  "options": ["A. 5", "B. 4", "C. 4.5", "D. Error"],
+  "answer": "A"
+}
+{
+  "question": "What is the role of 'return' in a function?",
+  "options": ["A. To print result", "B. To end loop", "C. To pass control", "D. To send back value"],
+  "answer": "D"
+}
+{
+  "question": "What is the output of: min(3, 2, 5)?",
+  "options": ["A. 2", "B. 3", "C. 5", "D. 0"],
+  "answer": "A"
+}
+{
+  "question": "Which of these can you import using import statement?",
+  "options": ["A. Built-in module", "B. User-defined module", "C. Third-party module", "D. All of the above"],
+  "answer": "D"
+}
+{
+  "question": "What is the correct syntax to define a function with optional argument?",
+  "options": ["A. def func(x=1):", "B. def func(x=):", "C. def func(x=1,):", "D. A and C"],
+  "answer": "D"
+}
+{
+  "question": "Which function converts other data types to string?",
+  "options": ["A. str()", "B. string()", "C. toStr()", "D. convert()"],
+  "answer": "A"
+}
+{
+  "question": "What will 'bool(0)' return?",
+  "options": ["A. True", "B. False", "C. 0", "D. None"],
+  "answer": "B"
+}
+{
+  "question": "What is the default return value of a function with no return statement?",
+  "options": ["A. 0", "B. Empty string", "C. None", "D. False"],
+  "answer": "C"
+}
+{
+  "question": "Which keyword is used to exit a function early?",
+  "options": ["A. exit", "B. return", "C. break", "D. stop"],
+  "answer": "B"
+}
+{
+  "question": "How can you prevent a script from running when imported as a module?",
+  "options": ["A. if __main__ == '__name__'", "B. if __name__ == '__main__'", "C. main():", "D. stop()"],
+  "answer": "B"
+}
+{
+  "question": "How to use a function from another Python file?",
+  "options": ["A. call filename.function()", "B. import filename", "C. include filename", "D. run filename"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following statements about functions is false?",
+  "options": ["A. Functions help avoid code repetition", "B. Functions can return multiple values", "C. Functions cannot call themselves", "D. Functions can take default arguments"],
+  "answer": "C"
+},
+{
+  "question": "What is the purpose of a try block in Python?",
+  "options": ["A. To handle exceptions", "B. To return values", "C. To define a function", "D. To loop through items"],
+  "answer": "A"
+}
+{
+  "question": "What is the syntax for catching exceptions in Python?",
+  "options": ["A. except Exception", "B. except Exception as e", "C. except e", "D. catch Exception as e"],
+  "answer": "B"
+}
+{
+  "question": "What is the result of the following code? try: 1/0 except ZeroDivisionError: print('Error')",
+  "options": ["A. Error", "B. ZeroDivisionError", "C. 1", "D. Nothing"],
+  "answer": "A"
+}
+{
+  "question": "What is the keyword used to raise an exception in Python?",
+  "options": ["A. raise", "B. throw", "C. error", "D. except"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is a built-in exception class?",
+  "options": ["A. SyntaxError", "B. ValueError", "C. TypeError", "D. All of the above"],
+  "answer": "D"
+}
+{
+  "question": "What is the output of the following code? try: print(10/0) except ZeroDivisionError: pass",
+  "options": ["A. Error", "B. Nothing", "C. ZeroDivisionError", "D. 10"],
+  "answer": "B"
+}
+{
+  "question": "What is the correct way to define a custom exception class?",
+  "options": ["A. class MyException: pass", "B. def MyException(): pass", "C. exception MyException: pass", "D. raise MyException:"],
+  "answer": "A"
+}
+{
+  "question": "Which statement is used to handle a specific exception type?",
+  "options": ["A. except ZeroDivisionError", "B. except ValueError", "C. except FileNotFoundError", "D. All of the above"],
+  "answer": "D"
+}
+{
+  "question": "What is the output of this code? try: x = 1/0 except ZeroDivisionError: x = 0 finally: print(x)",
+  "options": ["A. 0", "B. 1", "C. None", "D. Error"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following can be used to catch multiple exceptions in one block?",
+  "options": ["A. except (TypeError, ValueError)", "B. except (ZeroDivisionError)", "C. except SyntaxError", "D. except Exception"],
+  "answer": "A"
+}
+{
+  "question": "What does the 'finally' block do in exception handling?",
+  "options": ["A. It is executed only when there is an error", "B. It is executed only when there is no error", "C. It is always executed", "D. It never executes"],
+  "answer": "C"
+}
+{
+  "question": "How do you catch all exceptions in a try-except block?",
+  "options": ["A. except *", "B. except Exception as e", "C. except Error", "D. except All"],
+  "answer": "B"
+}
+{
+  "question": "What does the following code do? try: raise ValueError except ValueError: print('Caught exception')",
+  "options": ["A. Raises an error", "B. Catches and prints the exception", "C. Does nothing", "D. Prints 'ValueError'"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following exceptions will be raised if you try to access a non-existent file?",
+  "options": ["A. FileNotFoundError", "B. ValueError", "C. SyntaxError", "D. TypeError"],
+  "answer": "A"
+}
+{
+  "question": "What does 'else' do in a try-except block?",
+  "options": ["A. Runs if an exception occurs", "B. Runs if no exception occurs", "C. Stops execution of the program", "D. Exits the try-except block"],
+  "answer": "B"
+}
+{
+  "question": "What happens if no exception is raised in the try block?",
+  "options": ["A. The code in the except block is executed", "B. The code in the finally block is executed", "C. The program terminates", "D. The code in the else block is executed"],
+  "answer": "D"
+}
+{
+  "question": "Which of these can you raise manually in Python?",
+  "options": ["A. Integer", "B. ValueError", "C. List", "D. File"],
+  "answer": "B"
+}
+{
+  "question": "What will the following code print? try: print('hello') finally: print('world')",
+  "options": ["A. hello", "B. hello world", "C. world", "D. Error"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following will not result in an exception?",
+  "options": ["A. 1/0", "B. open('nonexistent_file')", "C. 'abc' + 1", "D. 'abc' + 'def'"],
+  "answer": "D"
+}
+{
+  "question": "What is the difference between 'raise' and 'throw' in Python?",
+  "options": ["A. 'raise' is used in Python, 'throw' is used in other languages", "B. 'throw' is used in Python", "C. They are the same", "D. 'raise' is used for user-defined exceptions"],
+  "answer": "A"
+}
+{
+  "question": "What happens when an exception is raised in a function?",
+  "options": ["A. The function stops executing", "B. The function continues execution", "C. The function skips the code inside the except block", "D. The function restarts"],
+  "answer": "A"
+}
+{
+  "question": "What is the default behavior when an exception is raised and not caught?",
+  "options": ["A. Python handles the exception silently", "B. The program continues to execute", "C. The program terminates", "D. Python prints the exception message and exits"],
+  "answer": "C"
+}
+{
+  "question": "Which of the following will NOT be caught by an exception handler?",
+  "options": ["A. SyntaxError", "B. ZeroDivisionError", "C. FileNotFoundError", "D. TypeError"],
+  "answer": "A"
+},
+{
+  "question": "Which function is used to open a file in Python?",
+  "options": ["A. open_file()", "B. file_open()", "C. open()", "D. read_file()"],
+  "answer": "C"
+}
+{
+  "question": "Which of the following modes is used to read from a file?",
+  "options": ["A. 'r'", "B. 'w'", "C. 'a'", "D. 'r+'"],
+  "answer": "A"
+}
+{
+  "question": "Which function reads the entire content of a file at once?",
+  "options": ["A. read()", "B. readline()", "C. readlines()", "D. get_content()"],
+  "answer": "A"
+}
+{
+  "question": "What is the output of the following code? with open('test.txt', 'r') as file: print(file.read())",
+  "options": ["A. Prints the content of the file", "B. Prints an error message", "C. Nothing", "D. Prints the file name"],
+  "answer": "A"
+}
+{
+  "question": "What mode would you use to write to a file, overwriting its content?",
+  "options": ["A. 'r'", "B. 'w'", "C. 'a'", "D. 'x'"],
+  "answer": "B"
+}
+{
+  "question": "How do you add new content to an existing file without overwriting it?",
+  "options": ["A. 'w' mode", "B. 'a' mode", "C. 'x' mode", "D. 'r' mode"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following will automatically close the file after reading or writing?",
+  "options": ["A. open() with 'r' mode", "B. open() with 'w' mode", "C. open() with 'a' mode", "D. open() using 'with' statement"],
+  "answer": "D"
+}
+{
+  "question": "What is the result of calling file.readlines()?",
+  "options": ["A. It reads the file character by character", "B. It reads the file as a single string", "C. It reads the file line by line", "D. It writes the file"],
+  "answer": "C"
+}
+{
+  "question": "Which function is used to write a string to a file?",
+  "options": ["A. write()", "B. append()", "C. print()", "D. save()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct way to open a file for both reading and writing?",
+  "options": ["A. open('file.txt', 'rw')", "B. open('file.txt', 'r+')", "C. open('file.txt', 'rw+')", "D. open('file.txt', 'rw')"],
+  "answer": "B"
+}
+{
+  "question": "Which of these methods will allow you to write a list of strings to a file?",
+  "options": ["A. file.write()", "B. file.writelines()", "C. file.append()", "D. file.writeall()"],
+  "answer": "B"
+}
+{
+  "question": "What happens if you try to read from a file that doesn't exist?",
+  "options": ["A. Python will create the file", "B. Python will raise a FileNotFoundError", "C. Python will return None", "D. Python will ask for input"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following would you use to ensure a file is properly closed after opening?",
+  "options": ["A. open() with 'w' mode", "B. close() method", "C. with statement", "D. end() method"],
+  "answer": "C"
+}
+{
+  "question": "What does 'file.seek(0)' do?",
+  "options": ["A. Reads the file", "B. Writes to the file", "C. Moves the file pointer to the beginning", "D. Closes the file"],
+  "answer": "C"
+}
+{
+  "question": "How do you read a file line by line in a loop?",
+  "options": ["A. for line in file:", "B. file.read()", "C. file.readlines()", "D. file.write()"],
+  "answer": "A"
+}
+{
+  "question": "Which of these statements will throw an error?",
+  "options": ["A. open('file.txt', 'r')", "B. open('file.txt', 'w')", "C. open('file.txt', 'x')", "D. open('file.txt', 'a')"],
+  "answer": "C"
+}
+{
+  "question": "Which mode would you use to open a file for exclusive creation (fails if the file already exists)?",
+  "options": ["A. 'r+'", "B. 'x'", "C. 'w'", "D. 'a'"],
+  "answer": "B"
+}
+{
+  "question": "What happens if you attempt to write to a file that is opened in read-only mode?",
+  "options": ["A. It writes data to the file", "B. It throws a TypeError", "C. It throws a ValueError", "D. It throws a PermissionError"],
+  "answer": "D"
+}
+{
+  "question": "Which of these is the proper way to write to a file using the 'with' statement?",
+  "options": ["A. with open('file.txt', 'w') as file: file.write('Hello')", "B. with open('file.txt') as file: file.write('Hello')", "C. with open('file.txt', 'r') as file: file.write('Hello')", "D. open('file.txt', 'w') as file: file.write('Hello')"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to read a single line from a file?",
+  "options": ["A. read()", "B. readline()", "C. readlines()", "D. get_line()"],
+  "answer": "B"
+}
+{
+  "question": "How do you append content to an existing file?",
+  "options": ["A. 'a' mode", "B. 'w' mode", "C. 'r' mode", "D. 'x' mode"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to check if a file exists?",
+  "options": ["A. exists()", "B. os.exists()", "C. file.exists()", "D. os.path.exists()"],
+  "answer": "D"
+}
+{
+  "question": "What is the behavior of 'file.write()' if you try to write an empty string?",
+  "options": ["A. It raises an error", "B. It writes an empty line", "C. It writes the string 'None'", "D. It does nothing"],
+  "answer": "D"
+}
+{
+  "question": "How do you open a file for both reading and appending?",
+  "options": ["A. open('file.txt', 'r+')", "B. open('file.txt', 'w+')", "C. open('file.txt', 'a+')", "D. open('file.txt', 'rw')"],
+  "answer": "C"
+},
+{
+  "question": "Which of the following modules is used for mathematical operations in Python?",
+  "options": ["A. math", "B. datetime", "C. calendar", "D. random"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module is used to get the square root of a number?",
+  "options": ["A. sqrt()", "B. pow()", "C. root()", "D. square()"],
+  "answer": "A"
+}
+{
+  "question": "What is the value of math.pi in Python?",
+  "options": ["A. 3.14159", "B. 3.14", "C. 3.15", "D. 3"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to find the greatest common divisor of two numbers?",
+  "options": ["A. gcd()", "B. lcm()", "C. mod()", "D. hcf()"],
+  "answer": "A"
+}
+{
+  "question": "How do you get the current date and time in Python?",
+  "options": ["A. datetime.datetime.now()", "B. time.time()", "C. date.today()", "D. datetime.current()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct format to represent the current time as 'HH:MM:SS'?",
+  "options": ["A. '%H:%M:%S'", "B. '%d-%m-%Y'", "C. '%M:%S:%H'", "D. '%H:%d:%M'"],
+  "answer": "A"
+}
+{
+  "question": "Which method of datetime module is used to convert a string into a datetime object?",
+  "options": ["A. strptime()", "B. datetime()", "C. parse()", "D. format()"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to calculate the factorial of a number in Python?",
+  "options": ["A. factorial()", "B. fact()", "C. product()", "D. power()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct way to create a date object in Python?",
+  "options": ["A. datetime.date(year, month, day)", "B. date(year, month, day)", "C. datetime(year, month, day)", "D. create_date(year, month, day)"],
+  "answer": "A"
+}
+{
+  "question": "How do you get the current weekday in Python?",
+  "options": ["A. datetime.weekday()", "B. datetime.today().weekday()", "C. weekday()", "D. date.weekday()"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following can be used to add a time period to a datetime object?",
+  "options": ["A. timedelta", "B. time", "C. date", "D. period"],
+  "answer": "A"
+}
+{
+  "question": "What does the calendar.month() function return?",
+  "options": ["A. A calendar for a specific month", "B. A list of all months", "C. The current month", "D. The total number of months in a year"],
+  "answer": "A"
+}
+{
+  "question": "How would you display the current date in the format 'Day-Month-Year'?",
+  "options": ["A. '%d-%m-%Y'", "B. '%Y-%m-%d'", "C. '%m-%d-%Y'", "D. '%Y/%m/%d'"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to convert a datetime object to a string?",
+  "options": ["A. strftime()", "B. format()", "C. string()", "D. date()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods returns the number of days in a month?",
+  "options": ["A. calendar.monthrange(year, month)", "B. calendar.monthlength(year, month)", "C. calendar.get_days_in_month(year, month)", "D. calendar.month()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to generate a random number?",
+  "options": ["A. random()", "B. randint()", "C. math.random()", "D. generate()"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following functions is used to find the smallest integer greater than or equal to a given number?",
+  "options": ["A. ceil()", "B. floor()", "C. round()", "D. int()"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to find the largest integer less than or equal to a given number?",
+  "options": ["A. floor()", "B. ceil()", "C. round()", "D. int()"],
+  "answer": "A"
+}
+{
+  "question": "How do you get the current time in seconds from the epoch?",
+  "options": ["A. time.time()", "B. datetime.now()", "C. current_time()", "D. time.current()"],
+  "answer": "A"
+}
+{
+  "question": "Which of these methods returns the current local date?",
+  "options": ["A. datetime.date.today()", "B. time.date.today()", "C. datetime.now()", "D. time.localtime()"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.pow(x, y) function do?",
+  "options": ["A. Returns x raised to the power y", "B. Returns the sum of x and y", "C. Returns x modulo y", "D. Returns x to the power of y modulo z"],
+  "answer": "A"
+}
+{
+  "question": "Which module provides functions for generating and manipulating dates and times?",
+  "options": ["A. datetime", "B. calendar", "C. math", "D. random"],
+  "answer": "A"
+}
+{
+  "question": "Which function can be used to get the current date in Python?",
+  "options": ["A. datetime.today()", "B. datetime.now()", "C. date.today()", "D. time.today()"],
+  "answer": "C"
+},
+{
+  "question": "Which of the following methods is used to get the week number of a given date in Python?",
+  "options": ["A. isocalendar()", "B. weeknumber()", "C. get_week()", "D. calendar.week()"],
+  "answer": "A"
+}
+{
+  "question": "What does the function math.radians(x) do?",
+  "options": ["A. Converts degrees to radians", "B. Converts radians to degrees", "C. Calculates the sine of x", "D. Returns the value of pi"],
+  "answer": "A"
+}
+{
+  "question": "Which of these methods returns the number of days in a month for a given year and month?",
+  "options": ["A. calendar.monthrange()", "B. calendar.get_days()", "C. date.days_in_month()", "D. calendar.days_in_month()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following would you use to find if a year is a leap year?",
+  "options": ["A. calendar.isleap()", "B. datetime.isleap()", "C. date.is_leap()", "D. math.is_leap()"],
+  "answer": "A"
+}
+{
+  "question": "Which method can be used to get the month name from a datetime object?",
+  "options": ["A. datetime.strftime('%B')", "B. datetime.monthname()", "C. datetime.get_month()", "D. datetime.month_name()"],
+  "answer": "A"
+}
+{
+  "question": "How can you calculate the time difference between two datetime objects in Python?",
+  "options": ["A. Subtract the two datetime objects", "B. Use the difference() method", "C. Use timedelta() function", "D. Use date_diff() function"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.fmod(x, y) function return?",
+  "options": ["A. The remainder of x divided by y", "B. The quotient of x divided by y", "C. The floor of x divided by y", "D. The square root of x"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following functions is used to get the current time?",
+  "options": ["A. time.localtime()", "B. datetime.now()", "C. datetime.today()", "D. time.time()"],
+  "answer": "B"
+}
+{
+  "question": "Which Python module provides the calendar functionality?",
+  "options": ["A. calendar", "B. datetime", "C. time", "D. math"],
+  "answer": "A"
+}
+{
+  "question": "What is the output of math.ceil(3.7)?",
+  "options": ["A. 4", "B. 3", "C. 3.7", "D. 5"],
+  "answer": "A"
+}
+{
+  "question": "How do you convert a string to a datetime object in Python?",
+  "options": ["A. Use strptime()", "B. Use datetime.strptime()", "C. Use convert_date()", "D. Use string_to_datetime()"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following functions from the math module returns the absolute value of a number?",
+  "options": ["A. abs()", "B. fabs()", "C. floor()", "D. ceil()"],
+  "answer": "B"
+}
+{
+  "question": "Which method of the datetime module is used to get the current date?",
+  "options": ["A. datetime.now()", "B. datetime.today()", "C. datetime.date.today()", "D. datetime.get_today()"],
+  "answer": "C"
+}
+{
+  "question": "What is the purpose of the calendar.monthcalendar() function?",
+  "options": ["A. It returns a matrix representing the month's calendar", "B. It returns the number of days in a month", "C. It returns the name of the month", "D. It returns the first day of the week for a given month"],
+  "answer": "A"
+}
+{
+  "question": "How do you get the weekday number of a date (0 for Monday to 6 for Sunday)?",
+  "options": ["A. Use weekday() method", "B. Use isocalendar() method", "C. Use calendar.weekday()", "D. Use dayofweek() method"],
+  "answer": "A"
+}
+{
+  "question": "Which module provides a function to get a random floating-point number between 0 and 1?",
+  "options": ["A. random", "B. math", "C. datetime", "D. time"],
+  "answer": "A"
+}
+{
+  "question": "What does the function time.sleep() do?",
+  "options": ["A. Pauses the program for the specified time", "B. Makes the program run faster", "C. Ends the program after a specified time", "D. Prints the time"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to check if a given year is a leap year?",
+  "options": ["A. calendar.isleap(year)", "B. math.isleap(year)", "C. datetime.is_leap(year)", "D. year.isleap()"],
+  "answer": "A"
+}
+{
+  "question": "Which of these methods is used to calculate the difference between two datetime objects?",
+  "options": ["A. timedelta()", "B. subtract()", "C. date_diff()", "D. time_difference()"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the trigonometric sine of a number?",
+  "options": ["A. math.sin()", "B. math.cos()", "C. math.tan()", "D. math.asin()"],
+  "answer": "A"
+}
+{
+  "question": "How do you retrieve the current month in Python?",
+  "options": ["A. datetime.now().month", "B. calendar.month()", "C. time.month()", "D. datetime.month()"],
+  "answer": "A"
+}
+{
+  "question": "What is the result of math.sqrt(25)?",
+  "options": ["A. 5", "B. 25", "C. 10", "D. 0"],
+  "answer": "A"
+}
+{
+  "question": "Which function returns the first day of the week for a given year and month?",
+  "options": ["A. calendar.monthrange()", "B. calendar.first_day()", "C. calendar.week_start()", "D. calendar.start_of_week()"],
+  "answer": "A"
+},
+{
+  "question": "Which function is used to calculate the power of a number in Python?",
+  "options": ["A. math.pow()", "B. math.exponent()", "C. math.exponentiate()", "D. math.exponential()"],
+  "answer": "A"
+}
+{
+  "question": "What does the function calendar.isleap(year) return?",
+  "options": ["A. True if the year is a leap year", "B. The number of days in the year", "C. The number of months in the year", "D. False if the year is a leap year"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods returns the current year?",
+  "options": ["A. datetime.now().year", "B. calendar.year()", "C. time.year()", "D. datetime.year()"],
+  "answer": "A"
+}
+{
+  "question": "Which function returns the current date and time in Python?",
+  "options": ["A. datetime.now()", "B. datetime.current()", "C. time.date()", "D. time.now()"],
+  "answer": "A"
+}
+{
+  "question": "Which function can be used to convert a datetime object to a string format?",
+  "options": ["A. strftime()", "B. stringformat()", "C. convert_datetime()", "D. datetime.format()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct way to get a list of all the weekdays in a month?",
+  "options": ["A. calendar.monthcalendar()", "B. calendar.get_weekdays()", "C. calendar.weekdays_list()", "D. calendar.get_all_weekdays()"],
+  "answer": "A"
+}
+{
+  "question": "Which module in Python provides functions for working with dates and times?",
+  "options": ["A. datetime", "B. time", "C. math", "D. calendar"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to get the current hour?",
+  "options": ["A. datetime.now().hour", "B. time.hour()", "C. time.now().hour", "D. datetime.get_hour()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of math.floor(4.8)?",
+  "options": ["A. 4", "B. 5", "C. 4.8", "D. 3"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to get the number of seconds from the epoch in Python?",
+  "options": ["A. time.time()", "B. time.seconds()", "C. datetime.timestamp()", "D. time.timestamp()"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to calculate the cosine of a number in Python?",
+  "options": ["A. math.cos()", "B. math.sin()", "C. math.tan()", "D. math.asin()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following functions returns the current date in 'yyyy-mm-dd' format?",
+  "options": ["A. datetime.today()", "B. datetime.date.today()", "C. date.today()", "D. datetime.now()"],
+  "answer": "B"
+}
+{
+  "question": "Which of these methods returns the month name from a datetime object?",
+  "options": ["A. strftime('%B')", "B. get_month_name()", "C. datetime.month_name()", "D. datetime.strftime('%Month')"],
+  "answer": "A"
+}
+{
+  "question": "Which function returns the current year?",
+  "options": ["A. datetime.today().year", "B. calendar.year()", "C. time.year()", "D. datetime.get_year()"],
+  "answer": "A"
+}
+{
+  "question": "What does the function math.trunc(x) do?",
+  "options": ["A. Returns the integer part of a number", "B. Returns the smallest integer greater than or equal to x", "C. Returns the ceiling of x", "D. Returns the square root of x"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to get the current time in seconds?",
+  "options": ["A. time.time()", "B. time.seconds()", "C. datetime.now().second", "D. time.current_time()"],
+  "answer": "A"
+}
+{
+  "question": "Which of these methods would you use to calculate the total number of days in a given year?",
+  "options": ["A. calendar.isleap()", "B. calendar.monthrange()", "C. datetime.days_in_year()", "D. date.total_days()"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to return the factorial of a number in Python?",
+  "options": ["A. math.factorial()", "B. math.prod()", "C. math.factor()", "D. math.comb()"],
+  "answer": "A"
+}
+{
+  "question": "Which of these methods returns the day of the week for a given date?",
+  "options": ["A. datetime.weekday()", "B. calendar.get_weekday()", "C. time.get_weekday()", "D. date.get_day()"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module is used to calculate the sine of an angle?",
+  "options": ["A. math.sin()", "B. math.cos()", "C. math.tan()", "D. math.atan()"],
+  "answer": "A"
+}
+{
+  "question": "Which function in the datetime module returns the current time?",
+  "options": ["A. datetime.now()", "B. datetime.now().time()", "C. time.now()", "D. time()"],
+  "answer": "B"
+},
+{
+  "question": "What does the function math.degrees(x) do?",
+  "options": ["A. Converts radians to degrees", "B. Converts degrees to radians", "C. Returns the value of pi", "D. Returns the sine of x"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following will give the weekday number for a given date (0 for Monday to 6 for Sunday)?",
+  "options": ["A. datetime.weekday()", "B. calendar.weekday()", "C. date.weekday()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which function can be used to get the current time in seconds since the epoch?",
+  "options": ["A. time.time()", "B. datetime.now().second", "C. time.seconds()", "D. datetime.timestamp()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to get the first day of the month for a given year and month?",
+  "options": ["A. calendar.monthrange()", "B. calendar.first_day_of_month()", "C. datetime.first_day()", "D. time.first_day()"],
+  "answer": "A"
+}
+{
+  "question": "How can you find the number of days in the current month?",
+  "options": ["A. Use calendar.monthrange()", "B. Use datetime.now().days_in_month", "C. Use datetime.days_in_current_month()", "D. Use calendar.get_days()"],
+  "answer": "A"
+}
+{
+  "question": "Which method of the datetime module returns the current time?",
+  "options": ["A. datetime.now()", "B. datetime.time()", "C. time.now()", "D. time.localtime()"],
+  "answer": "A"
+}
+{
+  "question": "How can you calculate the difference between two datetime objects?",
+  "options": ["A. Use the - operator", "B. Use datetime.diff()", "C. Use date_diff() method", "D. Use timedelta() function"],
+  "answer": "A"
+}
+{
+  "question": "What is the function of math.exp(x)?",
+  "options": ["A. Returns e raised to the power of x", "B. Returns the exponential of x", "C. Returns the sine of x", "D. Returns the square of x"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following functions is used to get the current time zone in Python?",
+  "options": ["A. time.tzname", "B. datetime.tzinfo", "C. datetime.now().timezone", "D. calendar.timezone()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module can be used to create a date object from year, month, and day?",
+  "options": ["A. datetime.date()", "B. date.create()", "C. datetime.make_date()", "D. datetime.new()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of math.fabs(-5)?",
+  "options": ["A. 5.0", "B. -5.0", "C. 0", "D. 5"],
+  "answer": "A"
+}
+{
+  "question": "Which Python module provides support for working with dates and times?",
+  "options": ["A. datetime", "B. math", "C. time", "D. calendar"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following functions can be used to get the name of the day of the week for a given date?",
+  "options": ["A. datetime.strftime('%A')", "B. datetime.day_name()", "C. calendar.day_name()", "D. datetime.get_weekday_name()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to get the number of seconds between two datetime objects?",
+  "options": ["A. (datetime2 - datetime1).total_seconds()", "B. datetime2.diff_seconds(datetime1)", "C. datetime2.total_seconds()", "D. (datetime1 - datetime2).seconds()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following returns the month name from a datetime object?",
+  "options": ["A. datetime.strftime('%B')", "B. datetime.get_month_name()", "C. datetime.monthname()", "D. calendar.month_name()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to calculate the factorial of a number?",
+  "options": ["A. math.factorial()", "B. math.comb()", "C. math.prod()", "D. math.factor()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following will give the current year?",
+  "options": ["A. datetime.now().year", "B. time.get_current_year()", "C. calendar.current_year()", "D. datetime.current_year()"],
+  "answer": "A"
+}
+{
+  "question": "Which function can be used to get the current month in Python?",
+  "options": ["A. datetime.now().month", "B. datetime.month()", "C. calendar.get_month()", "D. time.month()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the math module returns the square root of a number?",
+  "options": ["A. math.sqrt()", "B. math.pow()", "C. math.exponentiate()", "D. math.square()"],
+  "answer": "A"
+}
+{
+  "question": "Which of these functions can be used to calculate the number of days between two dates?",
+  "options": ["A. (date2 - date1).days", "B. datetime.days_diff()", "C. date_diff()", "D. (date2 - date1).total_days()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to determine the number of days in a given month?",
+  "options": ["A. calendar.monthrange()", "B. datetime.get_month_days()", "C. calendar.month_days()", "D. time.month_days()"],
+  "answer": "A"
+},
+{
+  "question": "Which method from the datetime module returns the current time as a string?",
+  "options": ["A. datetime.now().strftime('%H:%M:%S')", "B. datetime.now().time()", "C. datetime.current_time()", "D. time.now().strftime('%H:%M:%S')"],
+  "answer": "A"
+}
+{
+  "question": "Which of these methods returns the name of the day of the week in full form?",
+  "options": ["A. datetime.strftime('%A')", "B. datetime.get_day_name()", "C. calendar.day_name()", "D. time.get_day_name()"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.radians() function do?",
+  "options": ["A. Converts degrees to radians", "B. Converts radians to degrees", "C. Returns the square root of x", "D. Returns the value of pi"],
+  "answer": "A"
+}
+{
+  "question": "How do you find the day of the week for a specific date in Python?",
+  "options": ["A. Use datetime.weekday()", "B. Use calendar.weekday()", "C. Use time.weekday()", "D. All of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which of these functions returns a list of all the weekdays for a given month?",
+  "options": ["A. calendar.monthcalendar()", "B. calendar.get_weekdays()", "C. datetime.weekdays_in_month()", "D. datetime.month_weekdays()"],
+  "answer": "A"
+}
+{
+  "question": "Which function can be used to calculate the cosine of an angle in Python?",
+  "options": ["A. math.cos()", "B. math.sin()", "C. math.tan()", "D. math.radians()"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to calculate the floor value of a number?",
+  "options": ["A. math.floor()", "B. math.ceil()", "C. math.trunc()", "D. math.abs()"],
+  "answer": "A"
+}
+{
+  "question": "What will the function math.ceil(2.3) return?",
+  "options": ["A. 3", "B. 2", "C. 2.3", "D. 4"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the logarithm of a number to a given base?",
+  "options": ["A. math.log()", "B. math.exp()", "C. math.sqrt()", "D. math.factorial()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module can be used to get the current month?",
+  "options": ["A. datetime.now().month", "B. datetime.get_month()", "C. calendar.month()", "D. time.month()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of calling math.sqrt(16)?",
+  "options": ["A. 4.0", "B. 8.0", "C. 16", "D. 4"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the absolute value of a number?",
+  "options": ["A. math.fabs()", "B. math.abs()", "C. math.trunc()", "D. math.floor()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the time module is used to get the current time in seconds?",
+  "options": ["A. time.time()", "B. time.now()", "C. time.get_time()", "D. time.seconds()"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to return the current date and time as a formatted string?",
+  "options": ["A. datetime.now().strftime('%Y-%m-%d %H:%M:%S')", "B. datetime.now().date()", "C. datetime.today().strftime('%d/%m/%Y')", "D. time.format_datetime()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following modules provides functionality for working with time?",
+  "options": ["A. time", "B. datetime", "C. calendar", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "What will be the output of math.sqrt(25)?",
+  "options": ["A. 5.0", "B. 5", "C. 25", "D. 0"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the greatest integer less than or equal to a number?",
+  "options": ["A. math.floor()", "B. math.ceil()", "C. math.trunc()", "D. math.abs()"],
+  "answer": "A"
+}
+{
+  "question": "Which method returns the number of days in a given year?",
+  "options": ["A. calendar.isleap()", "B. datetime.days_in_year()", "C. calendar.get_year_days()", "D. time.days_in_year()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module returns the current date?",
+  "options": ["A. datetime.today().date()", "B. datetime.now().date()", "C. time.date()", "D. datetime.date.today()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of math.pi?",
+  "options": ["A. 3.14159", "B. 3.14", "C. 3", "D. 3.1416"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the time module returns the number of seconds since the epoch?",
+  "options": ["A. time.time()", "B. time.seconds()", "C. datetime.timestamp()", "D. datetime.get_seconds()"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following functions can be used to find the absolute value of a number?",
+  "options": ["A. math.fabs()", "B. abs()", "C. math.abs()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "What will be the output of math.cos(0)?",
+  "options": ["A. 1", "B. 0", "C. -1", "D. Undefined"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods can be used to find the last day of a month?",
+  "options": ["A. calendar.monthrange(year, month)[1]", "B. datetime.get_last_day_of_month()", "C. calendar.get_last_day()", "D. time.get_last_day()"],
+  "answer": "A"
+}
+{
+  "question": "Which method returns the number of days in a given year in Python?",
+  "options": ["A. calendar.isleap()", "B. datetime.get_days_in_year()", "C. calendar.get_year_days()", "D. calendar.year_days()"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to add a specified number of days to a datetime object?",
+  "options": ["A. datetime.timedelta()", "B. datetime.add_days()", "C. time.add_days()", "D. datetime.add()"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module is used to calculate the sine of an angle?",
+  "options": ["A. math.sin()", "B. math.cos()", "C. math.tan()", "D. math.exp()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of math.log(100, 10)?",
+  "options": ["A. 2", "B. 3", "C. 1", "D. 10"],
+  "answer": "A"
+}
+{
+  "question": "What does the function math.pow(2, 3) do?",
+  "options": ["A. Returns 8", "B. Returns 6", "C. Returns 3", "D. Returns 5"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods will give the number of seconds between two datetime objects?",
+  "options": ["A. (datetime2 - datetime1).total_seconds()", "B. (datetime2 - datetime1).seconds()", "C. datetime2.diff(datetime1)", "D. datetime2.seconds_since(datetime1)"],
+  "answer": "A"
+}
+{
+  "question": "What does the datetime.now().minute method return?",
+  "options": ["A. The current minute", "B. The current second", "C. The current hour", "D. The current day"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to determine if a given year is a leap year?",
+  "options": ["A. calendar.isleap(year)", "B. datetime.is_leap_year()", "C. time.isleap()", "D. calendar.get_leap_year()"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module calculates the absolute value of a number?",
+  "options": ["A. math.fabs()", "B. abs()", "C. math.abs()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which of the following methods will return the current date and time?",
+  "options": ["A. datetime.now()", "B. datetime.today()", "C. time.now()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which of the following is used to convert radians to degrees in Python?",
+  "options": ["A. math.degrees()", "B. math.radians()", "C. math.to_degrees()", "D. math.convert()"],
+  "answer": "A"
+}
+{
+  "question": "What does the datetime module provide in Python?",
+  "options": ["A. Classes for manipulating dates and times", "B. Functions to calculate time", "C. Methods to format date strings", "D. All of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which of these is a function that returns a tuple with the weekday and the number of days in a given month?",
+  "options": ["A. calendar.monthrange()", "B. datetime.month_info()", "C. time.month_details()", "D. datetime.get_month_info()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of math.factorial(5)?",
+  "options": ["A. 120", "B. 24", "C. 25", "D. 5"],
+  "answer": "A"
+}
+{
+  "question": "What does the function math.comb(n, r) return?",
+  "options": ["A. The number of ways to choose r items from n", "B. The total number of permutations", "C. The factorial of n", "D. The sum of n and r"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the value of pi?",
+  "options": ["A. math.pi", "B. math.get_pi()", "C. math.constant('pi')", "D. math.radians()"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to calculate the day of the week for a given date in Python?",
+  "options": ["A. datetime.weekday()", "B. calendar.weekday()", "C. time.weekday()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "What is the correct way to get the current date and time in the format 'YYYY-MM-DD HH:MM:SS'?",
+  "options": ["A. datetime.now().strftime('%Y-%m-%d %H:%M:%S')", "B. datetime.now().date()", "C. time.localtime()", "D. time.get_current_time()"],
+  "answer": "A"
+},
+{
+  "question": "Which method returns the number of days in a month for a given year?",
+  "options": ["A. calendar.monthrange(year, month)[1]", "B. calendar.get_days_in_month()", "C. datetime.get_days_in_month()", "D. time.get_days_in_month()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module can be used to convert a string into a datetime object?",
+  "options": ["A. datetime.strptime()", "B. datetime.parse()", "C. datetime.convert()", "D. time.parse()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of math.exp(1)?",
+  "options": ["A. 2.71828", "B. 1", "C. 0", "D. 3.14159"],
+  "answer": "A"
+}
+{
+  "question": "Which method returns the day of the month for a given date object?",
+  "options": ["A. datetime.day", "B. datetime.get_day()", "C. time.get_day()", "D. calendar.get_day()"],
+  "answer": "A"
+}
+{
+  "question": "Which function returns the number of seconds in a day?",
+  "options": ["A. 24 * 60 * 60", "B. datetime.seconds_in_day()", "C. time.seconds_in_day()", "D. 24 * 60"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following functions is used to get the current time in a structured format?",
+  "options": ["A. time.localtime()", "B. datetime.now()", "C. datetime.time()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which method is used to get the current year in Python?",
+  "options": ["A. datetime.now().year", "B. datetime.current_year()", "C. time.year()", "D. calendar.get_current_year()"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.tan() function calculate?",
+  "options": ["A. The tangent of an angle", "B. The sine of an angle", "C. The cosine of an angle", "D. The absolute value of a number"],
+  "answer": "A"
+}
+{
+  "question": "Which function can be used to get the number of days between two dates?",
+  "options": ["A. (date2 - date1).days", "B. datetime.difference(date1, date2)", "C. calendar.days_between(date1, date2)", "D. time.days_between(date1, date2)"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is a valid format string to display the current year in four digits?",
+  "options": ["A. '%Y'", "B. '%y'", "C. '%m'", "D. '%d'"],
+  "answer": "A"
+}
+{
+  "question": "Which method will return the day of the week for a given date object?",
+  "options": ["A. datetime.weekday()", "B. time.day_of_week()", "C. calendar.weekday()", "D. datetime.get_weekday()"],
+  "answer": "A"
+}
+{
+  "question": "What is the output of math.log10(100)?",
+  "options": ["A. 2", "B. 100", "C. 10", "D. 1"],
+  "answer": "A"
+}
+{
+  "question": "Which function returns the number of days in the current month?",
+  "options": ["A. calendar.monthrange(year, month)[1]", "B. time.month_days()", "C. datetime.month_days()", "D. calendar.get_month_days()"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.factorial() function do?",
+  "options": ["A. Returns the factorial of a number", "B. Returns the number raised to the power of 2", "C. Returns the value of pi", "D. Returns the absolute value of a number"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of math.degrees(math.pi)?",
+  "options": ["A. 180", "B. 90", "C. 360", "D. 1"],
+  "answer": "A"
+}
+{
+  "question": "Which function returns the current date and time in Python?",
+  "options": ["A. datetime.now()", "B. datetime.today()", "C. datetime.current()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which of the following functions is used to add a specified number of months to a date object?",
+  "options": ["A. dateutil.relativedelta.relativedelta(months=+1)", "B. datetime.add_months()", "C. time.add_months()", "D. calendar.add_months()"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the datetime module returns the current time?",
+  "options": ["A. datetime.now()", "B. time.time()", "C. datetime.today()", "D. time.get_time()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the math module returns the natural logarithm of a number?",
+  "options": ["A. math.log()", "B. math.ln()", "C. math.log10()", "D. math.exp()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of calling math.ceil(5.4)?",
+  "options": ["A. 6", "B. 5", "C. 5.4", "D. 4"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods can be used to check if a year is a leap year?",
+  "options": ["A. calendar.isleap(year)", "B. datetime.is_leap_year(year)", "C. time.isleap(year)", "D. all of the above"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods returns the number of days in the current year?",
+  "options": ["A. calendar.isleap()", "B. datetime.year_days()", "C. calendar.get_year_days()", "D. time.get_days_in_year()"],
+  "answer": "A"
+},
+{
+  "question": "What will be the result of math.sqrt(16)?",
+  "options": ["A. 4", "B. 16", "C. 8", "D. 2"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to format a date as a string in Python?",
+  "options": ["A. datetime.strftime()", "B. datetime.format()", "C. time.format()", "D. datetime.to_string()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the math module calculates the cosine of an angle?",
+  "options": ["A. math.cos()", "B. math.sin()", "C. math.tan()", "D. math.radians()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of calendar.month(2025, 5)?",
+  "options": ["A. A string representation of May 2025", "B. The number 2025", "C. A string representation of month 5", "D. An error message"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to get the number of days between two dates?",
+  "options": ["A. (date2 - date1).days", "B. datetime.difference(date1, date2)", "C. calendar.diff(date1, date2)", "D. time.days_between()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods will return the current date and time in the format 'YYYY-MM-DD'?",
+  "options": ["A. datetime.now().strftime('%Y-%m-%d')", "B. datetime.today().strftime('%Y-%m-%d')", "C. datetime.date()", "D. time.get_current_date()"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module is used to calculate the natural logarithm of a number?",
+  "options": ["A. math.log()", "B. math.ln()", "C. math.exp()", "D. math.log10()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to determine if a year is a leap year?",
+  "options": ["A. calendar.isleap(year)", "B. datetime.is_leap_year(year)", "C. time.isleap(year)", "D. all of the above"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of datetime.datetime(2025, 5, 3).weekday()?",
+  "options": ["A. 6", "B. 5", "C. 3", "D. 1"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following functions returns the current day of the week?",
+  "options": ["A. datetime.weekday()", "B. time.weekday()", "C. datetime.today().weekday()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which function from the math module returns the smallest integer greater than or equal to a given number?",
+  "options": ["A. math.ceil()", "B. math.floor()", "C. math.sqrt()", "D. math.abs()"],
+  "answer": "A"
+}
+{
+  "question": "What is the result of calling math.fmod(5, 2)?",
+  "options": ["A. 1", "B. 2", "C. 5", "D. 3"],
+  "answer": "A"
+}
+{
+  "question": "What is the result of math.factorial(0)?",
+  "options": ["A. 1", "B. 0", "C. Undefined", "D. 2"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to get the current year in Python?",
+  "options": ["A. datetime.now().year", "B. datetime.get_year()", "C. time.year()", "D. calendar.get_current_year()"],
+  "answer": "A"
+}
+{
+  "question": "Which function can be used to find the greatest common divisor (GCD) of two numbers?",
+  "options": ["A. math.gcd()", "B. math.lcm()", "C. math.greatest()", "D. math.max()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of math.pow(2, 3)?",
+  "options": ["A. 8", "B. 6", "C. 4", "D. 16"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following will return the current time in hours, minutes, and seconds?",
+  "options": ["A. datetime.now().time()", "B. datetime.today().time()", "C. time.now()", "D. datetime.time()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module allows you to find the number of days between two date objects?",
+  "options": ["A. (date2 - date1).days", "B. datetime.days_between(date1, date2)", "C. time.days_between(date1, date2)", "D. datetime.diff()"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module calculates the tangent of an angle?",
+  "options": ["A. math.tan()", "B. math.cos()", "C. math.sin()", "D. math.pow()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following functions is used to convert degrees to radians?",
+  "options": ["A. math.radians()", "B. math.degrees()", "C. math.convert()", "D. math.to_radians()"],
+  "answer": "A"
+}
+{
+  "question": "Which function will return the number of days in a specific month?",
+  "options": ["A. calendar.monthrange(year, month)[1]", "B. datetime.month_days()", "C. time.get_month_days()", "D. all of the above"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following methods can be used to convert a string to a date object?",
+  "options": ["A. datetime.strptime()", "B. datetime.to_date()", "C. calendar.strptime()", "D. time.to_date()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of calling math.floor(5.7)?",
+  "options": ["A. 5", "B. 6", "C. 5.7", "D. 4"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module calculates the absolute value of a number?",
+  "options": ["A. math.abs()", "B. math.fabs()", "C. math.absolute()", "D. math.mod()"],
+  "answer": "B"
+}
+{
+  "question": "Which function from the datetime module allows you to find the current date?",
+  "options": ["A. datetime.date.today()", "B. datetime.today()", "C. datetime.date.now()", "D. all of the above"],
+  "answer": "A"
+}
+{
+  "question": "What is the result of calling math.modf(5.7)?",
+  "options": ["A. (0.7, 5.0)", "B. (5.7, 0)", "C. (5.0, 0.7)", "D. (5.0, 5.7)"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of math.sin(math.radians(90))?",
+  "options": ["A. 1", "B. 0", "C. 0.5", "D. Undefined"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the math module returns the value of pi?",
+  "options": ["A. math.pi", "B. math.pi_value()", "C. math.get_pi()", "D. math.value_of_pi()"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to get the weekday of a specific date in Python?",
+  "options": ["A. datetime.weekday()", "B. calendar.weekday()", "C. datetime.get_weekday()", "D. time.weekday()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of calling datetime.datetime(2025, 5, 3).isoformat()?",
+  "options": ["A. '2025-05-03T00:00:00'", "B. '2025-05-03'", "C. '03-05-2025'", "D. '2025/05/03'"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the math module returns the largest integer less than or equal to the given number?",
+  "options": ["A. math.floor()", "B. math.ceil()", "C. math.trunc()", "D. math.abs()"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to get the current day of the month?",
+  "options": ["A. datetime.now().day", "B. datetime.today().day", "C. time.day()", "D. calendar.current_day()"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the power of a number raised to an exponent?",
+  "options": ["A. math.pow()", "B. math.exponent()", "C. math.power()", "D. math.square()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module returns the current month?",
+  "options": ["A. datetime.now().month", "B. datetime.month()", "C. time.month()", "D. calendar.get_current_month()"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.radians() function do?",
+  "options": ["A. Converts degrees to radians", "B. Converts radians to degrees", "C. Returns the number pi", "D. Calculates the cosine of an angle"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the logarithm of a number to a given base?",
+  "options": ["A. math.log(x, base)", "B. math.log10()", "C. math.exponential()", "D. math.logarithm()"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to get the current time in seconds since the Unix epoch?",
+  "options": ["A. time.time()", "B. datetime.timestamp()", "C. time.get_time()", "D. datetime.now()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of calling math.degrees(math.pi)?",
+  "options": ["A. 180", "B. 360", "C. 90", "D. 2"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods returns the last day of the current month?",
+  "options": ["A. calendar.monthrange(year, month)[1]", "B. datetime.last_day_of_month()", "C. time.get_last_day_of_month()", "D. all of the above"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the largest integer in a sequence of numbers?",
+  "options": ["A. math.fsum()", "B. math.max()", "C. math.argmax()", "D. math.greatest()"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following is used to calculate the area of a circle given the radius?",
+  "options": ["A. math.pi * radius**2", "B. math.area(radius)", "C. math.circle_area(radius)", "D. math.radius_area()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module returns the number of seconds in a given year?",
+  "options": ["A. 365 * 24 * 60 * 60", "B. datetime.year_seconds()", "C. time.get_seconds_in_year()", "D. calendar.get_seconds_in_year()"],
+  "answer": "A"
+},
+{
+  "question": "Which function from the math module calculates the square root of a number?",
+  "options": ["A. math.sqrt()", "B. math.pow()", "C. math.sqroot()", "D. math.expo()"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of the time.sleep() function?",
+  "options": ["A. Pause the execution of a program for a specified time", "B. Get the current system time", "C. Put the program into sleep mode", "D. Pause the system for a specified time"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods will return the first weekday of the month?",
+  "options": ["A. calendar.monthrange(year, month)[0]", "B. datetime.first_weekday(month)", "C. time.get_first_weekday()", "D. calendar.get_first_weekday()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of calling datetime.datetime(2025, 5, 3).isoformat()?",
+  "options": ["A. '2025-05-03T00:00:00'", "B. '2025-05-03'", "C. '03-05-2025'", "D. '2025/05/03'"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the smallest integer greater than or equal to a given number?",
+  "options": ["A. math.ceil()", "B. math.floor()", "C. math.trunc()", "D. math.abs()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following functions is used to determine if a number is odd or even?",
+  "options": ["A. n % 2 == 0", "B. math.is_even(n)", "C. math.is_odd(n)", "D. all of the above"],
+  "answer": "A"
+}
+{
+  "question": "Which method in the datetime module is used to get the current timestamp?",
+  "options": ["A. datetime.timestamp()", "B. datetime.get_timestamp()", "C. time.timestamp()", "D. calendar.timestamp()"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.radians() function do?",
+  "options": ["A. Converts degrees to radians", "B. Converts radians to degrees", "C. Returns the number pi", "D. Calculates the cosine of an angle"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to get the month of a specific date in Python?",
+  "options": ["A. datetime.month", "B. datetime.get_month()", "C. time.get_month()", "D. calendar.month()"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to calculate the greatest common divisor (GCD) of two numbers?",
+  "options": ["A. math.gcd()", "B. math.lcm()", "C. math.greatest()", "D. math.max()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct syntax for importing the math module?",
+  "options": ["A. import math", "B. from math import *", "C. import math as m", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "What will be the output of math.exp(1)?",
+  "options": ["A. 2.71828", "B. 1", "C. 3.14159", "D. 1.0"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to convert a string to a date object?",
+  "options": ["A. datetime.strptime()", "B. datetime.to_date()", "C. time.to_date()", "D. calendar.strptime()"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.factorial() function return?",
+  "options": ["A. The factorial of a number", "B. The sum of a number", "C. The square root of a number", "D. The logarithm of a number"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the value of pi?",
+  "options": ["A. math.pi", "B. math.pi_value()", "C. math.get_pi()", "D. math.value_of_pi()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of math.pow(2, 3)?",
+  "options": ["A. 8", "B. 6", "C. 4", "D. 16"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following functions will return the current day of the week?",
+  "options": ["A. datetime.weekday()", "B. time.weekday()", "C. datetime.today().weekday()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which method is used to get the first day of the week in Python?",
+  "options": ["A. calendar.firstweekday()", "B. datetime.get_first_day_of_week()", "C. time.first_day_of_week()", "D. datetime.firstweekday()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct syntax to check if a number is positive in Python?",
+  "options": ["A. n > 0", "B. n == 0", "C. n != 0", "D. n >= 0"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module calculates the sine of an angle?",
+  "options": ["A. math.sin()", "B. math.cos()", "C. math.tan()", "D. math.factorial()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the math module is used to calculate the absolute value of a number?",
+  "options": ["A. math.fabs()", "B. math.abs()", "C. math.absolute()", "D. math.mod()"],
+  "answer": "A"
+}
+{
+  "question": "Which method in the datetime module is used to get the current time?",
+  "options": ["A. datetime.now()", "B. datetime.get_current_time()", "C. time.now()", "D. time.get_time()"],
+  "answer": "A"
+},
+{
+  "question": "Which method is used to get the number of days in a specific month?",
+  "options": ["A. calendar.monthrange()", "B. datetime.monthrange()", "C. time.get_days_in_month()", "D. all of the above"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of math.sqrt(16)?",
+  "options": ["A. 4", "B. 16", "C. 2", "D. 8"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module can be used to compare two dates?",
+  "options": ["A. datetime.compare()", "B. datetime.is_before()", "C. datetime.__eq__()", "D. datetime.equals()"],
+  "answer": "C"
+}
+{
+  "question": "Which function from the math module returns the ceiling of a number?",
+  "options": ["A. math.ceil()", "B. math.floor()", "C. math.trunc()", "D. math.round()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the calendar module returns a month's calendar as a multi-line string?",
+  "options": ["A. calendar.month()", "B. calendar.monthcalendar()", "C. calendar.get_month()", "D. calendar.print_month()"],
+  "answer": "A"
+}
+{
+  "question": "What is the result of calling math.trunc(9.99)?",
+  "options": ["A. 9", "B. 9.99", "C. 10", "D. 9.0"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module allows us to add or subtract days from a given date?",
+  "options": ["A. datetime.timedelta()", "B. datetime.add_days()", "C. datetime.add()", "D. datetime.subtract_days()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is the correct way to get the current year using the datetime module?",
+  "options": ["A. datetime.datetime.now().year", "B. datetime.today().year", "C. datetime.year()", "D. both A and B"],
+  "answer": "D"
+}
+{
+  "question": "Which function from the math module returns the sine of an angle?",
+  "options": ["A. math.sin()", "B. math.cos()", "C. math.tan()", "D. math.sqrt()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module returns the current month as a number?",
+  "options": ["A. datetime.now().month", "B. datetime.get_current_month()", "C. time.month()", "D. calendar.get_month()"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.isqrt() function do?",
+  "options": ["A. Returns the integer square root of a number", "B. Returns the square root of a number", "C. Returns the sine of a number", "D. Returns the logarithm of a number"],
+  "answer": "A"
+}
+{
+  "question": "Which method in the datetime module returns the current hour?",
+  "options": ["A. datetime.now().hour", "B. datetime.get_current_hour()", "C. time.get_hour()", "D. calendar.get_current_hour()"],
+  "answer": "A"
+}
+{
+  "question": "What does the math.degrees() function do?",
+  "options": ["A. Converts radians to degrees", "B. Converts degrees to radians", "C. Returns the number pi", "D. Returns the tangent of an angle"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to get the day of the year in Python?",
+  "options": ["A. datetime.today().timetuple().tm_yday", "B. datetime.get_day_of_year()", "C. time.get_day_of_year()", "D. calendar.get_day_of_year()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct syntax to round a number to 2 decimal places in Python?",
+  "options": ["A. round(5.456, 2)", "B. math.round(5.456, 2)", "C. round(5.456)", "D. math.round(5.456)"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the math module returns the natural logarithm of a number?",
+  "options": ["A. math.log()", "B. math.log10()", "C. math.exp()", "D. math.ln()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to calculate the area of a circle given the radius?",
+  "options": ["A. math.pi * radius**2", "B. math.circle_area(radius)", "C. math.area(radius)", "D. math.radius_area()"],
+  "answer": "A"
+}
+{
+  "question": "Which function in the math module calculates the cosine of an angle?",
+  "options": ["A. math.cos()", "B. math.sin()", "C. math.tan()", "D. math.sqrt()"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of the math.ceil() function?",
+  "options": ["A. Rounds a number up to the nearest integer", "B. Rounds a number down to the nearest integer", "C. Calculates the square root of a number", "D. Returns the absolute value of a number"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the math module returns the logarithm of a number to base 10?",
+  "options": ["A. math.log10()", "B. math.log()", "C. math.exponential()", "D. math.logarithm()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct way to create a date object in Python?",
+  "options": ["A. datetime.date(2025, 5, 3)", "B. datetime.create_date(2025, 5, 3)", "C. date(2025, 5, 3)", "D. all of the above"],
+  "answer": "A"
+},
+{
+  "question": "Which method from the datetime module returns the current date?",
+  "options": ["A. datetime.now().date()", "B. datetime.today().date()", "C. datetime.get_current_date()", "D. both A and B"],
+  "answer": "D"
+}
+{
+  "question": "What is the correct syntax to get the day of the week from a date object?",
+  "options": ["A. datetime.weekday()", "B. datetime.get_day_of_week()", "C. time.day_of_week()", "D. calendar.day_of_week()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module is used to find the number of days between two dates?",
+  "options": ["A. datetime.timedelta()", "B. datetime.diff()", "C. datetime.days_between()", "D. datetime.subtract()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct function to get the current timestamp?",
+  "options": ["A. time.time()", "B. datetime.timestamp()", "C. datetime.now().timestamp()", "D. all of the above"],
+  "answer": "D"
+}
+{
+  "question": "Which of the following methods returns the day of the month from a date object?",
+  "options": ["A. datetime.day", "B. datetime.get_day()", "C. time.get_day_of_month()", "D. calendar.day_of_month()"],
+  "answer": "A"
+}
+{
+  "question": "Which method in the calendar module returns a list of the weekday names?",
+  "options": ["A. calendar.weekday_name()", "B. calendar.weekday()", "C. calendar.day_name()", "D. calendar.get_weekdays()"],
+  "answer": "C"
+}
+{
+  "question": "What is the output of math.factorial(5)?",
+  "options": ["A. 120", "B. 24", "C. 60", "D. 5"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the datetime module returns a formatted string representing a date object?",
+  "options": ["A. datetime.strftime()", "B. datetime.to_string()", "C. datetime.date_format()", "D. datetime.get_formatted_string()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct function to find the month name from a date object?",
+  "options": ["A. datetime.strftime('%B')", "B. datetime.get_month_name()", "C. time.get_month_name()", "D. calendar.get_month()"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the math module returns the largest integer less than or equal to a number?",
+  "options": ["A. math.floor()", "B. math.ceil()", "C. math.trunc()", "D. math.round()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to check if a date is in the past?",
+  "options": ["A. datetime.is_past()", "B. datetime.before_today()", "C. datetime.now() > datetime.date()", "D. datetime.isbefore()"],
+  "answer": "C"
+}
+{
+  "question": "Which function from the math module returns the absolute value of a number?",
+  "options": ["A. math.fabs()", "B. math.abs()", "C. math.absolute()", "D. math.abs_value()"],
+  "answer": "B"
+}
+{
+  "question": "Which method from the datetime module returns the current minute?",
+  "options": ["A. datetime.now().minute", "B. time.get_current_minute()", "C. datetime.get_minute()", "D. time.get_minute()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of calling math.pow(2, -1)?",
+  "options": ["A. 0.5", "B. 1", "C. 2", "D. 4"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the datetime module returns the current second?",
+  "options": ["A. datetime.now().second", "B. time.now().second", "C. datetime.get_second()", "D. time.get_second()"],
+  "answer": "A"
+}
+{
+  "question": "What is the result of calling math.isclose(0.1 + 0.2, 0.3)?",
+  "options": ["A. True", "B. False", "C. 0.1", "D. Error"],
+  "answer": "A"
+}
+{
+  "question": "Which method from the math module returns the smallest integer greater than or equal to a given number?",
+  "options": ["A. math.ceil()", "B. math.floor()", "C. math.trunc()", "D. math.abs()"],
+  "answer": "A"
+}
+{
+  "question": "Which function is used to convert a time object into a string representation?",
+  "options": ["A. time.strftime()", "B. time.to_string()", "C. time.convert()", "D. time.get_string()"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct way to calculate the number of seconds between two dates in Python?",
+  "options": ["A. (date2 - date1).total_seconds()", "B. (date2 - date1).seconds()", "C. time.get_seconds_between(date1, date2)", "D. all of the above"],
+  "answer": "A"
+}
+{
+  "question": "What is the output of math.log10(100)?",
+  "options": ["A. 2", "B. 10", "C. 5", "D. 100"],
+  "answer": "A"
+}
+{
+  "question": "Which function from the datetime module is used to get the current week number of the year?",
+  "options": ["A. datetime.isocalendar()[1]", "B. datetime.get_week_number()", "C. calendar.get_week_number()", "D. time.get_week_number()"],
+  "answer": "A"
+},
+{
+  "question": "What does OOP stand for?",
+  "options": ["A. Object-Oriented Programming", "B. Object-Oriented Procedure", "C. Object-Oriented Practice", "D. None of the above"],
+  "answer": "A"
+}
+{
+  "question": "In Python, which of the following is used to define a class?",
+  "options": ["A. class", "B. def", "C. object", "D. method"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is the correct syntax to create an instance of a class?",
+  "options": ["A. class_name()", "B. new class_name()", "C. instance(class_name)", "D. create class_name()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to define a method inside a class in Python?",
+  "options": ["A. def", "B. class", "C. function", "D. method"],
+  "answer": "A"
+}
+{
+  "question": "What is a constructor in Python?",
+  "options": ["A. A method that is automatically called when an instance of a class is created", "B. A function that is used to build objects", "C. A variable within a class", "D. None of the above"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to refer to the instance of a class in its method?",
+  "options": ["A. self", "B. this", "C. object", "D. instance"],
+  "answer": "A"
+}
+{
+  "question": "What is inheritance in OOP?",
+  "options": ["A. The ability of a class to derive properties and behaviors from another class", "B. A function to store class data", "C. A method that modifies class behaviors", "D. A mechanism to create new classes from existing classes"],
+  "answer": "A"
+}
+{
+  "question": "What does the 'super()' function do in Python?",
+  "options": ["A. It calls a method from the parent class", "B. It initializes the object", "C. It creates a new class", "D. It returns the instance of the class"],
+  "answer": "A"
+}
+{
+  "question": "What is polymorphism in OOP?",
+  "options": ["A. The ability of a class to define methods that have the same name but different implementations", "B. The process of creating new methods", "C. The ability to modify existing classes", "D. The process of destroying an object"],
+  "answer": "A"
+}
+{
+  "question": "What is encapsulation in OOP?",
+  "options": ["A. The technique of restricting access to some of an object's components", "B. The inheritance mechanism", "C. The abstraction process", "D. The ability to combine methods into a single method"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to destroy an object in Python?",
+  "options": ["A. __del__", "B. delete()", "C. __exit__", "D. __destroy__"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is the correct way to call a method of an object in Python?",
+  "options": ["A. object.method()", "B. object->method()", "C. method.object()", "D. object::method()"],
+  "answer": "A"
+}
+{
+  "question": "What is an abstract class?",
+  "options": ["A. A class that cannot be instantiated, but can be subclassed", "B. A class with no methods", "C. A class that can have instances", "D. A class that contains only one method"],
+  "answer": "A"
+}
+{
+  "question": "In Python, which keyword is used to define a class?",
+  "options": ["A. class", "B. object", "C. def", "D. method"],
+  "answer": "A"
+}
+{
+  "question": "What does the 'isinstance()' function do in Python?",
+  "options": ["A. It checks if an object is an instance of a specified class", "B. It checks if a class is an instance of an object", "C. It checks if an object has a method", "D. It checks if a class is callable"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of the '__init__()' method in Python?",
+  "options": ["A. It initializes a newly created object", "B. It defines a method", "C. It destroys an object", "D. It imports a module"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements about multiple inheritance in Python is true?",
+  "options": ["A. Python supports multiple inheritance", "B. Python does not support multiple inheritance", "C. Only classes of the same type can be inherited", "D. Multiple inheritance is not possible in Python"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of 'self' in Python?",
+  "options": ["A. It refers to the instance of the class", "B. It is used to access global variables", "C. It refers to a class", "D. It defines a method in a class"],
+  "answer": "A"
+}
+{
+  "question": "What is the use of the __str__ method in Python?",
+  "options": ["A. It returns a string representation of the object", "B. It defines the class name", "C. It is used to compare objects", "D. It is used to delete an object"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following can be used to create an object in Python?",
+  "options": ["A. By calling a class", "B. By defining an object in the class", "C. By creating an instance of the class", "D. All of the above"],
+  "answer": "D"
+}
+{
+  "question": "What is an instance variable?",
+  "options": ["A. A variable that belongs to an object", "B. A variable shared by all objects of a class", "C. A variable defined inside a method", "D. A method that manipulates class data"],
+  "answer": "A"
+}
+{
+  "question": "What does the term 'overriding' mean in the context of OOP?",
+  "options": ["A. The process of redefining a method in a child class", "B. The process of creating new methods", "C. The process of defining a method in a parent class", "D. The process of deleting a method"],
+  "answer": "A"
+}
+{
+  "question": "What is the role of 'abstract methods' in OOP?",
+  "options": ["A. They must be implemented by subclasses", "B. They are optional in subclasses", "C. They can be ignored", "D. They provide default behavior"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of calling 'obj.__dict__' in Python?",
+  "options": ["A. It returns a dictionary of the object's attributes", "B. It returns a list of the object's methods", "C. It returns the class of the object", "D. It returns the instance of the object"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements about class variables is true?",
+  "options": ["A. Class variables are shared by all instances of a class", "B. Class variables are unique to each instance", "C. Class variables are defined inside methods", "D. Class variables cannot be modified"],
+  "answer": "A"
+}
+{
+  "question": "What does the term 'method resolution order' (MRO) refer to in OOP?",
+  "options": ["A. The order in which methods are inherited in multiple inheritance", "B. The order in which methods are called in a class", "C. The order in which classes are defined", "D. The order in which classes are destroyed"],
+  "answer": "A"
+}
+{
+  "question": "In Python, how can you access the parent class method from a child class?",
+  "options": ["A. Using super()", "B. Using this()", "C. Using parent()", "D. Using super_class()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to call a method of a parent class in Python?",
+  "options": ["A. super().method_name()", "B. parent().method_name()", "C. class().method_name()", "D. base().method_name()"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of the 'del' statement in Python?",
+  "options": ["A. It deletes an object or an attribute of an object", "B. It deletes a variable", "C. It deletes a class", "D. It deletes the method of a class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the Python 'property' function?",
+  "options": ["A. It is used to define getter and setter methods for a class attribute", "B. It is used to create a private method", "C. It is used to declare a class", "D. It is used to delete a class attribute"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about OOP in Python?",
+  "options": ["A. Python is a multi-paradigm language that supports OOP", "B. Python does not support OOP", "C. Python supports only functional programming", "D. Python uses object-oriented syntax only"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is the correct syntax for defining a class method in Python?",
+  "options": ["A. def method_name(cls):", "B. def method_name(self):", "C. def method_name():", "D. def method_name(object):"],
+  "answer": "A"
+}
+{
+  "question": "What is the main difference between a class variable and an instance variable?",
+  "options": ["A. Class variables are shared across instances, while instance variables are unique to each object", "B. Instance variables are shared across instances, while class variables are unique to each object", "C. There is no difference", "D. Instance variables are defined within methods, class variables are not"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods can be used to add a class to an instance in Python?",
+  "options": ["A. __new__", "B. __init__", "C. __add__", "D. __setattr__"],
+  "answer": "B"
+}
+{
+  "question": "Which of the following is NOT a principle of Object-Oriented Programming?",
+  "options": ["A. Abstraction", "B. Inheritance", "C. Polymorphism", "D. Iteration"],
+  "answer": "D"
+}
+{
+  "question": "Which of the following is an example of a class in Python?",
+  "options": ["A. class MyClass:", "B. MyClass:", "C. class = MyClass", "D. object MyClass"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of calling 'type(obj)' in Python, where obj is an object?",
+  "options": ["A. It returns the class of the object", "B. It returns the method of the object", "C. It returns the variable of the object", "D. It returns the instance of the class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about 'self' in Python?",
+  "options": ["A. It refers to the current instance of the class", "B. It refers to the parent class", "C. It is optional in method definitions", "D. It is used to define a class method"],
+  "answer": "A"
+}
+{
+  "question": "What is an example of abstraction in OOP?",
+  "options": ["A. Hiding the implementation details and showing only the functionality", "B. Creating objects from a class", "C. Reusing code from the base class", "D. Changing the behavior of a class in a child class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following operators is used for inheritance in Python?",
+  "options": ["A. (class1, class2)", "B. (class1, class2):", "C. class2(class1):", "D. class1.class2"],
+  "answer": "C"
+}
+{
+  "question": "Which of the following is used to define a class method that can be called on the class itself, rather than on instances?",
+  "options": ["A. @classmethod", "B. @staticmethod", "C. @method", "D. @classmethod"],
+  "answer": "A"
+}
+{
+  "question": "In Python, which of the following is used to access the attributes and methods of a parent class?",
+  "options": ["A. super()", "B. this()", "C. parent()", "D. base()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements correctly describes 'method overriding'?",
+  "options": ["A. It occurs when a method in a child class has the same name and signature as a method in the parent class", "B. It occurs when a method in a parent class has the same name as a method in the child class", "C. It refers to modifying a class's constructor", "D. It refers to calling a method from the parent class"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output if you try to access an attribute that doesn't exist in an object?",
+  "options": ["A. AttributeError", "B. KeyError", "C. ValueError", "D. None"],
+  "answer": "A"
+}
+{
+  "question": "In Python, which function is used to create a new object from a class?",
+  "options": ["A. __new__", "B. __init__", "C. __create__", "D. __generate__"],
+  "answer": "A"
+}
+{
+  "question": "What is a mixin class in Python?",
+  "options": ["A. A class that provides a small set of methods to be inherited by other classes", "B. A class used to initialize objects", "C. A class that combines different inheritance techniques", "D. A class that defines abstract methods"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to check whether an object is an instance of a specific class?",
+  "options": ["A. isinstance()", "B. type()", "C. check_instance()", "D. class_of()"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of 'staticmethod' in Python?",
+  "options": ["A. It defines a method that does not require an instance or class to be called", "B. It defines a method that can only be called by an instance", "C. It defines a method that is used for class initialization", "D. It defines a method that is only used by the parent class"],
+  "answer": "A"
+}
+{
+  "question": "In Python, what happens when an object goes out of scope?",
+  "options": ["A. It is destroyed and memory is freed", "B. It is marked for garbage collection", "C. It is still accessible", "D. It becomes a global object"],
+  "answer": "B"
+}
+{
+  "question": "What does the term 'overloading' mean in OOP?",
+  "options": ["A. Defining multiple methods with the same name but different parameters", "B. Creating new classes from existing ones", "C. Changing the access modifiers of a method", "D. Deleting a method from a class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is the correct syntax for creating a property in a class?",
+  "options": ["A. @property def method_name(self):", "B. def @property method_name(self):", "C. @method_property def method_name(self):", "D. @getter def method_name(self):"],
+  "answer": "A"
+}
+{
+  "question": "What does the term 'class method' mean in Python?",
+  "options": ["A. A method that takes the class as the first argument", "B. A method that is called by instances of the class", "C. A method that can be called without creating an object", "D. A method that defines class-level variables"],
+  "answer": "A"
+}
+{
+  "question": "What will happen if you attempt to instantiate an abstract class directly?",
+  "options": ["A. It will raise a TypeError", "B. It will create an instance", "C. It will invoke the constructor", "D. It will throw an AttributeError"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is the correct way to create an object of a class?",
+  "options": ["A. object = MyClass()", "B. MyClass = object()", "C. object = create(MyClass)", "D. new_object = MyClass"],
+  "answer": "A"
+}
+{
+  "question": "In Python, which method is automatically called when an object is destroyed?",
+  "options": ["A. __del__", "B. __destroy__", "C. __exit__", "D. __remove__"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements about object-oriented inheritance is true?",
+  "options": ["A. Inheritance allows a class to inherit properties and methods from a parent class", "B. Inheritance restricts a class from accessing methods of its parent", "C. Inheritance allows a class to use only one method", "D. Inheritance disables the use of constructors in child classes"],
+  "answer": "A"
+}
+{
+  "question": "Which method is used to access an attribute of an object in Python?",
+  "options": ["A. object.attribute", "B. object::attribute", "C. object.get(attribute)", "D. object.get_attribute()"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of calling '__str__' method in Python?",
+  "options": ["A. A string representation of the object", "B. A dictionary of the object's attributes", "C. The memory address of the object", "D. The instance type of the object"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is NOT a type of inheritance in Python?",
+  "options": ["A. Single Inheritance", "B. Multiple Inheritance", "C. Multilevel Inheritance", "D. Mixed Inheritance"],
+  "answer": "D"
+}
+{
+  "question": "Which of the following is used to define an abstract method in Python?",
+  "options": ["A. @abstractmethod", "B. @method", "C. @staticmethod", "D. @classmethod"],
+  "answer": "A"
+},
+    {
+  "question": "Which of the following is a key benefit of inheritance in OOP?",
+  "options": ["A. Code reuse", "B. Encapsulation", "C. Multiple instantiations", "D. Exception handling"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following correctly represents polymorphism in Python?",
+  "options": ["A. The ability to define multiple methods with the same name but different behavior", "B. Creating multiple classes from a single class", "C. Inheriting from multiple parent classes", "D. Declaring variables in the class"],
+  "answer": "A"
+}
+{
+  "question": "What will be the result of calling a method in a class without passing the self parameter?",
+  "options": ["A. It will raise a TypeError", "B. It will call the method correctly", "C. It will execute a default method", "D. The method will not be recognized"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements about abstract classes in Python is true?",
+  "options": ["A. Abstract classes cannot be instantiated directly", "B. Abstract classes can be instantiated", "C. Abstract classes cannot have methods", "D. Abstract classes are used only for utility functions"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to define an abstract class in Python?",
+  "options": ["A. from abc import ABC, abstractmethod", "B. from abc import abstractclass", "C. class ABC", "D. class abstractmethod"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following keywords is used to inherit from a parent class?",
+  "options": ["A. inherit", "B. extends", "C. class", "D. super"],
+  "answer": "C"
+}
+{
+  "question": "What does the term 'method resolution order' (MRO) refer to in Python?",
+  "options": ["A. The order in which methods are inherited from multiple classes", "B. The order in which methods are executed in a class", "C. The order in which methods are defined", "D. The order in which classes are declared"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output if a method in a child class does not call the parent method using 'super()'?",
+  "options": ["A. The parent method will not be executed", "B. The parent method will be executed automatically", "C. It will raise an error", "D. The child method will overwrite the parent method"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about a constructor in Python?",
+  "options": ["A. A constructor initializes the attributes of an object", "B. A constructor is used to define methods", "C. A constructor is not required in Python", "D. A constructor is used to inherit classes"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is NOT a feature of encapsulation?",
+  "options": ["A. Hiding implementation details", "B. Using private methods", "C. Preventing direct access to class data", "D. Inheriting methods from other classes"],
+  "answer": "D"
+}
+{
+  "question": "Which of the following represents the correct way to call a method from a parent class in Python?",
+  "options": ["A. super().method_name()", "B. parent.method_name()", "C. self.parent.method_name()", "D. parent_class.method_name()"],
+  "answer": "A"
+}
+{
+  "question": "What does 'self' refer to in the context of an object-oriented class?",
+  "options": ["A. It refers to the current instance of the class", "B. It refers to the class itself", "C. It is used to define class methods", "D. It refers to the parent class"],
+  "answer": "A"
+}
+{
+  "question": "What is the difference between a class method and an instance method?",
+  "options": ["A. A class method takes a class as the first argument, an instance method takes an object", "B. A class method can access instance attributes, while an instance method cannot", "C. A class method can be called from an object, but an instance method cannot", "D. There is no difference between them"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is an example of method overloading?",
+  "options": ["A. Defining multiple methods with the same name but different parameters", "B. Overriding methods in child classes", "C. Defining a method with the same name as an attribute", "D. Using the same method for different classes"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements about the 'super' function is true?",
+  "options": ["A. It is used to call a method from the parent class", "B. It is used to call the current class method", "C. It is used to define a new method", "D. It is used to call an object method"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following will raise an AttributeError in Python?",
+  "options": ["A. Trying to access an attribute that doesn't exist", "B. Calling a method without parentheses", "C. Defining an object within a class", "D. Creating an object from an abstract class"],
+  "answer": "A"
+}
+{
+  "question": "What will happen if you define an attribute with the same name in both the parent and child class?",
+  "options": ["A. The child class will override the parent class attribute", "B. The parent class will override the child class attribute", "C. Both attributes will coexist", "D. It will raise an error"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of 'abstractmethod' in Python?",
+  "options": ["A. To declare a method that must be implemented by subclasses", "B. To define a method that will never be implemented", "C. To override a method from the parent class", "D. To create a method that is inherited by all classes"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to declare a method that will not be inherited in Python?",
+  "options": ["A. @staticmethod", "B. @final", "C. @abstractmethod", "D. @classmethod"],
+  "answer": "B"
+}
+{
+  "question": "What does the 'self' parameter represent in a method definition?",
+  "options": ["A. The instance of the class", "B. The parent class", "C. The class itself", "D. The method's parameters"],
+  "answer": "A"
+}
+{
+  "question": "What happens if you do not define a constructor in a class?",
+  "options": ["A. A default constructor is used", "B. An error occurs", "C. The class cannot be instantiated", "D. The constructor is inherited from the parent class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following concepts allows classes to share methods and properties with other classes?",
+  "options": ["A. Inheritance", "B. Abstraction", "C. Polymorphism", "D. Encapsulation"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to prevent direct modification of class attributes?",
+  "options": ["A. Encapsulation", "B. Inheritance", "C. Polymorphism", "D. Abstraction"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following would you use to define a property for an attribute in Python?",
+  "options": ["A. @property", "B. @getter", "C. @method", "D. @attribute"],
+  "answer": "A"
+}
+{
+  "question": "What does it mean when a class is said to be 'abstract' in Python?",
+  "options": ["A. It cannot be instantiated", "B. It can be instantiated but only with specific parameters", "C. It only contains method declarations", "D. It cannot inherit from other classes"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is the main advantage of polymorphism?",
+  "options": ["A. The ability to use a method in different ways", "B. The ability to create multiple methods with the same name", "C. The ability to inherit from multiple classes", "D. The ability to protect class data"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of using 'super()' in Python?",
+  "options": ["A. To call the method from the parent class", "B. To create an object from a parent class", "C. To prevent method overriding", "D. To create a new method"],
+  "answer": "A"
+}
+{
+  "question": "What does the 'classmethod' decorator do in Python?",
+  "options": ["A. It defines a method that takes the class itself as the first argument", "B. It defines a method that can only be called by an instance", "C. It defines a method that can be called by both an instance and a class", "D. It defines a method that does not take any arguments"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of an 'init' method in a class?",
+  "options": ["A. It initializes the attributes of the class", "B. It defines the methods of the class", "C. It creates instances of the class", "D. It handles errors in the class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following represents a scenario where multiple inheritance might be used?",
+  "options": ["A. When a class needs to inherit features from more than one parent class", "B. When a class should only inherit from a single class", "C. When classes need to share attributes", "D. When you need to avoid method overriding"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following does NOT describe polymorphism?",
+  "options": ["A. It allows the same method to be used with different object types", "B. It allows the same name for different methods in different classes", "C. It allows a child class to inherit methods from a parent class", "D. It allows a method to behave differently based on the object type"],
+  "answer": "C"
+}
+{
+  "question": "What is the purpose of the 'del' keyword in Python?",
+  "options": ["A. To delete an object", "B. To delete a method", "C. To delete a class", "D. To delete an attribute"],
+  "answer": "A"
+},
+{
+  "question": "What is the primary purpose of abstraction in object-oriented programming?",
+  "options": ["A. To hide implementation details", "B. To prevent inheritance", "C. To make data accessible", "D. To reduce the number of classes"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about multiple inheritance in Python?",
+  "options": ["A. Python supports multiple inheritance", "B. Python does not support multiple inheritance", "C. Multiple inheritance is not recommended in Python", "D. Python only allows single inheritance in a class"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of a 'destructor' in Python?",
+  "options": ["A. To clean up resources when an object is deleted", "B. To initialize class attributes", "C. To define default values for attributes", "D. To create an instance of a class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the __init__ method in Python?",
+  "options": ["A. It is used to initialize an object when the class is instantiated", "B. It is used to delete the object", "C. It is used to define a class method", "D. It is used to define a class variable"],
+  "answer": "A"
+}
+{
+  "question": "What will happen if a method is defined in both the parent and child class in Python?",
+  "options": ["A. The child class method will override the parent class method", "B. The parent class method will override the child class method", "C. Both methods will coexist without any conflict", "D. The program will throw an error"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to modify an instance attribute in Python?",
+  "options": ["A. self.attribute", "B. class.attribute", "C. self.set_attribute", "D. object.get_attribute"],
+  "answer": "A"
+}
+{
+  "question": "What is the correct way to create an object of a class in Python?",
+  "options": ["A. object = ClassName()", "B. object = new ClassName()", "C. object = ClassName.new()", "D. object = create ClassName()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements is true about class variables?",
+  "options": ["A. They are shared among all instances of a class", "B. They are specific to each instance", "C. They are used to store instance data", "D. They can only be accessed by the class method"],
+  "answer": "A"
+}
+{
+  "question": "What is the primary purpose of using the 'super()' function in Python?",
+  "options": ["A. To call methods from the parent class", "B. To access private variables", "C. To define a new class", "D. To check the method order in inheritance"],
+  "answer": "A"
+}
+{
+  "question": "What does the __str__ method define in a Python class?",
+  "options": ["A. The string representation of an object", "B. The method to initialize the class", "C. The method for comparison", "D. The method for object deletion"],
+  "answer": "A"
+}
+{
+  "question": "What does the __del__ method do in Python?",
+  "options": ["A. It is called when an object is destroyed", "B. It initializes a new instance of the class", "C. It defines a method for instance attributes", "D. It defines the string representation of the class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is NOT a feature of object-oriented programming?",
+  "options": ["A. Abstraction", "B. Encapsulation", "C. Compilation", "D. Inheritance"],
+  "answer": "C"
+}
+{
+  "question": "Which of the following is an example of a polymorphic behavior in Python?",
+  "options": ["A. A method that behaves differently based on the object type", "B. A method that changes the name depending on the class", "C. A class that inherits from multiple classes", "D. A class that is abstract"],
+  "answer": "A"
+}
+{
+  "question": "What happens if a class method calls 'super()' without passing any arguments?",
+  "options": ["A. It calls the parent class method", "B. It raises an error", "C. It will be ignored", "D. It calls the method of the current class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following defines a static method in Python?",
+  "options": ["A. @staticmethod", "B. @classmethod", "C. @abstractmethod", "D. @property"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements is true about the __new__ method in Python?",
+  "options": ["A. It is used to create a new instance of the class", "B. It is used to initialize the attributes of an object", "C. It is used to delete an object", "D. It is used to define class methods"],
+  "answer": "A"
+}
+{
+  "question": "What does a 'getter' method do in object-oriented programming?",
+  "options": ["A. It retrieves the value of an instance variable", "B. It sets the value of an instance variable", "C. It defines a method for class variables", "D. It initializes a new instance of the class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to prevent an attribute from being modified directly in Python?",
+  "options": ["A. @property", "B. @setter", "C. @classmethod", "D. @abstractmethod"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is a correct way to define a class in Python?",
+  "options": ["A. class ClassName:", "B. create class ClassName:", "C. def ClassName():", "D. class = ClassName:"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about instance methods?",
+  "options": ["A. They require an instance of the class to be called", "B. They do not require an instance of the class", "C. They can only be accessed from other methods", "D. They are not allowed to access instance attributes"],
+  "answer": "A"
+}
+{
+  "question": "What is the output when you define a class method with the @classmethod decorator?",
+  "options": ["A. The method takes the class as the first argument", "B. The method behaves like an instance method", "C. The method behaves like a static method", "D. The method can only be accessed by an instance"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about private variables in Python?",
+  "options": ["A. They cannot be accessed outside the class directly", "B. They can be accessed outside the class directly", "C. They are not allowed in Python", "D. They are used to define class methods"],
+  "answer": "A"
+}
+{
+  "question": "What does the @property decorator do in Python?",
+  "options": ["A. It allows a method to be accessed as if it were an attribute", "B. It defines a getter method", "C. It defines a setter method", "D. It defines a class method"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about method overriding in Python?",
+  "options": ["A. It allows a child class to modify a method inherited from the parent class", "B. It is not allowed in Python", "C. It makes the child class inherit methods from the parent class", "D. It prevents access to parent class methods"],
+  "answer": "A"
+}
+{
+  "question": "What is the output of calling 'super().method_name()' in a subclass?",
+  "options": ["A. It calls the method of the parent class", "B. It raises a TypeError", "C. It calls the method of the subclass", "D. It calls the method from the same class"],
+  "answer": "A"
+}
+{
+  "question": "What is the key advantage of using a class method in Python?",
+  "options": ["A. It can be called on the class itself, not just instances", "B. It behaves like an instance method", "C. It can only be called from an instance", "D. It is used to define instance variables"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is the correct way to define a class variable in Python?",
+  "options": ["A. class_variable = value", "B. self.class_variable = value", "C. def class_variable(value):", "D. object.class_variable = value"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following represents the correct method for deleting an attribute from an object?",
+  "options": ["A. del object.attribute", "B. object.del(attribute)", "C. delete object.attribute", "D. object.remove(attribute)"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following would be the result of trying to instantiate an abstract class directly in Python?",
+  "options": ["A. It will raise a TypeError", "B. It will instantiate the abstract class successfully", "C. The class will inherit from another class", "D. It will create an empty object"],
+  "answer": "A"
+},
+{
+  "question": "Which of the following is true about the 'self' keyword in Python?",
+  "options": ["A. It refers to the current instance of the class", "B. It refers to the class itself", "C. It is not required in Python", "D. It is used to define class variables"],
+  "answer": "A"
+}
+{
+  "question": "What is the output of the following code?\n\nclass Person:\n    def __init__(self, name):\n        self.name = name\n    def greet(self):\n        print(f'Hello, {self.name}')\np = Person('John')\np.greet()",
+  "options": ["A. Hello, John", "B. Error", "C. John", "D. Hello, self.name"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of using a constructor method in Python?",
+  "options": ["A. To initialize object attributes when the object is created", "B. To define the class variables", "C. To define class methods", "D. To delete an instance of the class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about an abstract class?",
+  "options": ["A. It cannot be instantiated directly", "B. It can be instantiated if all methods are defined", "C. It is a class with no methods", "D. It does not have any attributes"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to create a new instance of a class in Python?",
+  "options": ["A. class_name()", "B. new class_name()", "C. create class_name()", "D. instance_of(class_name)"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about a class variable in Python?",
+  "options": ["A. It is shared by all instances of the class", "B. It is unique for each instance", "C. It can only be accessed by instance methods", "D. It can be defined inside an instance method"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to define a class method in Python?",
+  "options": ["A. @classmethod", "B. @staticmethod", "C. @abstractmethod", "D. @property"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of the following code?\n\nclass Car:\n    def __init__(self, model):\n        self.model = model\n    def display_model(self):\n        print(f'Car model: {self.model}')\ncar = Car('Toyota')\ncar.display_model()",
+  "options": ["A. Car model: Toyota", "B. Car model", "C. Error", "D. Toyota"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about method overloading in Python?",
+  "options": ["A. Python does not support method overloading directly", "B. Method overloading is done by using default arguments", "C. Python does not allow multiple methods with the same name", "D. Method overloading is not needed in Python"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements is true about inheritance in Python?",
+  "options": ["A. A child class can inherit methods and attributes from the parent class", "B. A child class cannot inherit any methods or attributes", "C. Inheritance is not allowed in Python", "D. A child class must define its own methods and cannot use the parent class methods"],
+  "answer": "A"
+}
+{
+  "question": "What is the result of using the 'super()' function in Python?",
+  "options": ["A. It calls the method from the parent class", "B. It creates a new instance of the class", "C. It deletes the parent class", "D. It inherits all methods from the parent class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to define an abstract method in Python?",
+  "options": ["A. @abstractmethod", "B. @staticmethod", "C. @classmethod", "D. @property"],
+  "answer": "A"
+}
+{
+  "question": "What will the following code output?\n\nclass Animal:\n    def sound(self):\n        print('Animal sound')\nclass Dog(Animal):\n    def sound(self):\n        print('Bark')\nd = Dog()\nd.sound()",
+  "options": ["A. Bark", "B. Animal sound", "C. Error", "D. Animal"],
+  "answer": "A"
+}
+{
+  "question": "What is the output of the following code?\n\nclass Person:\n    def __init__(self, name):\n        self.name = name\n    def __str__(self):\n        return f'Name: {self.name}'\np = Person('John')\nprint(p)",
+  "options": ["A. Name: John", "B. <__main__.Person object at 0x...>", "C. John", "D. Error"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following describes a 'getter' method?",
+  "options": ["A. A method that retrieves the value of an instance variable", "B. A method that sets the value of an instance variable", "C. A method that prints a class variable", "D. A method that initializes the class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the 'private' attributes in Python?",
+  "options": ["A. They can be accessed only inside the class", "B. They can be accessed by any instance", "C. They are automatically encrypted", "D. They can be inherited by child classes"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following will raise an AttributeError?",
+  "options": ["A. Accessing an undefined instance attribute", "B. Calling an existing class method", "C. Accessing a public variable", "D. Using a private method"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the 'classmethod' decorator in Python?",
+  "options": ["A. It modifies a method so that it takes the class as its first argument", "B. It modifies a method to take an instance as the first argument", "C. It modifies a method to take an instance of a subclass as the first argument", "D. It defines a class method that does not take arguments"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following can be used to implement multiple inheritance in Python?",
+  "options": ["A. By inheriting from multiple classes", "B. By using 'super()' multiple times", "C. By defining multiple classes inside a single class", "D. By calling multiple constructors in the __init__ method"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is the correct way to define a private method in Python?",
+  "options": ["A. def __private_method(self):", "B. def private_method(self):", "C. def private(self):", "D. def _private_method(self):"],
+  "answer": "A"
+}
+{
+  "question": "What does the 'super()' function return in Python?",
+  "options": ["A. The parent class", "B. The current instance", "C. The child class", "D. A list of parent classes"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the '__del__' method?",
+  "options": ["A. It is used to delete an object", "B. It is used to initialize object attributes", "C. It is used to define a class method", "D. It is used to compare two objects"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the 'is' operator in Python?",
+  "options": ["A. It checks whether two variables refer to the same object", "B. It checks whether two variables have the same value", "C. It checks whether two variables are instances of the same class", "D. It checks whether two variables are instances of the same data type"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements is correct about the '__init__' method in Python?",
+  "options": ["A. It is used to initialize object attributes when an object is created", "B. It is used to delete an object", "C. It is used to define a class method", "D. It is used to define a class variable"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following defines a property in Python?",
+  "options": ["A. @property", "B. @classmethod", "C. @staticmethod", "D. @abstractmethod"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of the 'pass' keyword in Python?",
+  "options": ["A. It is used to define an empty method or class", "B. It is used to skip over the current iteration in a loop", "C. It is used to terminate a program", "D. It is used to raise an exception"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the '__call__' method in Python?",
+  "options": ["A. It allows an object to be called as if it were a function", "B. It is used to convert a method to a static method", "C. It allows the method to be called from a parent class", "D. It defines a private method"],
+  "answer": "A"
+},
+{
+  "question": "What is the output of the following code?\n\nclass Person:\n    def __init__(self, name):\n        self.name = name\n    def __str__(self):\n        return f'Person: {self.name}'\n    def __repr__(self):\n        return f'Person({self.name})'\np = Person('Alice')\nprint(p)",
+  "options": ["A. Person: Alice", "B. Person(Alice)", "C. Alice", "D. Error"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about polymorphism in Python?",
+  "options": ["A. It allows objects of different types to be treated as objects of a common super type", "B. It prevents a method from being overridden in subclasses", "C. It allows multiple classes to have the same method name but different behavior", "D. It is a form of inheritance in Python"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods is used to compare two objects in Python?",
+  "options": ["A. __eq__", "B. __cmp__", "C. __compare__", "D. __equal__"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about an interface in object-oriented programming?",
+  "options": ["A. An interface defines a contract that a class must implement", "B. An interface is a type of inheritance", "C. An interface is a class with abstract methods", "D. An interface cannot be used in Python"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to define a static method in Python?",
+  "options": ["A. @staticmethod", "B. @classmethod", "C. @abstractmethod", "D. @property"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of the 'isinstance()' function in Python?",
+  "options": ["A. To check if an object is an instance of a given class or subclass", "B. To compare two objects for equality", "C. To check the type of an object", "D. To create an instance of a class"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the 'staticmethod' decorator?",
+  "options": ["A. It defines a method that does not take the instance as the first argument", "B. It defines a method that can access and modify instance variables", "C. It allows the method to be called on the class rather than the instance", "D. It defines a method that only works with class attributes"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the 'super()' function when used in multiple inheritance?",
+  "options": ["A. It calls the next class in the method resolution order (MRO)", "B. It calls the first class in the method resolution order (MRO)", "C. It can only call methods from the parent class", "D. It cannot be used in multiple inheritance"],
+  "answer": "A"
+}
+{
+  "question": "What is the purpose of using an 'abstract class' in Python?",
+  "options": ["A. To define a common interface for its subclasses", "B. To prevent subclassing", "C. To provide implementation for all methods", "D. To define default methods that cannot be overridden"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following will you use to call the parent class constructor in Python?",
+  "options": ["A. super().__init__()", "B. parent_class.__init__()", "C. class_name.__init__()", "D. call_parent()"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following describes the method resolution order (MRO) in Python?",
+  "options": ["A. It defines the order in which methods are inherited from multiple classes", "B. It determines the order in which a method is executed in a class", "C. It defines the order in which methods are overridden", "D. It controls the access level of methods in multiple inheritance"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about the '__str__' method in Python?",
+  "options": ["A. It is used to return a string representation of the object", "B. It is used to compare two objects", "C. It is used to define a class constructor", "D. It is used to represent private methods"],
+  "answer": "A"
+}
+{
+  "question": "What is the output of the following code?\n\nclass Animal:\n    def speak(self):\n        print('Animal speaks')\nclass Dog(Animal):\n    def speak(self):\n        print('Bark')\n    def sound(self):\n        print('Woof')\nd = Dog()\nd.speak()",
+  "options": ["A. Bark", "B. Animal speaks", "C. Woof", "D. Error"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following terms refers to the concept where a subclass overrides the methods of the superclass?",
+  "options": ["A. Method overriding", "B. Method overloading", "C. Inheritance", "D. Encapsulation"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to define a property method in Python?",
+  "options": ["A. @property", "B. @staticmethod", "C. @classmethod", "D. @abstractmethod"],
+  "answer": "A"
+}
+{
+  "question": "What will be the output of the following code?\n\nclass Rectangle:\n    def __init__(self, width, height):\n        self.width = width\n        self.height = height\n    def area(self):\n        return self.width * self.height\nr = Rectangle(4, 5)\nprint(r.area())",
+  "options": ["A. 20", "B. 9", "C. 25", "D. Error"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is the correct way to define a class variable in Python?",
+  "options": ["A. class_variable = value", "B. def class_variable():", "C. self.class_variable = value", "D. class_variable(self) = value"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following methods can be used to access a private attribute in Python?",
+  "options": ["A. By using a getter method", "B. By directly accessing the attribute", "C. By using 'self' keyword", "D. By using a class method"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about class inheritance in Python?",
+  "options": ["A. The subclass inherits methods and attributes of the parent class", "B. The parent class inherits methods and attributes of the subclass", "C. Inheritance is not supported in Python", "D. Subclass methods cannot be overridden"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following statements is true about a constructor method in Python?",
+  "options": ["A. It is used to initialize an object's state", "B. It defines a method that can be called later", "C. It can be called multiple times", "D. It is used to terminate an object"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is used to declare an abstract method in Python?",
+  "options": ["A. @abstractmethod", "B. @staticmethod", "C. @property", "D. @classmethod"],
+  "answer": "A"
+}
+{
+  "question": "What is the output of the following code?\n\nclass Car:\n    def __init__(self, model):\n        self.model = model\n    def display_model(self):\n        print(f'Car model: {self.model}')\ncar = Car('BMW')\ncar.display_model()",
+  "options": ["A. Car model: BMW", "B. BMW", "C. Error", "D. Car model"],
+  "answer": "A"
+}
+{
+  "question": "Which of the following is true about encapsulation in Python?",
+  "options": ["A. It restricts access to certain attributes and methods", "B. It allows multiple classes to be defined in a single file", "C. It defines the relationship between objects", "D. It allows objects to share data with each other"],
+  "answer": "A"
+}
+{
+  "question": "What does the '__call__' method do in Python?",
+  "options": ["A. It allows an instance to be called as a function", "B. It is used to compare two objects", "C. It is used to define a class method", "D. It is used to define an abstract method"],
+  "answer": "A"
+},
     
 ]
+
+
+
+
+
+
+
