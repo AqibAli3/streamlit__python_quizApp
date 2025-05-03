@@ -7,7 +7,7 @@ import streamlit.components.v1 as components
 from streamlit_autorefresh import st_autorefresh
 
 # Total time for the quiz (25 minutes = 1500 seconds)
-TOTAL_TIME = 100
+TOTAL_TIME = 1200
 
 # Set page configuration (must be at the very top)
 st.set_page_config(
@@ -60,21 +60,21 @@ def set_custom_css():
     <style>
     /* Define CSS variables for light and dark themes */
     :root {
-        --background-color: #ffffff;
-        --text-color: #000000;
-        --input-background: #f0f0f0;
-        --input-text-color: #000000;
-        --button-background: #007bff;
+        --background-color: #121212; /* Dark background */
+        --text-color: #ffffff;       /* Light text for dark background */
+        --input-background: #333333;
+        --input-text-color: #ffffff;
+        --button-background: #1a73e8;
         --button-text-color: #ffffff;
     }
 
-    @media (prefers-color-scheme: dark) {
+    @media (prefers-color-scheme: light) {
         :root {
-            --background-color: #121212;
-            --text-color: #ffffff;
-            --input-background: #333333;
-            --input-text-color: #ffffff;
-            --button-background: #1a73e8;
+            --background-color: #ffffff; /* Light background */
+            --text-color: #000000;       /* Dark text for light background */
+            --input-background: #f0f0f0;
+            --input-text-color: #000000;
+            --button-background: #007bff;
             --button-text-color: #ffffff;
         }
     }
@@ -91,7 +91,7 @@ def set_custom_css():
 
     /* Styling for questions */
     .question-text {
-        font-size: 1.5rem; /* Increase font size for questions */
+        font-size: 1.8rem; /* Increase font size for questions */
         font-weight: bold;
         margin-bottom: 1rem;
         color: var(--text-color);
@@ -99,8 +99,9 @@ def set_custom_css():
 
     /* Styling for options */
     .stRadio > div {
-        font-size: 1.2rem; /* Increase font size for options */
+        font-size: 1.4rem; /* Increase font size for options */
         margin-bottom: 1rem;
+        color: var(--text-color);
     }
 
     /* Input fields styling */
@@ -109,10 +110,10 @@ def set_custom_css():
         background-color: var(--input-background);
         color: var(--input-text-color);
         border: 1px solid #ccc;
-        padding: 0.5rem;
+        padding: 0.6rem;
         border-radius: 4px;
         width: 100%; /* Make inputs responsive */
-        max-width: 400px; /* Limit the width on larger screens */
+        max-width: 500px; /* Limit the width on larger screens */
         margin: 0 auto; /* Center inputs */
     }
 
@@ -120,13 +121,13 @@ def set_custom_css():
     .stButton > button {
         background-color: var(--button-background);
         color: var(--button-text-color);
-        font-size: 1rem;
-        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        padding: 0.6rem 1.2rem;
         border: none;
         border-radius: 4px;
         cursor: pointer;
         width: 100%; /* Make buttons responsive */
-        max-width: 200px; /* Limit the width on larger screens */
+        max-width: 250px; /* Limit the width on larger screens */
         margin: 1rem auto; /* Center buttons */
     }
 
@@ -140,7 +141,7 @@ def set_custom_css():
         margin-right: auto;
         text-align: center;
         padding: 1rem;
-        max-width: 800px; /* Limit the width of the main container */
+        max-width: 1000px; /* Limit the width of the main container */
     }
 
     /* Responsive adjustments for smaller screens */
@@ -189,6 +190,36 @@ def set_custom_css():
         .stButton > button {
             font-size: 0.8rem;
             padding: 0.3rem 0.6rem;
+        }
+    }
+
+    /* Adjustments for larger screens */
+    @media (min-width: 1200px) {
+        body {
+            font-size: 1.2rem;
+        }
+
+        .question-text {
+            font-size: 2rem; /* Increase question size for large screens */
+        }
+
+        .stRadio > div {
+            font-size: 1.6rem; /* Increase option size for large screens */
+        }
+
+        .stTextInput > div > input,
+        .stNumberInput > div > input {
+            font-size: 1.2rem;
+            padding: 0.8rem;
+        }
+
+        .stButton > button {
+            font-size: 1.4rem;
+            padding: 0.8rem 1.5rem;
+        }
+
+        div.block-container {
+            max-width: 1200px; /* Increase container width for large screens */
         }
     }
     </style>
